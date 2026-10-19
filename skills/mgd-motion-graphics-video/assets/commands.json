@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "version": "0.2.0",
+  "commands": [
+    {
+      "command": "MGD-Motion",
+      "skill": "mgd-motion",
+      "title": "Einstieg und Werkzeugwahl",
+      "mode": "start",
+      "workflow": "start",
+      "suggested_aspect": null,
+      "description": "Einrichtung und Einstieg in eine neue Videozusammenarbeit.",
+      "instructions": "Keine leeren Filmprojekte anlegen, bevor Zielordner und erstes Thema bekannt sind. Stelle diese beiden Fragen zusammen, sofern sie fehlen; danach nur wesentlich fehlende Angaben erfragen. Keine automatische Installation externer Anbieter.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Richte den Video-Workflow für dieses Projekt ein. Prüfe vorhandene Werkzeuge und Skills, ohne ungefragt globale Einstellungen zu ändern. Frage mich zuerst, wo unsere Videoprojekte liegen sollen und welches Thema beziehungsweise welche Videoart wir beginnen. Vorhandene Angaben übernehmen."
+    },
+    {
+      "command": "reel",
+      "skill": "reel",
+      "title": "Reel-Kurzaufruf",
+      "mode": "reel",
+      "workflow": "reel",
+      "suggested_aspect": "9:16",
+      "description": "Kurzer alternativer Einstieg für vertikale Social-Videos.",
+      "instructions": "9:16 ist ein Vorschlag, wenn kein anderes Format vereinbart wurde. Hook, Steigerung und Schluss als kleine Geschichte planen. Aktuelle Plattformbedienelemente prüfen, Untertitel nur passend zum Inhalt und genügend Schluss-Lesezeit.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein dynamisches Reel über {thema} für {plattform}. Nutze die Materialien aus {ordner}, einen starken Einstieg, abwechslungsreiche Schnitte und gezielt bewegte Schrift. Komponiere in 9:16, schütze wichtige Inhalte vor Plattformbedienelementen und halte die Schlussbotschaft nach dem Texteinlauf ausreichend lange lesbar."
+    },
+    {
+      "command": "MGD-Video",
+      "skill": "mgd-video",
+      "title": "Videos allgemein",
+      "mode": "video",
+      "workflow": "video",
+      "suggested_aspect": null,
+      "description": "Freie Videoformate und Mischformen ohne spezielleren Workflow.",
+      "instructions": "Bestehendes Projekt und gewünschtes Format übernehmen. Szenenplan, Quellen und Lieferziel so knapp wie nötig festhalten. Für spezialisierte Aufgaben den passenden Modus verwenden.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein hochwertiges Video über {thema} aus den Materialien in {ordner}. Zielgruppe: {zielgruppe}, Format: {format}, ungefähre Dauer: {dauer}. Entwickle Dramaturgie, Bildsprache und Ton passend zum Ziel. Liefere die geprüfte Videodatei mit bearbeitbaren Quellen."
+    },
+    {
+      "command": "MGD-Reel",
+      "skill": "mgd-reel",
+      "title": "Reels und Shorts",
+      "mode": "reel",
+      "workflow": "reel",
+      "suggested_aspect": "9:16",
+      "description": "Instagram, Facebook, TikTok und vertikale YouTube Shorts.",
+      "instructions": "9:16 ist ein Vorschlag, wenn kein anderes Format vereinbart wurde. Hook, Steigerung und Schluss als kleine Geschichte planen. Aktuelle Plattformbedienelemente prüfen, Untertitel nur passend zum Inhalt und genügend Schluss-Lesezeit.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein dynamisches Reel über {thema} für {plattform}. Verwende die Materialien aus {ordner}. Beginne mit einem starken Bild oder einer klaren Aussage, entwickle eine kleine Geschichte und schließe mit {ziel}. Nutze 9:16, gut lesbare Einblendungen und passende Bewegung. Berücksichtige die aktuelle Plattformvorschau."
+    },
+    {
+      "command": "MGD-Trailer",
+      "skill": "mgd-trailer",
+      "title": "Trailer und Teaser",
+      "mode": "trailer",
+      "workflow": "trailer",
+      "suggested_aspect": "16:9",
+      "description": "YouTube-Trailer, Buch-, Spiel- und Projektteaser.",
+      "instructions": "Versprechen, Steigerung und Auflösung planen. Keine wichtigen Spoiler erfinden oder zeigen. Nacht-/Tag-Reihenfolge und konkrete Vorgaben übernehmen; nicht alle Trailer zwangsläufig in denselben Stil pressen.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle einen spannenden Trailer für {thema} aus {ordner}. Baue Atmosphäre, Neugier und eine deutliche Steigerung auf. Nutze starke Enthüllungen, präzise Schnitte und einen wirkungsvollen Abschluss mit Logo und {ziel}. Format: {format}, Dauer: {dauer}. Vermeide unnötige Wiederholungen und wichtige Spoiler."
+    },
+    {
+      "command": "MGD-Erklärvideo",
+      "skill": "mgd-erklaervideo",
+      "title": "Erklärvideo",
+      "mode": "explainer",
+      "workflow": "erklaervideo",
+      "suggested_aspect": "16:9",
+      "description": "Sachverhalte, Anleitungen, Schulung und Wissensvermittlung.",
+      "instructions": "Zuerst die Lernfrage klären, dann ein anschauliches Beispiel entwickeln. Fachliche Aussagen belegen, Text und Bild synchron halten. Manim nur für dafür geeignete Erklärungen wählen.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein verständliches Erklärvideo über {thema} für {zielgruppe}. Verwende Materialien aus {ordner}, einen klaren Ablauf, anschauliche Beispiele und passende Animationen. Stimme Sprechtext, Untertitel und Bilder aufeinander ab. Prüfe fachliche Aussagen und beschrifte wichtige Zusammenhänge gut lesbar."
+    },
+    {
+      "command": "MGD-Motion-Graphic-Animation",
+      "skill": "mgd-motion-graphic-animation",
+      "title": "Motion Graphics und Animation",
+      "mode": "motion",
+      "workflow": "motion-graphics",
+      "suggested_aspect": null,
+      "description": "Gestaltete Animationen aus Schrift, Grafik, Formen und Compositing.",
+      "instructions": "Bewegung soll Bedeutung vermitteln: Ebenentiefe, Typografie, Formen und Übergänge bewusst choreografieren. Zeitleiste suchbar und reproduzierbar halten; Effekte dürfen die Aussage nicht verdecken.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle eine eigenständige Motion-Graphics-Animation über {thema} für {marke}. Nutze bewegte Typografie, Formen, Masken, räumliche Ebenen und motivierte Übergänge. Entwickle eine zusammenhängende Bewegungssprache im Stil {stil}. Format: {format}, Dauer: {dauer}. Texte bleiben trotz Dynamik gut lesbar."
+    },
+    {
+      "command": "MGD-Anime",
+      "skill": "mgd-anime",
+      "title": "Anime-Szenen und Trailer",
+      "mode": "anime",
+      "workflow": "anime",
+      "suggested_aspect": null,
+      "description": "Anime-Erzählung, Stilentwicklung, Szenen und animierte Figuren.",
+      "instructions": "Charaktermodell, Kleidung, Proportionen und Farbpalette konsistent halten. Keine echte Figurenanimation behaupten, wenn nur Bilder bewegt werden. Generierte Szenen auf Anatomie, zeitliche Konsistenz und Identität prüfen. Ohne freigegebenen Generator einen lokalen Animatic oder Schnitt anbieten.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Entwickle ein Anime-Video über {thema} mit konsistenten Figuren, ausdrucksstarken Einstellungen und einer zusammenhängenden Bildsprache. Nutze Charaktervorlagen aus {ordner}. Unterscheide echte Figurenanimation von Kamerafahrten auf Standbildern. Prüfe benötigte Werkzeuge; vor externer Generierung Kosten und Referenzupload klären."
+    },
+    {
+      "command": "MGD-Werbefilm",
+      "skill": "mgd-werbefilm",
+      "title": "Werbefilm",
+      "mode": "ad",
+      "workflow": "werbefilm",
+      "suggested_aspect": null,
+      "description": "Werbung, Angebote und Kampagnen mit konkreter Handlung.",
+      "instructions": "Nutzen, belegbare Aussagen und eine konkrete Handlung verbinden. Markenrichtlinien und nötige Hinweise berücksichtigen. Kein Werbebudget ausgeben oder veröffentlichen, nur weil ein Film erstellt werden soll.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle einen Werbefilm für {produkt}. Zeige den wichtigsten Nutzen für {zielgruppe}, halte die Markenrichtlinien aus {ordner} ein und führe zu {ziel}. Verwende belegbare Aussagen und erstelle passende Fassungen für {plattform} in {format}. Veröffentliche den Film nur auf gesonderten Auftrag."
+    },
+    {
+      "command": "MGD-Produktvideo",
+      "skill": "mgd-produktvideo",
+      "title": "Produktvideo",
+      "mode": "product",
+      "workflow": "produktvideo",
+      "suggested_aspect": null,
+      "description": "Produktvorstellung, Funktionsdarstellung und Anwendung.",
+      "instructions": "Produktansichten, Proportionen und Funktionen korrekt darstellen. UI oder Anwendung möglichst an echten Materialien zeigen. Keine erfundenen Funktionen, Bewertungen oder Leistungsversprechen.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein hochwertiges Produktvideo für {produkt} aus {ordner}. Zeige Details, Anwendung und Vorteile mit passenden Nahaufnahmen, Animationen und kurzen Beschriftungen. Stelle Produkt und Funktionen korrekt dar. Nutze vorhandene Produktmedien und Designvorlagen. Format: {format}, Dauer: {dauer}."
+    },
+    {
+      "command": "MGD-YouTube",
+      "skill": "mgd-youtube",
+      "title": "YouTube mit Kapiteln",
+      "mode": "youtube",
+      "workflow": "youtube",
+      "suggested_aspect": "16:9",
+      "description": "Längere Videos, Kapitel, Interviews und redaktionelle Formate.",
+      "instructions": "Kapitel, A-Roll, B-Roll und Erklärgrafiken passend abwechseln. 16:9 ist ein Standardvorschlag, kein Zwang. Titel/Thumbnail müssen zum tatsächlichen Inhalt passen; Sprache und Untertitel prüfen.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle ein YouTube-Video über {thema} in 16:9 mit ungefähr {dauer}. Nutze Materialien aus {ordner}. Plane einen starken Einstieg, verständliche Kapitel, passende Einblendungen und abwechslungsreiche Bilder. Ergänze bei Bedarf Untertitel sowie einen Titelvorschlag und eine Idee für das Vorschaubild."
+    },
+    {
+      "command": "MGD-Logo-Animation",
+      "skill": "mgd-logo-animation",
+      "title": "Logo-Animation",
+      "mode": "logo",
+      "workflow": "logo-animation",
+      "suggested_aspect": null,
+      "description": "Markenenthüllung, Intro, Outro und animierter Logoabschluss.",
+      "instructions": "Originalvektoren bevorzugen. Logo nicht neu zeichnen, verformen oder mit zusätzlichen Symbolen ersetzen. Lesbare Ruhephase nach der Enthüllung; Alpha-Ausgabe nur bei beauftragtem Bedarf und passendem Codec.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle eine hochwertige Logo-Animation für {marke} aus den Dateien in {ordner}. Der Stil soll {stil} wirken. Bewahre Form und Proportionen des Logos. Plane eine passende Enthüllung und eine ruhige, gut erkennbare Schlussphase. Format: {format}, Dauer: {dauer}."
+    },
+    {
+      "command": "MGD-Loop",
+      "skill": "mgd-loop",
+      "title": "Nahtlose Animation",
+      "mode": "loop",
+      "workflow": "loop",
+      "suggested_aspect": null,
+      "description": "Nahtlose Wiederholungen für Displays, Hintergründe und Social Media.",
+      "instructions": "Bewegung und Effekte periodisch gestalten. Den Frame bei t=Dauer nicht als doppelten ersten Frame anhängen. Für nahtlosen Ton Schnitt und Wellenform separat prüfen; keinen automatischen Schluss-Fade einsetzen.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Erstelle eine nahtlos wiederholbare Animation über {thema} für {ziel}. Anfang und Ende sollen ohne sichtbaren Sprung ineinander übergehen. Prüfe den Übergang über mehrere Wiederholungen, einschließlich Partikeln, Kamera und gegebenenfalls Ton. Format: {format}, Dauer: {dauer}."
+    },
+    {
+      "command": "MGD-Video-Optimieren",
+      "skill": "mgd-video-optimieren",
+      "title": "Vorhandenes Video verbessern",
+      "mode": "optimize",
+      "workflow": "video-optimieren",
+      "suggested_aspect": null,
+      "description": "Gezielte Verbesserung vorhandener Videos und bestehender Quellprojekte.",
+      "instructions": "Konkrete Änderungswünsche erfassen und bestätigte Teile erhalten. Bestehende Dateien zuerst untersuchen. Keine künstlichen Details durch Upscaling versprechen. Wenn nur MP4 vorliegt, Grenzen gegenüber editierbaren Quellen erklären und unnötiges Re-Encoding vermeiden.",
+      "prompt": "Nutze den MGD Motion Graphics Video Skill. Analysiere das vorhandene Video {datei} und verbessere gezielt {ziel}. Erhalte bereits gelungene Teile und berücksichtige bisherige Entscheidungen. Nutze nach Möglichkeit das zugehörige Quellprojekt, schütze Originale und speichere eine neue Version. Prüfe die tatsächlich exportierte Datei auf die gewünschten Verbesserungen."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-YouTube"
+  short_description: "YouTube mit Kapiteln mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-youtube für mein Videoprojekt."

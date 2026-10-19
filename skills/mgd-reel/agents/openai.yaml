@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Reel"
+  short_description: "Reels und Shorts mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-reel für mein Videoprojekt."

@@ -7,7 +7,7 @@ bewegte Typografie, Compositing, Schnitt, Ton und überprüfbare Videoexporte.
 Lokale Werkzeuge bilden den Kern. Passende ECC-Skills und Medien-Plugins können
 gezielt ergänzt werden. Der Aufbau orientiert sich am
 [Video Composer Skill](https://github.com/MichaelGahnDESIGN/ChatGPT-Video-Composer-Skill)
-und der MGD-Skill-Struktur. Version **0.1.0**.
+und der MGD-Skill-Struktur. Version **0.2.0**.
 
 ## Was enthalten ist
 
@@ -28,6 +28,37 @@ Projektpfade und Inhalte gehören nicht zum öffentlichen Paket.
 
 ![Neutraler, lokal erzeugter Demo-Baukasten in 9:16](docs/media/demo-reel.jpg)
 
+## Alle Aufrufe und vollständiges Wiki
+
+[Das ausführliche GitHub-Wiki](https://github.com/MichaelGahnDESIGN/MGD-Motion-Graphics-Video-Skill/wiki)
+führt durch Einrichtung, alle Videoarten, Gestaltung, Effekte, Ton, Qualität,
+Datenschutz, NAS-Arbeit und Fehlerbehebung. Die Inhalte liegen zusätzlich unter
+[docs/wiki](docs/wiki/Home.md) versioniert.
+
+Mit `--aliases` werden alle 14 Aufrufvarianten installiert. Beispiele:
+
+| Gewünschter Aufruf / Claude Code | Codex-Skill |
+|---|---|
+| `/MGD-Motion` | `$mgd-motion` |
+| `/reel` | `$reel` |
+| `/MGD-Video` | `$mgd-video` |
+| `/MGD-Reel` | `$mgd-reel` |
+| `/MGD-Trailer` | `$mgd-trailer` |
+| `/MGD-Erklärvideo` | `$mgd-erklaervideo` |
+| `/MGD-Motion-Graphic-Animation` | `$mgd-motion-graphic-animation` |
+| `/MGD-Anime` | `$mgd-anime` |
+| `/MGD-Werbefilm` | `$mgd-werbefilm` |
+| `/MGD-Produktvideo` | `$mgd-produktvideo` |
+| `/MGD-YouTube` | `$mgd-youtube` |
+| `/MGD-Logo-Animation` | `$mgd-logo-animation` |
+| `/MGD-Loop` | `$mgd-loop` |
+| `/MGD-Video-Optimieren` | `$mgd-video-optimieren` |
+
+Codex verwendet explizite Skill-Aufrufe und die Skill-Auswahl. Eigene veraltete
+Slash-Prompts werden nicht als neue Integration installiert. Für Claude Code
+können die mitgelieferten Befehlsdateien separat eingerichtet werden.
+[Alle Prompts](docs/wiki/Befehle.md) · [Einrichtungsprompt](docs/wiki/Projektstart.md)
+
 ## Schnellstart
 
 Voraussetzungen: Python ≥3.9. Für Videos zusätzlich Node.js ≥22 mit npm,
@@ -46,8 +77,8 @@ Installationsplan für ein gewähltes Projekt ansehen:
 python3 skills/mgd-motion-graphics-video/scripts/install.py --target /PFAD/PROJEKT/.agents/skills --profile core
 ```
 
-Nach Prüfung mit `--apply` ausführen. Ohne Profil wird ausschließlich der
-MGD-Skill installiert. `core` ergänzt die HyperFrames-Basis und ECC video-editing.
+Nach Prüfung mit `--apply` ausführen. Ohne Profil werden keine Fremdskills geladen. Ohne `--aliases` wird nur der
+Hauptskill installiert. `core` ergänzt die HyperFrames-Basis und ECC video-editing.
 Weitere Profile und die bewusst getrennte globale Installation stehen in der
 [Installationsanleitung](skills/mgd-motion-graphics-video/references/installation.md).
 Keine bestehende abweichende Skill-Installation wird überschrieben.
@@ -66,6 +97,20 @@ für Quadrat `--preset square`. Danach checken, ansehen und rendern wie in der
 [Anleitung](skills/mgd-motion-graphics-video/references/installation.md).
 Auf NAS-Systemen Abhängigkeiten und Renderarbeit in einer erlaubten lokalen
 Arbeitskopie ausführen; Quellen und Ergebnisse anschließend geprüft zurückgeben.
+
+## Global mit allen Aufrufen installieren
+
+Nur bei entsprechendem Benutzerauftrag:
+
+```bash
+python3 skills/mgd-motion-graphics-video/scripts/install.py --target "$HOME/.agents/skills" --aliases --global
+python3 skills/mgd-motion-graphics-video/scripts/install.py --target "$HOME/.agents/skills" --aliases --global --apply
+```
+
+Danach `$mgd-motion` starten; fehlenden Video-Projektordner und erstes Thema
+zusammen erfragen lassen. Bereits vorhandene Angaben werden übernommen.
+Für Claude Code und projektbezogene Einrichtung siehe
+[Installation](docs/wiki/Installation.md). Abweichende vorhandene Dateien bleiben erhalten.
 
 ## Verwendung im Agenten
 
@@ -104,12 +149,15 @@ müssen für seine Nutzung nicht hochgeladen werden.
 ## Entwicklung und Prüfung
 
 ```bash
+python3 tools/build_commands.py --check
 python3 tools/check.py
 ```
 
 Die Standardprüfungen laufen ohne Netzwerk und ohne zusätzliche Python-Pakete.
+Version 0.2.0 ist mit 33 Verhaltenstests und 15 validierten Skills geprüft;
+Details stehen im [aktuellen Prüfbericht](docs/arbeitsberichte/0.2.0-pruefung.md).
 Der tatsächliche Browser- und Render-Test ist gesondert im
-[Prüfbericht](docs/arbeitsberichte/0.1.0-pruefung.md) dokumentiert.
+[Prüfbericht 0.1.0](docs/arbeitsberichte/0.1.0-pruefung.md) dokumentiert.
 Änderungen an Upstream-Versionen erfolgen bewusst über
 `tools/update_dependency_lock.py`, mit anschließender Prüfung und Testexport.
 

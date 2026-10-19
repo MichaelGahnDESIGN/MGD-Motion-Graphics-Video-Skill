@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Erklärvideo"
+  short_description: "Erklärvideo mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-erklaervideo für mein Videoprojekt."

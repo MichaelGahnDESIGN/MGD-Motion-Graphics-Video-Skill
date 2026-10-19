@@ -1,0 +1,14 @@
+---
+name: mgd-produktvideo
+description: "Produktvorstellung, Funktionsdarstellung und Anwendung."
+---
+
+# Produktvideo
+
+Gewünschter Aufruf: `/MGD-Produktvideo`. In Codex explizit mit `$mgd-produktvideo` starten.
+
+Lies den [Hauptskill](../mgd-motion-graphics-video/SKILL.md) und nur die für diese Aufgabe nötigen Referenzen. Erhalte bestehende Entscheidungen und vorhandene Projektquellen.
+
+Produktansichten, Proportionen und Funktionen korrekt darstellen. UI oder Anwendung möglichst an echten Materialien zeigen. Keine erfundenen Funktionen, Bewertungen oder Leistungsversprechen.
+
+Wesentlich fehlende Angaben nur erfragen, wenn sie nicht aus Auftrag, Datei oder bestehendem Projekt ableitbar sind. Ein Formatvorschlag ist keine Einschränkung einer ausdrücklichen Benutzerwahl.

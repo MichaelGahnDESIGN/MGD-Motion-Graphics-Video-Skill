@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Logo-Animation"
+  short_description: "Logo-Animation mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-logo-animation für mein Videoprojekt."

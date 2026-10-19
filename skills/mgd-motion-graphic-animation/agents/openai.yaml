@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Motion-Graphic-Animation"
+  short_description: "Motion Graphics und Animation mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-motion-graphic-animation für mein Videoprojekt."

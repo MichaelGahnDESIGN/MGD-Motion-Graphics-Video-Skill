@@ -1,1 +1,6 @@
-{"name":"mgd-motion-graphics-video-skill","version":"0.1.0","description":"Reels, Werbefilme und Motion Graphics mit lokalen Werkzeugen und geprüftem Export.","skills":"./skills/"}
+{
+  "name": "mgd-motion-graphics-video-skill",
+  "version": "0.2.0",
+  "description": "Reels, Werbefilme und Motion Graphics mit lokalen Werkzeugen und geprüftem Export.",
+  "skills": "./skills/"
+}

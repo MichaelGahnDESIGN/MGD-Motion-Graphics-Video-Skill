@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Trailer"
+  short_description: "Trailer und Teaser mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-trailer für mein Videoprojekt."

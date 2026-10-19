@@ -37,7 +37,7 @@ Der Installer lädt nur ausgewählte Dateien, keine großen Repository-Archive.
 Ein manipulationssicherer Transport ersetzt keine Vertrauensprüfung der Inhalte.
 
 Eine **globale** Installation braucht einen entsprechenden Benutzerauftrag.
-Erst dann beispielsweise `--target "$HOME/.codex/skills" --global --apply`
+Erst dann beispielsweise `--target "$HOME/.agents/skills" --global --apply`
 verwenden. Projektinstallation ist der Standard. Der Skill selbst ändert keine
 Agent-Konfiguration, aktiviert keine Hooks und installiert keine Plugins.
 
@@ -87,3 +87,28 @@ Ersetze `/PFAD/ZUM/SKILL` durch den installierten Skill-Ordner. Für einen
 bestehenden Videobaukasten dessen Werkzeugkette respektieren. Manche Werkzeuge
 schreiben betriebliche Caches in ihre Standardablagen; das ist keine Garantie
 vollständiger Prozess- oder Netzwerkisolation.
+
+## Alle spezialisierten Aufrufe installieren
+
+Zusätzlich `--aliases` verwenden. Der Hauptskill erzeugt die 14 Varianten aus
+seinem mitgelieferten Katalog; ein separates Repository ist dafür nicht nötig.
+Codex verwendet beispielsweise `$mgd-reel` und `$mgd-video-optimieren`.
+
+```bash
+python3 skills/mgd-motion-graphics-video/scripts/install.py --target /PFAD/PROJEKT/.agents/skills --aliases --apply
+```
+
+Für eine beauftragte globale Codex-Installation ist der aktuelle benutzerweite
+Ort `"$HOME/.agents/skills"`, kombiniert mit `--global`. Ältere vorhandene
+Codex-Skill-Ablagen nicht ungeprüft doppeln.
+
+Claude Code kann zusätzlich die gewünschten Slash-Befehle erhalten:
+
+```bash
+python3 skills/mgd-motion-graphics-video/scripts/install.py --target /PFAD/PROJEKT/.claude/skills --aliases --commands-target /PFAD/PROJEKT/.claude/commands --apply
+```
+
+Bei globaler Claude-Einrichtung beide Ordner unter `$HOME/.claude` wählen und
+`--global` ergänzen. Auch Befehlsdateien werden bei Abweichungen nicht überschrieben.
+Eine Installation startet noch keinen Film. Fehlenden Ordner und erstes Thema
+beim Einstieg erfragen; bestehende Projekte gezielt fortsetzen.

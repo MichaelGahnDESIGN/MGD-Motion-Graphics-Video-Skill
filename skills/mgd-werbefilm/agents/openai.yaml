@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Werbefilm"
+  short_description: "Werbefilm mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-werbefilm für mein Videoprojekt."

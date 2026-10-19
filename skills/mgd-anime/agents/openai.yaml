@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Anime"
+  short_description: "Anime-Szenen und Trailer mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-anime für mein Videoprojekt."

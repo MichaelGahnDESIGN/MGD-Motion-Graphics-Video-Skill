@@ -10,6 +10,19 @@ Material und Ziel des jeweiligen Projekts aus. Eine konkrete Korrektur setzt das
 bestehende Projekt fort; beginne dabei kein neues Briefing und installiere nicht
 vorsorglich die gesamte Werkzeugliste.
 
+## Aufrufe und Start
+
+Für `/MGD-Motion`, `/reel` und die spezialisierten Varianten lies bei Bedarf
+[commands.md](references/commands.md). In Codex erfolgt die explizite Auswahl
+mit `$mgd-reel` und den entsprechenden Skill-Namen; Claude Code kann die
+installierten Slash-Befehle verwenden. Keine native Slash-Funktion behaupten,
+wenn die Umgebung sie nicht anbietet.
+
+Beim ersten Einstieg fehlenden Video-Projektordner und erstes Thema gemeinsam
+erfragen. Sind sie bereits angegeben, direkt damit weiterarbeiten. Bei einer
+Korrektur wie `/MGD-Video-Optimieren` vorhandenes Projekt fortsetzen. Ein
+Installationsauftrag allein ist kein Auftrag, bereits einen Film zu erzeugen.
+
 ## Einstieg und Werkzeugwahl
 
 1. Stelle die tatsächliche Projektwurzel, vorhandene Regeln, Git-Status und den

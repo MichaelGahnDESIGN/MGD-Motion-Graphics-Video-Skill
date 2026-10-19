@@ -7,12 +7,14 @@ import json
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
 
 ROOT=Path(__file__).resolve().parents[1]
 SKILL=ROOT/'skills/mgd-motion-graphics-video'
+sys.path.insert(0,str(SKILL/'scripts'))
 TMP=ROOT/'.tmp/tests'
 TMP.mkdir(parents=True,exist_ok=True)
 

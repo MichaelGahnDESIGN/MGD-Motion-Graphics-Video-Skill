@@ -1,1 +1,19 @@
-{"$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json","name":"mgd-motion-graphics-video-skill","version":"0.1.0","description":"Projektbezogene Reels, YouTube-Videos, Werbefilme und Motion Graphics mit lokalen Werkzeugen, ECC und optionalen Medien-Plugins.","author":{"name":"Michael Gahn DESIGN"},"repository":"https://github.com/MichaelGahnDESIGN/MGD-Motion-Graphics-Video-Skill","keywords":["video","motion-graphics","reels","youtube","ffmpeg","hyperframes","ecc"]}
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mgd-motion-graphics-video-skill",
+  "version": "0.2.0",
+  "description": "Projektbezogene Reels, YouTube-Videos, Werbefilme und Motion Graphics mit lokalen Werkzeugen, ECC und optionalen Medien-Plugins.",
+  "author": {
+    "name": "Michael Gahn DESIGN"
+  },
+  "repository": "https://github.com/MichaelGahnDESIGN/MGD-Motion-Graphics-Video-Skill",
+  "keywords": [
+    "video",
+    "motion-graphics",
+    "reels",
+    "youtube",
+    "ffmpeg",
+    "hyperframes",
+    "ecc"
+  ]
+}

@@ -14,6 +14,9 @@ import re
 import shutil
 import tempfile
 import urllib.request
+import sys
+sys.dont_write_bytecode = True
+from command_catalog import load_catalog, render_command, render_skill, render_ui
 
 SKILL = Path(__file__).resolve().parents[1]
 ALLOWLIST = {'heygen-com/hyperframes', 'affaan-m/ecc'}
@@ -89,14 +92,44 @@ def same_tree(a, b):
         return False
     if any(p.is_symlink() for p in a.rglob('*')):
         return False
-    left = {p.relative_to(a).as_posix(): p for p in a.rglob('*') if p.is_file()}
-    right = {p.relative_to(b).as_posix(): p for p in b.rglob('*') if p.is_file()}
+    left = {p.relative_to(a).as_posix(): p for p in managed_files(a)}
+    right = {p.relative_to(b).as_posix(): p for p in managed_files(b)}
     return (left.keys() == right.keys() and
             all(not p.is_symlink() and digest(p.read_bytes()) == digest(right[n].read_bytes())
                 for n, p in left.items()))
 
 
-def install(target, profiles, apply=False, cache=None, allow_global=False, lock=None):
+def managed_files(root):
+    return [p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts
+            and p.suffix != '.pyc' and p.name != '.DS_Store']
+
+
+def preview_conflicts(target, catalog, command_root):
+    """Vergleicht lokale Ziele ohne Staging, Downloads oder Schreiboperationen."""
+    expected = {SKILL.name: {p.relative_to(SKILL).as_posix(): p.read_bytes() for p in managed_files(SKILL)}}
+    license_data = (SKILL / 'LICENSE').read_bytes()
+    for item in catalog:
+        expected[item['skill']] = {'SKILL.md': render_skill(item).encode('utf-8'),
+                                  'agents/openai.yaml': render_ui(item).encode('utf-8'),
+                                  'LICENSE': license_data}
+    conflicts = []
+    for name, files in expected.items():
+        current = target / name
+        if not current.exists() and not current.is_symlink(): continue
+        if current.is_symlink() or not current.is_dir() or any(p.is_symlink() for p in current.rglob('*')):
+            conflicts.append(name); continue
+        actual = {p.relative_to(current).as_posix(): p.read_bytes() for p in managed_files(current)}
+        if actual != files: conflicts.append(name)
+    if command_root:
+        for item in catalog:
+            path = command_root / (item['command'] + '.md')
+            if path.exists() or path.is_symlink():
+                if path.is_symlink() or not path.is_file() or path.read_bytes() != render_command(item).encode('utf-8'):
+                    conflicts.append('/' + item['command'])
+    return conflicts
+
+
+def install(target, profiles, apply=False, cache=None, allow_global=False, lock=None, aliases=False, commands_target=None):
     target = Path(target).expanduser().absolute()
     if '..' in target.parts:
         raise ValueError('Zielpfad muss ohne .. angegeben werden')
@@ -106,25 +139,60 @@ def install(target, profiles, apply=False, cache=None, allow_global=False, lock=
     global_roots = [Path.home() / name for name in ('.codex', '.agents', '.claude')]
     if any(target.is_relative_to(p) for p in global_roots) and not allow_global:
         raise ValueError('Globale Installation braucht zusätzlich --global und einen Benutzerauftrag')
+    command_root = None
+    if commands_target is not None:
+        if not aliases:
+            raise ValueError('--commands-target braucht --aliases')
+        command_root = Path(commands_target).expanduser().absolute()
+        if '..' in command_root.parts or any(p.is_symlink() for p in (command_root, *command_root.parents)):
+            raise ValueError('Unsicheres Befehlsziel')
+        if command_root.name != 'commands' or target != command_root.parent / 'skills':
+            raise ValueError('Claude-Befehle brauchen skills und commands im selben Elternordner')
+        if any(command_root.is_relative_to(p) for p in global_roots) and not allow_global:
+            raise ValueError('Globale Befehle brauchen --global')
+    catalog = load_catalog()['commands'] if aliases else []
     lock = lock or json.loads((SKILL / 'dependencies.lock.json').read_text(encoding='utf-8'))
     packages = select_packages(lock, profiles)
     total = sum(sum(f['size'] for f in p[4]) + p[5]['size'] for p in packages)
     if total > MAX_TOTAL:
         raise ValueError('Download-Gesamtbudget überschritten')
-    names = [SKILL.name] + [p[0] for p in packages]
+    names = [SKILL.name] + [item['skill'] for item in catalog] + [p[0] for p in packages]
+    if len(set(names)) != len(names):
+        raise ValueError('Namenskollision zwischen Hauptskill, Aufrufen oder Zusatzskills')
+    conflicts = preview_conflicts(target, catalog, command_root)
     print(json.dumps({'mode': 'apply' if apply else 'dry-run', 'target': str(target),
-                      'skills': names, 'download_bytes_max': total}, ensure_ascii=False, indent=2))
+                      'skills': names, 'conflicts': conflicts, 'commands_target': str(command_root) if command_root else None,
+                      'commands': [item['command'] for item in catalog] if command_root else [], 'download_bytes_max': total}, ensure_ascii=False, indent=2))
     if not apply:
         return names
+    if conflicts:
+        raise FileExistsError('Bestehende lokale Änderungen bleiben unangetastet: ' + ', '.join(conflicts))
     target.mkdir(parents=True, exist_ok=True)
     stage = Path(tempfile.mkdtemp(prefix='.mgd-install-', dir=target))
     created = []
+    created_commands = []
     try:
         own = stage / SKILL.name
         # Dateien aus fremden Installationen und Python-Caches gehören nicht ins Paket.
         shutil.copytree(SKILL, own, ignore=shutil.ignore_patterns('__pycache__', '*.pyc', '.DS_Store'), symlinks=True)
         if any(p.is_symlink() for p in own.rglob('*')):
             raise ValueError('MGD-Paket enthält einen Symlink')
+        for item in catalog:
+            alias = stage / item['skill']
+            (alias / 'agents').mkdir(parents=True)
+            (alias / 'SKILL.md').write_text(render_skill(item), encoding='utf-8')
+            (alias / 'agents/openai.yaml').write_text(render_ui(item), encoding='utf-8')
+            shutil.copyfile(SKILL / 'LICENSE', alias / 'LICENSE')
+        command_files = {}
+        if command_root:
+            for item in catalog:
+                destination = command_root / (item['command'] + '.md')
+                data = render_command(item).encode('utf-8')
+                if destination.exists() or destination.is_symlink():
+                    if destination.is_symlink() or not destination.is_file() or destination.read_bytes() != data:
+                        raise FileExistsError('Bestehender Befehl bleibt unangetastet: ' + item['command'])
+                else:
+                    command_files[destination] = data
         for name, source_id, source, prefix, files, license_entry in packages:
             destination = stage / name
             destination.mkdir()
@@ -154,9 +222,18 @@ def install(target, profiles, apply=False, cache=None, allow_global=False, lock=
             for item in (stage / name).iterdir():
                 os.rename(item, destination / item.name)
             (stage / name).rmdir()
+        if command_root:
+            command_root.mkdir(parents=True, exist_ok=True)
+            for destination, data in command_files.items():
+                # Exklusive Anlage: Ein zwischenzeitlich erstellter Befehl bleibt erhalten.
+                with destination.open('xb') as handle:
+                    created_commands.append(destination)
+                    handle.write(data)
         return names
     except Exception:
         # Ausschließlich in diesem Aufruf neu angelegte Verzeichnisse zurücknehmen.
+        for command in reversed(created_commands):
+            command.unlink()
         for directory in reversed(created):
             shutil.rmtree(directory)
         raise
@@ -169,11 +246,13 @@ def main():
     parser.add_argument('--target', required=True, type=Path, help='z. B. PROJEKT/.agents/skills')
     parser.add_argument('--profile', action='append', default=[], help='core, youtube, ads, remotion, math, react-ui, cloud-media, blender')
     parser.add_argument('--apply', action='store_true', help='Plan tatsächlich ausführen')
+    parser.add_argument('--aliases', action='store_true', help='Alle 14 spezialisierten Skill-Aufrufe installieren')
+    parser.add_argument('--commands-target', type=Path, help='Optional: passende .claude/commands für Slash-Befehle')
     parser.add_argument('--cache', type=Path, help='Ausschließlich lokale, geprüfte Quellen verwenden')
     parser.add_argument('--global', dest='allow_global', action='store_true', help='Bewusst beauftragte globale Zielablage erlauben')
     args = parser.parse_args()
     try:
-        install(args.target, args.profile, args.apply, args.cache, args.allow_global)
+        install(args.target, args.profile, args.apply, args.cache, args.allow_global, aliases=args.aliases, commands_target=args.commands_target)
     except (ValueError, OSError) as error:
         parser.exit(1, str(error) + '\n')
 

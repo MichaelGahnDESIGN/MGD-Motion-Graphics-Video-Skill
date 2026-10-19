@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Video-Optimieren"
+  short_description: "Vorhandenes Video verbessern mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-video-optimieren für mein Videoprojekt."

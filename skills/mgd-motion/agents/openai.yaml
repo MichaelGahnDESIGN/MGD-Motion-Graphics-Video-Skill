@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Motion"
+  short_description: "Einstieg und Werkzeugwahl mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-motion für mein Videoprojekt."

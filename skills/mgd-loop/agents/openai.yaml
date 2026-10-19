@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD-Loop"
+  short_description: "Nahtlose Animation mit dem MGD Video-Skill"
+  default_prompt: "Nutze $mgd-loop für mein Videoprojekt."
