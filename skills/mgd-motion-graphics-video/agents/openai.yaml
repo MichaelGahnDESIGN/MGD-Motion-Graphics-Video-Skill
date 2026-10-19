@@ -1,0 +1,4 @@
+interface:
+  display_name: "MGD Motion Graphics Video Skill"
+  short_description: "Reels, Werbefilme und Motion Graphics erstellen"
+  default_prompt: "Nutze $mgd-motion-graphics-video, um aus meinen Projektmaterialien ein dynamisches Video mit geprüftem Export zu erstellen."

@@ -1,0 +1,15 @@
+{
+  "name": "MGD Motion Demo",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "intro_duration": 3,
+  "middle_duration": 3,
+  "end_entrance": 1,
+  "end_hold": 4,
+  "end_fade": 0.5,
+  "headline": "IDEEN WERDEN WELTEN",
+  "message": "BEWEGUNG MIT WIRKUNG",
+  "brand": "DEIN PROJEKT",
+  "tagline": "Ein starker Auftritt."
+}

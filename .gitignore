@@ -1,0 +1,9 @@
+.tmp/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+docs/arbeitsberichte/jarvis-ruecktransfer-*.json

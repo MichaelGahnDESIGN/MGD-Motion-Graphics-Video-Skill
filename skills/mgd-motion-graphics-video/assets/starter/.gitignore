@@ -1,0 +1,8 @@
+node_modules/
+.tmp/
+exports/
+assets/gsap.min.js
+index.html
+runtime-config.js
+__pycache__/
+.DS_Store

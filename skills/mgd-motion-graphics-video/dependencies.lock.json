@@ -1,0 +1,3801 @@
+{
+  "schema": 1,
+  "checked_on": "2026-10-20",
+  "sources": {
+    "hyperframes": {
+      "repository": "heygen-com/hyperframes",
+      "revision": "7d47194e4a078b4382bf3e8597ca9520e278781c",
+      "skills": [
+        "hyperframes",
+        "hyperframes-core",
+        "hyperframes-keyframes",
+        "hyperframes-animation",
+        "hyperframes-creative",
+        "hyperframes-cli",
+        "hyperframes-audio",
+        "hyperframes-registry",
+        "media-use",
+        "general-video",
+        "motion-graphics",
+        "embedded-captions",
+        "faceless-explainer",
+        "talking-head-recut",
+        "product-launch-video"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 10763,
+          "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+        },
+        {
+          "path": "skills/embedded-captions/.gitignore",
+          "size": 516,
+          "sha256": "f48ec93898d7c053f987a8d2904e6923af09900358ad39a9e4d2e6c61eb52f97"
+        },
+        {
+          "path": "skills/embedded-captions/CATALOG.md",
+          "size": 54574,
+          "sha256": "f1eb0a6781980862fac9bbfe06be5bc9f70d5fb9c493aa159c82673b33379585"
+        },
+        {
+          "path": "skills/embedded-captions/SKILL.md",
+          "size": 34642,
+          "sha256": "983a4e61310d05c4a5c5a4fff2262c24ef1929478831e3afb76b0ab584b09bce"
+        },
+        {
+          "path": "skills/embedded-captions/assets/fonts/char-widths.json",
+          "size": 39965,
+          "sha256": "48331f6cc479c7ea92780d1a380ace0b85df8fc629668477c8fbb8f209f2a493"
+        },
+        {
+          "path": "skills/embedded-captions/assets/strokefonts/HersheyScript1.svg",
+          "size": 60060,
+          "sha256": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b"
+        },
+        {
+          "path": "skills/embedded-captions/assets/strokefonts/HersheyScriptMed.svg",
+          "size": 71046,
+          "sha256": "76dd1d086946019499c062ca056033696f17d9733c83fa75f38b4a1d9e55a31b"
+        },
+        {
+          "path": "skills/embedded-captions/dna/README.md",
+          "size": 12207,
+          "sha256": "3e0dcb20140a8d73ea166dfde7af27f5d4cd492fd9ad2805c5c8dd064ba58f1c"
+        },
+        {
+          "path": "skills/embedded-captions/dna/chrome.json",
+          "size": 1769,
+          "sha256": "76098991c06906f62d5ab11197b46ebab990bb42e96753be2739de9f5fa7ac90"
+        },
+        {
+          "path": "skills/embedded-captions/dna/cream.json",
+          "size": 1537,
+          "sha256": "507af451941040e9068ce0d70dde07616a88360ca8cbe5ec1267e4722fe6ea97"
+        },
+        {
+          "path": "skills/embedded-captions/dna/documentary.json",
+          "size": 1441,
+          "sha256": "ade83c1784c34eaae88229be155e6a8aa98060755f7a2feb045da842b5d9ac4d"
+        },
+        {
+          "path": "skills/embedded-captions/dna/editorial.json",
+          "size": 1674,
+          "sha256": "392e520ba1121cf3fec4e02813eb11f9f1c3081f4aee7a2f90a6f3a93d17a947"
+        },
+        {
+          "path": "skills/embedded-captions/dna/glitch.json",
+          "size": 1805,
+          "sha256": "953467af5ff4d85bc98568398a761ffcb4b2558f9d64c2d611747bc7980df8fb"
+        },
+        {
+          "path": "skills/embedded-captions/dna/ink.json",
+          "size": 1529,
+          "sha256": "d8f85394ceeb3425e35d52d8ecc07ed69d62dfbb21493b3dacb7e21cb15ae705"
+        },
+        {
+          "path": "skills/embedded-captions/dna/keynote.json",
+          "size": 1400,
+          "sha256": "df8192358a75579a410ae9a5cc4f292cf95ffb119c23967e66ed4674f08d109f"
+        },
+        {
+          "path": "skills/embedded-captions/dna/loud.json",
+          "size": 1912,
+          "sha256": "54fd67acd2453860195a321e66219d8052b9a6ae5f6036e768e2bad53e3379ff"
+        },
+        {
+          "path": "skills/embedded-captions/dna/neon.json",
+          "size": 1567,
+          "sha256": "eeaab8bbc1c53f191452f9914ec9fc79ed8a82d58711b98dfb25517a864f7aa6"
+        },
+        {
+          "path": "skills/embedded-captions/dna/velocity.json",
+          "size": 1968,
+          "sha256": "bc39c5748cb3f913b0685821ba3f4f878fe930bffe2aae3089ad56c5291cb7a0"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/README.md",
+          "size": 2677,
+          "sha256": "c95d0d2374ba6b3a0e721bbf9c66c125aaedd738e78c04591a9552e0f1fcfa46"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/champion/spec.md",
+          "size": 4718,
+          "sha256": "741bfeecd94f18172ac379dda857ec93892687b18a28c570fc2d7d5909dd531a"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/champion/template.html",
+          "size": 5784,
+          "sha256": "f374671528f43a2b0a3558f6a2da4dcec2ff5125cf67e1c5316f8f09c7ccaacf"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/memory-wall/spec.md",
+          "size": 5878,
+          "sha256": "50a28fbb6cb82e82c788ec741dd2503beb1636a8215bcc26fe751244488af952"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/memory-wall/template.html",
+          "size": 5624,
+          "sha256": "38b91ef473eb2e0f9057f304b54c8d90cbbd214c401c682a46dae77dcbedf7f2"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/portrait-header/spec.md",
+          "size": 3621,
+          "sha256": "523f0a815c92f3948d646cc65c0f5333e4981953e4eedc4f915f28b6cd45e958"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/_archive/portrait-header/template.html",
+          "size": 5312,
+          "sha256": "3f438cb37803f927faf9c9ee19c14f13fe8eec29289644f5cce157980f2fd149"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/cinematic-cream/spec.md",
+          "size": 1139,
+          "sha256": "ce24dfae893e7076b4b1e030dcd4c1d29cc2b833e3761044a000f35a69c91e88"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/cinematic-cream/template.html",
+          "size": 10266,
+          "sha256": "2f81e4d34e9c4b0a61175d0241ac89bd147dc6e56c6b63a6f968873e972974f3"
+        },
+        {
+          "path": "skills/embedded-captions/modes/cinematic/engine.html",
+          "size": 17093,
+          "sha256": "7d57fc7009007ac173bcebcdffaaedb6dba9da56ef8d9f69470ab989d1327470"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/_anatomy.md",
+          "size": 11200,
+          "sha256": "b0afc2724aa965ca93b106166544ed1ba35fc1418be6fb42712e70f3c68353cc"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/_motion.md",
+          "size": 18518,
+          "sha256": "b5b4a7abc68a0da2dbdc60d45eb5ae6565f08774f77df63279be244741ad1ce3"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/build-fonts-css.cjs",
+          "size": 3597,
+          "sha256": "dddc5cd15c33c63eb7b1550f771561a7909799f8a34a78621de9fe7738103a17"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/anton-latin-400-normal.woff2",
+          "size": 18612,
+          "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/audiowide-latin-400-normal.woff2",
+          "size": 14132,
+          "sha256": "e21fd195dd9dcdafc5a0f162a8fc252703f3683179861afb057cd58f9d27dbe5"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/baloo-2-latin-400-normal.woff2",
+          "size": 18920,
+          "sha256": "18ebcf63cd353f8472583e8261755fd527cddf0fdb5caa89dd2e60b4a9e4ba1c"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/baloo-2-latin-700-normal.woff2",
+          "size": 19436,
+          "sha256": "8e7ffc9b993aa8caa89bcab81e103c9eb2da4e3e042f37b7a5115d0ddbff12c0"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/bangers-latin-400-normal.woff2",
+          "size": 23528,
+          "sha256": "04f54ff42ea2b8fc50b4259c29c60b1e05e606b769c2fb541c98624346c9767c"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/bodoni-moda-latin-400-normal.woff2",
+          "size": 14528,
+          "sha256": "e2863d3bbe2e094f1ce98053ee3c6200cfa35f82b9f4cc6fd95fbaead4125d4f"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/bodoni-moda-latin-700-normal.woff2",
+          "size": 14988,
+          "sha256": "595d28347ea02f9adccab277f49a122f04212fd220e972ce0c80fe933c915541"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/caveat-latin-400-normal.woff2",
+          "size": 48836,
+          "sha256": "d0b7b931b8980049327e8f8f9ac264617c8200b8422d62e886473d3d9527bad3"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/caveat-latin-700-normal.woff2",
+          "size": 51020,
+          "sha256": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/chakra-petch-latin-500-normal.woff2",
+          "size": 9956,
+          "sha256": "36ad966cb653de70ba37355c41003b02de8940b2df6cbcd46480a6ad8cadd65d"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/chakra-petch-latin-700-normal.woff2",
+          "size": 9900,
+          "sha256": "ce5095dc1cb200aaa939e38067a0677018d10e9f26ec38cdcf1557ac524fc775"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/cinzel-latin-400-normal.woff2",
+          "size": 14128,
+          "sha256": "b873cdd90d6bd9ca4793c805b4175abfae00b3611ee8afccf63067133dcf1217"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/cinzel-latin-700-normal.woff2",
+          "size": 15184,
+          "sha256": "8efa224fe70fef188a39c095e218b81fd31061809f2752537e33a9ec7b9c2263"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/cormorant-garamond-latin-400-normal.woff2",
+          "size": 22876,
+          "sha256": "8048ac209bec741e1c29cd0cfac5aac1c0c2ba8c3ddbd4a58fa9bd92ef5c63c2"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/cormorant-garamond-latin-700-normal.woff2",
+          "size": 22340,
+          "sha256": "21a0fc1c5c22708cf4aa0c147fd32982e25bf9e21efec0ca31a4495ba41753eb"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/creepster-latin-400-normal.woff2",
+          "size": 28120,
+          "sha256": "899f0b2dd69f34439731f2726804a9593ba8161294e9b4a1ed4fd9f84e094470"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/fredoka-latin-400-normal.woff2",
+          "size": 16076,
+          "sha256": "9cf74f703532ef61311d6c6dd32a582b6e410727f5fce1dbf5570cbe6b023c2f"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/fredoka-latin-700-normal.woff2",
+          "size": 15900,
+          "sha256": "ee61b48acab42fcfee4e1c398b03bbae7e09d1be8471779c440a97dc85118c16"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-400-normal.woff2",
+          "size": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-500-italic.woff2",
+          "size": 25636,
+          "sha256": "ec7b5fad608d36d16f65939bd09e70b4bb81446fa7ee32b345d0c2e4fcd174b7"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-500-normal.woff2",
+          "size": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-600-italic.woff2",
+          "size": 25812,
+          "sha256": "c45ec86655c4614e7db0b9d2ea00303c1b252dae5671227aae5955f696069de6"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-600-normal.woff2",
+          "size": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-700-normal.woff2",
+          "size": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-800-normal.woff2",
+          "size": 24400,
+          "sha256": "a7d0a50f15d389cad679238466bdb5fc9787aa0715719064ce25abaff042820d"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/inter-latin-900-normal.woff2",
+          "size": 23900,
+          "sha256": "d5c0ed7b8b5dde97d48b97947d740bbd8ad3ba9f2c5cc6b8280f16acba2d828e"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/monoton-latin-400-normal.woff2",
+          "size": 16492,
+          "sha256": "54dd0ac1cf6c02e094ad114d3cc038baddc42e5d6ba1c0b74566cedaed765c4c"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/orbitron-latin-400-normal.woff2",
+          "size": 6396,
+          "sha256": "9320ca80be2f4275e7aaa009bc058b9ea46264d4f92b06f0b822c3405cf45841"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/orbitron-latin-700-normal.woff2",
+          "size": 6528,
+          "sha256": "ee6acc5ad5349018f9ca71fab8118144160e110838931874150a1ac3f97db38d"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/permanent-marker-latin-400-normal.woff2",
+          "size": 29564,
+          "sha256": "4884fec2c73aa52a2461073c1b87d1ceb80f400520391b43f97ca7d3c39eeb24"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/press-start-2p-latin-400-normal.woff2",
+          "size": 12512,
+          "sha256": "afec86997fdaf54af1f59358fa2c1e2a0f1d04146edad18e5cd141d0384a7548"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/rajdhani-latin-500-normal.woff2",
+          "size": 15084,
+          "sha256": "23afdb9b5b89b878fab04d80cc30bf41bb4f3f7e8be88e5f16a7cc7671cdb2dc"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/rajdhani-latin-700-normal.woff2",
+          "size": 15688,
+          "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/saira-stencil-one-latin-400-normal.woff2",
+          "size": 20896,
+          "sha256": "cd6d5dfdb860075088697dc0c14d1cbe473afe5cf1435c01f21c884a60efd893"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/shippori-mincho-latin-400-normal.woff2",
+          "size": 27180,
+          "sha256": "65624096ca9a30ccc9a32bb915fb5a4dd9052e571b342ece09ef2f20a682862f"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/shippori-mincho-latin-700-normal.woff2",
+          "size": 28720,
+          "sha256": "b72c8f55b753b95b239e7ed4da63317c99407e1dffddf4232a16e75d46c8b35d"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/sora-latin-400-normal.woff2",
+          "size": 14724,
+          "sha256": "98141d7eaa6e9ee35e0827d279018cd33c3e59c6650541ec7de1c692efd93942"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/sora-latin-700-normal.woff2",
+          "size": 15128,
+          "sha256": "c3337a673c9bbbfe433091d3831714dd9a257951f16f41eb3fc650ec593cfac2"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/space-grotesk-latin-400-normal.woff2",
+          "size": 13388,
+          "sha256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/space-grotesk-latin-700-normal.woff2",
+          "size": 12840,
+          "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/special-elite-latin-400-normal.woff2",
+          "size": 53296,
+          "sha256": "770493d84cbb753cd0573d0f014550583138f40469d137e310d239593a1949d8"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/teko-latin-400-normal.woff2",
+          "size": 7744,
+          "sha256": "40ce801f68cba2bad6e3383d97583f60682306b9639a52f9d5cdefba1f24404c"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/teko-latin-700-normal.woff2",
+          "size": 7280,
+          "sha256": "a57552efb251875b32580e1d14ce784ba1fa48612c7e7d77856375af4cbc87c7"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/files/vt323-latin-400-normal.woff2",
+          "size": 17936,
+          "sha256": "8ddbebcc1048154132e1d78eb9b1f7850bca1b7d857035ccf1cb4318ebc615b6"
+        },
+        {
+          "path": "skills/embedded-captions/modes/standard/fonts/fonts.css",
+          "size": 1203094,
+          "sha256": "648d60c022ffb730c31a1091a4bee807f863e4979033fb8cb3ea1fdc9cb26277"
+        },
+        {
+          "path": "skills/embedded-captions/references/aesthetic-principles.md",
+          "size": 7779,
+          "sha256": "87a139c2da38b589f34631e4865e3017300306a6e893c2e3fc5829e5ef5b954d"
+        },
+        {
+          "path": "skills/embedded-captions/references/anti-patterns.md",
+          "size": 12023,
+          "sha256": "5da0349ca6b5e2de6a5a636cd61e8b926ac17135fb2c009bf06c202dbe405d69"
+        },
+        {
+          "path": "skills/embedded-captions/references/bespoke-vs-presets.md",
+          "size": 9286,
+          "sha256": "e378c7640ce060a41572e9c3c729afa7dc341d42a4bc2029e974e5d72b934b1a"
+        },
+        {
+          "path": "skills/embedded-captions/references/caption-grouping.md",
+          "size": 4283,
+          "sha256": "f662de51945190b000ff3fa1f4e5777e38b405209272030214b0f26fb5ed3ab7"
+        },
+        {
+          "path": "skills/embedded-captions/references/composition-craft.md",
+          "size": 55818,
+          "sha256": "635b1f344403c81dcdee243c44aaec1d3ec1e4bc177526fe82371f2ee0a3e039"
+        },
+        {
+          "path": "skills/embedded-captions/references/direction-catalog.md",
+          "size": 7855,
+          "sha256": "f7facf4ea32f2f06494937c9b4f87a0ccde829eedb88cfd7b3cbbb7533928b6a"
+        },
+        {
+          "path": "skills/embedded-captions/references/example-renders/champion.html",
+          "size": 11122,
+          "sha256": "ae194e3a969a0159fa205e7795b71727503e2c184c5b001074f33d1db3d9f000"
+        },
+        {
+          "path": "skills/embedded-captions/references/example-renders/memory-wall.html",
+          "size": 10707,
+          "sha256": "c1eb4377d3b1eac6be9e631021cb094fff79c092b0429726c5ee3af57bee1937"
+        },
+        {
+          "path": "skills/embedded-captions/references/failure-modes.md",
+          "size": 11303,
+          "sha256": "845dd3833707f5602a554a3dc7128907d8f75c132193367988fe0f02ec29efe2"
+        },
+        {
+          "path": "skills/embedded-captions/references/layout-heuristics.md",
+          "size": 13202,
+          "sha256": "d08fbbdf3ee270dd57c022f4750e11cf18acc178fe983d121c91bb0adbdeb950"
+        },
+        {
+          "path": "skills/embedded-captions/references/motion-vocabulary.md",
+          "size": 5609,
+          "sha256": "a8b77c5d2aa8bcf5a1207f12521a9bd912e2467bb6eb64977e3f752e078572f7"
+        },
+        {
+          "path": "skills/embedded-captions/references/rail.md",
+          "size": 4576,
+          "sha256": "b7f8f33bb3361dd9e1e11bd0a931927a84cbdcb4ccc29ed15c33b55c06b3fd97"
+        },
+        {
+          "path": "skills/embedded-captions/references/reference-bar.md",
+          "size": 2689,
+          "sha256": "c9b1051b2bf97066832c5071c596d7981e850cff56ed736335a943a0e98d57c1"
+        },
+        {
+          "path": "skills/embedded-captions/references/scene-types.md",
+          "size": 6215,
+          "sha256": "f7f5e147278375f67d2c9c334608b65a6162be72ad98ad3558a92a10a3d0ac2f"
+        },
+        {
+          "path": "skills/embedded-captions/references/typographic-moves.md",
+          "size": 8655,
+          "sha256": "1207b96dc851098109534d2eeeb307f04ba96a601d5db10edeb0ef22d8097aa6"
+        },
+        {
+          "path": "skills/embedded-captions/references/typography-presets.md",
+          "size": 4714,
+          "sha256": "c1ae436f9bd9639addad91246466b928a1e6989ea3023aa4a5292e6056007bf7"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/audio-envelope.cjs",
+          "size": 3093,
+          "sha256": "a40f49b4c98af5e2f9904b90b5ce16a14558ccdceb4ff750eb661ba86a64fc1a"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/check-occlusion.cjs",
+          "size": 10490,
+          "sha256": "3fe11c2a6fe8dc2351781997b31b68ac45b785610907416260b110566d9c1344"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/check-overflow.cjs",
+          "size": 6686,
+          "sha256": "85bf04ca8a7b95382b0254ea904e7494141e07101161c6b9c4dac8e84a127af3"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/check-rail-climax.cjs",
+          "size": 8446,
+          "sha256": "f8186410dbf22dbae64f31c6b61f9164bdafd5eda87bd8eaabce34ed38a758ff"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/check-timing.cjs",
+          "size": 6354,
+          "sha256": "d265284c6583b8c9052564baf4ca370b8ec3c18b4f3ce4322c20aec214a68e6e"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/fill-timings.cjs",
+          "size": 4587,
+          "sha256": "ff801a9dd1ab626e23a54fc61a9e3f9c3cef68dbf5f3a1e6fb81a19a4913df2b"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/fit-fonts.cjs",
+          "size": 6326,
+          "sha256": "eb8a35551e9ae53565c381143dbbfecadfdcbaf742fab1fb9c80c1019388aa2a"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/fixtures/heroless/theme.json",
+          "size": 159,
+          "sha256": "ca5614f947401747e2358fdfc98626df5b24462f6a8f8d96dfb7b35918e3a0a1"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/fixtures/heroless/transcript.json",
+          "size": 330,
+          "sha256": "69f92612b6de0c189c7d322c8929924f337522dfefff945dd32c5268e2e8b02d"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/gen-stroke-path.py",
+          "size": 2503,
+          "sha256": "5d1fa8ae9b6e5d7b8f1444860b3a56252abbcef128fc8a7e459dc4ffd27b7a22"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/hf-cli.cjs",
+          "size": 2178,
+          "sha256": "9da253f0bec287f0cbf373d6d547deac3e44c11f8db7a4d92a241433bc58218b"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/hf-cli.test.mjs",
+          "size": 1144,
+          "sha256": "042d8d651ea91f29709128c72c4a036b7020857b7b8ed750de9d1fb73c3d45f0"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/inject-fonts.cjs",
+          "size": 5901,
+          "sha256": "4ceb534adf05d91139e34aeaef83eb5cf332994811a3a3e8ed367fe5b4c4398a"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/lib-dna.cjs",
+          "size": 7410,
+          "sha256": "fcf6bf5101b5ea3437164804f8a4fd19a6a2f6674c26e45922fc95398354089e"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/make-cinematic.cjs",
+          "size": 56867,
+          "sha256": "d5b971bfa62d7dfee5aafad3d51fd5465e83b37b4bd594dd1e7a6c80707dcafd"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/make-composition.cjs",
+          "size": 16750,
+          "sha256": "e60c6943802b06e3cd63b7154a85094f366e4d2fdaa622d2ec4247ab264a44e8"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/make-theme.cjs",
+          "size": 460163,
+          "sha256": "667510397fc02f91eed25d0659e8ed87e4caaba8a1d20423009d2240b9018a38"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/make-theme.test.mjs",
+          "size": 4623,
+          "sha256": "5a75ef0f203730dbd2950d63e88018b2ac96e904ad28d95539c3c9a37801f8ee"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/matte.cjs",
+          "size": 9125,
+          "sha256": "60ec7dda8ba78639df11639353a3726548cb1f32511361d1c0536774fb18154a"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/measure-layout.cjs",
+          "size": 10708,
+          "sha256": "b220bc3344c8d612022810fed5a8654ececfe347379ea0032280635bd0420bb5"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/prepare.sh",
+          "size": 1881,
+          "sha256": "1ea6be6cc31286d7ab5252697db4ead1a019a565c99b3375976caf0ac7fde928"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/preview-frames.cjs",
+          "size": 11384,
+          "sha256": "d79d9ce6a2438b46eddd3256908f62ada2d9e5ef2fee45a3e9c79d7f7ab18a56"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/preview-frames.test.mjs",
+          "size": 1160,
+          "sha256": "0754a7f217cca4ace2211fa23eac3802996b058b6316c8a3298abb73de5b5a48"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/render-and-composite.sh",
+          "size": 23237,
+          "sha256": "ec18c77a81b63d52619f756d652064da7d1448b5b0a209e3bed7f2aab54fa14b"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/render-and-composite.test.mjs",
+          "size": 4772,
+          "sha256": "62b983bab8d9141900ebd8fb3e99ead9900e2317c4bb42ed73285db5e12a4720"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/render-theme.sh",
+          "size": 1786,
+          "sha256": "ddb28bf1ba646b190996a153cdad8c83a7400a5269a71ef65d62b3a7b6b348d7"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/safe-zones.cjs",
+          "size": 30395,
+          "sha256": "a08f75de5b26e6a0a8df519110321bf6f81f1f7a6fba069511e267708d205270"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/transcribe.cjs",
+          "size": 12471,
+          "sha256": "0c58c960e625de63fa1c481941757941df707e17f0f71f19d212e45c2bd957db"
+        },
+        {
+          "path": "skills/embedded-captions/scripts/transcribe.test.mjs",
+          "size": 2847,
+          "sha256": "7485f5951ba312b35b2e1dd42f810976c27804628f35910d9f886fc0baff6287"
+        },
+        {
+          "path": "skills/embedded-captions/themes/README.md",
+          "size": 84288,
+          "sha256": "5ce273a6baa1997a933fef31994b1461ae6d4d78c7532d65c2770d3fed32d7b0"
+        },
+        {
+          "path": "skills/embedded-captions/themes/anchor.json",
+          "size": 1090,
+          "sha256": "ed017f5cb3e0a558ab7f0763f775b736db0e32d62b4741f9bde793e7a379e519"
+        },
+        {
+          "path": "skills/embedded-captions/themes/arcade.json",
+          "size": 2031,
+          "sha256": "fc645cdbfa5154473e12cf9c806bfd53cd0dee1f2ae02e278164a020cdbcf320"
+        },
+        {
+          "path": "skills/embedded-captions/themes/aurora.json",
+          "size": 1967,
+          "sha256": "4b650d6d3cb6098b0fe18cdccc42e83ec13c9da8476db684073b58928750a63c"
+        },
+        {
+          "path": "skills/embedded-captions/themes/biolume.json",
+          "size": 1924,
+          "sha256": "d908a6d4a9341a4eea59e6ccab9f436ab1771d8f2158fde1ec51243bacbd9287"
+        },
+        {
+          "path": "skills/embedded-captions/themes/brush.json",
+          "size": 2668,
+          "sha256": "b03398b39dae2960447495dfe36a91db8ae42127f0399a7e5e894b38bc22fd78"
+        },
+        {
+          "path": "skills/embedded-captions/themes/chalkboard.json",
+          "size": 2040,
+          "sha256": "743170731830350da64c78d64f2cb05440b304385bcbe50a7312c5dafadc500a"
+        },
+        {
+          "path": "skills/embedded-captions/themes/dossier.json",
+          "size": 1905,
+          "sha256": "13bbb134abbd7ecf074b3c0b12d10ddc8a9c6a2523b3c11a69a3166a007a47d5"
+        },
+        {
+          "path": "skills/embedded-captions/themes/graffiti.json",
+          "size": 2222,
+          "sha256": "93923d759d09bcaa6f01f10c572a492089d50ca9a7fb3aa1da0d8ed5e2014dd8"
+        },
+        {
+          "path": "skills/embedded-captions/themes/hologram.json",
+          "size": 1804,
+          "sha256": "1a6d38e7254601797a267de68c131ea521d50b925afd054b74a91ab363f37073"
+        },
+        {
+          "path": "skills/embedded-captions/themes/inkwater.json",
+          "size": 2090,
+          "sha256": "0c141d4917b13d733c334f8b83b8bb4e9b938ac6baba37b796ab5532009c82dc"
+        },
+        {
+          "path": "skills/embedded-captions/themes/laser.json",
+          "size": 1830,
+          "sha256": "101436587fbf6219872e42f87e401f3dc62276a0f418f6b2f6c2583064bffe0a"
+        },
+        {
+          "path": "skills/embedded-captions/themes/lastpage.json",
+          "size": 876,
+          "sha256": "0674513d1d4449c0f757650db1b91adb18b7b9487c707ea3762432c79aa9d79d"
+        },
+        {
+          "path": "skills/embedded-captions/themes/neonsign.json",
+          "size": 1399,
+          "sha256": "c90b140ecfbb3988836819985bede2b41badf5be014092f6ab3dabe169878c0a"
+        },
+        {
+          "path": "skills/embedded-captions/themes/ordnance.json",
+          "size": 1595,
+          "sha256": "04332c2cb2c7f6bd16c6e6c9d5bfea545edacae6ee2a2a7451aae9aefdee2614"
+        },
+        {
+          "path": "skills/embedded-captions/themes/papercut.json",
+          "size": 1659,
+          "sha256": "6ae64aa5f010f96b2395d6d02c9235db2be391481751128424c944cafaa19d2b"
+        },
+        {
+          "path": "skills/embedded-captions/themes/popup.json",
+          "size": 2141,
+          "sha256": "15165a6cc6ee99611e983c6d05588c3bec9bc2ad39cb32dbb6339a4683b3c2fa"
+        },
+        {
+          "path": "skills/embedded-captions/themes/ransom.json",
+          "size": 2106,
+          "sha256": "4f5c5d5068695e12f332d51397594d5300062c66582abcdf8e55e29d77261f6e"
+        },
+        {
+          "path": "skills/embedded-captions/themes/scoreboard.json",
+          "size": 2044,
+          "sha256": "135e08d6efdc50826865e855100ffe8c4b8b054c0f4d70e50a116d8af570a4c6"
+        },
+        {
+          "path": "skills/embedded-captions/themes/spectrum.json",
+          "size": 1676,
+          "sha256": "ba48209eed38ceb5b9a96c8986fc32e64ef6acbeb1b251fe0d0a767932ece20a"
+        },
+        {
+          "path": "skills/embedded-captions/themes/stardust.json",
+          "size": 1038,
+          "sha256": "1e726a446dbc7be71a0fb56a77a3fd2f8d64e79a9e15c524fea9175fe9316389"
+        },
+        {
+          "path": "skills/embedded-captions/themes/stomp.json",
+          "size": 1308,
+          "sha256": "45cc397f8d185f988e1eccd795122d346b3af18cbb66f7d62c76afbdb580c4a4"
+        },
+        {
+          "path": "skills/embedded-captions/themes/terminal.json",
+          "size": 1467,
+          "sha256": "e9a9f1accf1882fb931a95c33e8db0f67ba6ef2742889a06d82146d63ea645d4"
+        },
+        {
+          "path": "skills/embedded-captions/themes/thunder.json",
+          "size": 1806,
+          "sha256": "10dba3a01217fa1d33aed00dc7b256d5e91c960dd02da1a969597883d2c2a90f"
+        },
+        {
+          "path": "skills/embedded-captions/themes/transit.json",
+          "size": 1840,
+          "sha256": "e904b3ef5627a47225a773ef6640450f063f0e0ad98ff18ba8f337e504fb6370"
+        },
+        {
+          "path": "skills/embedded-captions/themes/vhs.json",
+          "size": 2100,
+          "sha256": "a63c5f97bf7b7b55d281d5fbb8a05fb3376a66a140c70a1df652d9242b1890d0"
+        },
+        {
+          "path": "skills/faceless-explainer/SKILL.md",
+          "size": 31213,
+          "sha256": "3d246a7a01fd12207d919db23c0f2e5cc635c26428adba94a3f3033478a12b57"
+        },
+        {
+          "path": "skills/faceless-explainer/references/cut-catalog.md",
+          "size": 12764,
+          "sha256": "0c0c209051b9a9fa3a7e59e647376a412ffab320584fb611100d6182c561fae9"
+        },
+        {
+          "path": "skills/faceless-explainer/references/motion-language.md",
+          "size": 15781,
+          "sha256": "c99e48df0a43d38d4960a1540736de0755b7fa847edb59e02193dbd65d64bf23"
+        },
+        {
+          "path": "skills/faceless-explainer/references/story-design.md",
+          "size": 20967,
+          "sha256": "c7e798e3784ff4755fba6c33ee0734532ddffa83a90eb3b45600e33c4099dbcd"
+        },
+        {
+          "path": "skills/faceless-explainer/references/visual-design.md",
+          "size": 20704,
+          "sha256": "18b2422e8d8a8e1c2e8e47d820631caf9fdb64e2c4e4b129ec7e1d46e03e273f"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/assemble-index.mjs",
+          "size": 26752,
+          "sha256": "cee8b2b4041e6da58c47d8ac6f19c616e10d79c719bf544744f7f31af430fb37"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/assemble-index.test.mjs",
+          "size": 5283,
+          "sha256": "abeafe05767e290ff751d23c26c01cae6d949dba20f57bc66f4906743c80a002"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/audio.mjs",
+          "size": 15390,
+          "sha256": "8cd0a27571a43accbc689449b324b70d40286cf0821bec94e4fb90860e461719"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/audio.test.mjs",
+          "size": 14294,
+          "sha256": "b6358f578e0c49e81f5a37f4efeb6cf26d4cc866ef6d2e83c2fdc1cc7d2702d2"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/build-frame.mjs",
+          "size": 27290,
+          "sha256": "c7daf5aec7a9dfd5e4144b9a39e6cd4718160b284b53873ac72c5cbd062b2610"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/captions.mjs",
+          "size": 25304,
+          "sha256": "b7c2295250b44bdd42f1971b8d88d6525b1a045566f6a0d20f969ac8259d131b"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/captions.test.mjs",
+          "size": 9335,
+          "sha256": "a6852ebf8460c5056321089b18b43022125226b1be28f7869a0395b23a4b77cb"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/frame-packets.mjs",
+          "size": 1070,
+          "sha256": "92b2adca4113c480c89fcc5dbd5e9296f55fa925865789ee27305115e095ef7c"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/frame-packets.test.mjs",
+          "size": 3029,
+          "sha256": "d8b54a274032a8119b8190ef90f79d1b5f252583b5b8c32918bbf4b1d9893822"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/assets.mjs",
+          "size": 2214,
+          "sha256": "fb955aae9b8b5a43e785c08d564cbfb5e20b5709e62858317af4290271076e04"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/bgm-volume.mjs",
+          "size": 236,
+          "sha256": "bb9debebdbd09724f6d07cd10b3982a076639664420ff8caf5f5a36ae7429a8c"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/captured-fonts.mjs",
+          "size": 2628,
+          "sha256": "b08b989519b6c45f0758fd0ab2220477bea63afed975ec88e271edbd922795c8"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/dimensions.mjs",
+          "size": 2279,
+          "sha256": "6d4b9603cfb212a8ebd65d74b1b1955636b49cdeaaf9763add02ff16d753b2d3"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/frame-packets-core.mjs",
+          "size": 6933,
+          "sha256": "fd9062f3c955f89e5520fec3f88d25f92f44e91cf42988e387ae993175999c87"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/host-audio.mjs",
+          "size": 1470,
+          "sha256": "7eb08bd009ce08e92161349609db062203c061a3df2bf17d16c4e4a33e4481ef"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/pad-frame-duration.mjs",
+          "size": 1628,
+          "sha256": "733de1b9109c9db9963c6c083db54b2c045c6aba9dfadeb3188f1c456ee9b2c1"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/storyboard.mjs",
+          "size": 8244,
+          "sha256": "e422c1faefc814e2d064d08b25fda60ad5b55728bb8a2400bf02494a4710b5da"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/tokens.mjs",
+          "size": 9883,
+          "sha256": "48d23cdd744d8ea70479573aaecaca45dc5f15f6f7c24dd6c3007a5be631e67a"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/transition-registry.mjs",
+          "size": 1588,
+          "sha256": "a8baca4d865e20a8a0b713a303ea2228f1f82a7bee4eb581568782fe661add8d"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/lib/transitions.json",
+          "size": 3941,
+          "sha256": "e471afb61bc2b69b37d63f1438bdedcd36d625d03fe30166ad6bfe0aea29a103"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/transitions.mjs",
+          "size": 15927,
+          "sha256": "19232dbc866faad93e678a0fa7e9619e3fcdc72343f1dc5b8e55f0e6b480570f"
+        },
+        {
+          "path": "skills/faceless-explainer/scripts/transitions.test.mjs",
+          "size": 2519,
+          "sha256": "b084fa8a6ad45e60af27fc9c146cc3a57a6bcd795251dc89ddcc6f29af0702e6"
+        },
+        {
+          "path": "skills/faceless-explainer/sub-agents/frame-worker.md",
+          "size": 2028,
+          "sha256": "883dcf7947380d220dcf763d7aef92dfab0ef273b40aff899ea3ba2a082ee20d"
+        },
+        {
+          "path": "skills/general-video/SKILL.md",
+          "size": 21964,
+          "sha256": "db87c1909eff755d810f83de6064bfb7c52a76e76ba388d4b00c98893dddcb1f"
+        },
+        {
+          "path": "skills/general-video/scripts/frame-packets.mjs",
+          "size": 1462,
+          "sha256": "998ad1593e759c235537feca8eb7a116f930bd2135fdd0420d3a9a4ba100d65b"
+        },
+        {
+          "path": "skills/general-video/scripts/frame-packets.test.mjs",
+          "size": 3584,
+          "sha256": "05b2bbe7cd60f68b40b65e7cf5a6e7ef377d5d899dc85848ab8a6db6886bd5eb"
+        },
+        {
+          "path": "skills/general-video/scripts/lib/frame-packets-core.mjs",
+          "size": 6933,
+          "sha256": "fd9062f3c955f89e5520fec3f88d25f92f44e91cf42988e387ae993175999c87"
+        },
+        {
+          "path": "skills/general-video/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/general-video/sub-agents/frame-worker.md",
+          "size": 2519,
+          "sha256": "447395b986126769a0d169c468f3f24b324781761130bc5155802656d1f22999"
+        },
+        {
+          "path": "skills/hyperframes-animation/SKILL.md",
+          "size": 20658,
+          "sha256": "dfbbc2dc7907fa11fa3ae5bdb4f4c1fe7970c09f7c6e75248faf449bc67eb735"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/animate-text.md",
+          "size": 4635,
+          "sha256": "0c4aab6758595a1435ef0a14de5fa2badb7daf46ba92404580f6bb9b6c6e4dc5"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/animejs.md",
+          "size": 6549,
+          "sha256": "ae9ce556ba6fa43f50d72f86e698e0c94b3ca6d858f7de1d74e80e9d741f41f0"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/css-animations.md",
+          "size": 5689,
+          "sha256": "757458a5b45e232b6c5ad47b8dfd407e8a413f25dafe85f1b97ebba51626f917"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/gsap-easing-and-stagger.md",
+          "size": 13625,
+          "sha256": "6e1c0e1c9a775d76415b6c3632224985141d7564be45e4a67475d855bc357b4e"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/gsap-timeline-and-labels.md",
+          "size": 3791,
+          "sha256": "41263d8b42369a9799d7476e384acb59cce563672994c9f659eb3599e5042578"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/gsap-transforms-and-perf.md",
+          "size": 8842,
+          "sha256": "8054f52890b7d780f508338cf906b3d74667b2ade9a8fc5c8f0a4a3807688613"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/gsap.md",
+          "size": 8071,
+          "sha256": "b713fb43561ae76358b915219e0d9992f85730c14c57ed08c4af8e1961ed5e89"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/html-in-canvas-patterns.md",
+          "size": 17554,
+          "sha256": "0b1fdbcd32d12936310f8679d6bf19b71898aad36d198d8714b309a660e9117b"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/lottie.md",
+          "size": 6551,
+          "sha256": "8dba51732edc066543cd1658288a88b4b1ea5172d7191263f74f409c09b4ef29"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/three.md",
+          "size": 10064,
+          "sha256": "bbe0242d1cfba5baa65f121080f2d1c5f1d05aebac8dae7274cedd401c9561e0"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/typegpu.md",
+          "size": 8896,
+          "sha256": "f2034657293851a4abe8bdda32f66919832795ccb69ce677e6cab106b5705c37"
+        },
+        {
+          "path": "skills/hyperframes-animation/adapters/waapi.md",
+          "size": 4530,
+          "sha256": "a882f65077cc7119d8ef31983d51d2085490c71de38b735949189e484d2873fb"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints-index.md",
+          "size": 26697,
+          "sha256": "9254a619b6396c69fb323041e0b44aa3b891f30669b2472d57b61d72f9d67ab0"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/agent-progress-theater.md",
+          "size": 16091,
+          "sha256": "1939690276ebf41123126e40915c283b69d3b2fd7d563f774c96e6ff6a076d4b"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/camera-journey.md",
+          "size": 13648,
+          "sha256": "0508b034b4a1c30bf3cd37a25137987c435e7805f3d5a98f85921ce0e6f06d1e"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/comparison-split.md",
+          "size": 3316,
+          "sha256": "af2af2ddf86aba21ed8b2016b7b1bd4b1ced52b4ac98f17eff487dca1097599a"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/constellation-hub.md",
+          "size": 7144,
+          "sha256": "729357480806d512217f46155d7810537f0ab6f7f46ba47b0905e4c3ea4d59c0"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/cta-morph-press.md",
+          "size": 6407,
+          "sha256": "0f8ee56ff89af960cf2deb1da86994d5bb93186b85e71d601fb5c64b40deaaeb"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/cursor-ui-demo.md",
+          "size": 20276,
+          "sha256": "f4403a088e1358b59a21eabc4f5867f53b9179f5a4abf2f28e8e9982ef9fb479"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/dataviz-countup.md",
+          "size": 14611,
+          "sha256": "9de0c34b44bcee7dda7371f8597df3421b4e6d46380237f76e815044f02e4a1f"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/device-surface-showcase.md",
+          "size": 17151,
+          "sha256": "83d1c7b91b40ba24de324a14b50d023514c95b6b01a3c5bcf5c066a770e07fc8"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/fixed-anchor-cycle.md",
+          "size": 9089,
+          "sha256": "1a49afda275f54c0383e8569b405175f2a2424a74574d935d1fdf3858f50eb89"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/grid-card-assemble.md",
+          "size": 15594,
+          "sha256": "c35349ce839aec1e279ec66b297553c3a9dd1f30fdf64ce8b768c9fafdb4e662"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/kinetic-type-beats.md",
+          "size": 29227,
+          "sha256": "0861023110f70908e9cd7bd54db5c9e53038dafb2d351d5efef1108ef80c1ae2"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/logo-assemble-lockup.md",
+          "size": 26654,
+          "sha256": "27f0fe3e3ce222375b691ba5f5418aef430d84be743c2198dff9eadf8a967649"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/overwhelm-surround.md",
+          "size": 6140,
+          "sha256": "e35c5bff4db70574124db06122d79443cc0d3ab8238b52949548c4ba995c5b9e"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/panel-edit-live-sync.md",
+          "size": 13394,
+          "sha256": "f864194c9a56ca7936df72b92b4806427437c1a09fab11cd27eb3d0499186644"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/prompt-type-submit-generate.md",
+          "size": 18636,
+          "sha256": "c94f17f6cccec12c7e8eac246d8b534e7cb4120a3f9b7c52dee049b9d228da1a"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/spatial-pan-stations.md",
+          "size": 4868,
+          "sha256": "6c044d1fbdb057aae80d46efd1e5fa7222ad3e294a249566f36c82221ba02386"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/ticker-takeover.md",
+          "size": 3052,
+          "sha256": "58e7a19b1aca8f3a85affbc24005d1b26ffd9b953053166783afa428f524b5d8"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/titlecard-reveal.md",
+          "size": 7441,
+          "sha256": "39ebf47ec45da556a03d0521d028924c61a02e0c6d60cd194cc40a236af2f08e"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/transcript-scroll-artifact-reveal.md",
+          "size": 11666,
+          "sha256": "bb76b82b375ad919412fd201186c82950f636753608efd810ac4f32c5655de4b"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/typewriter-reveal.md",
+          "size": 6276,
+          "sha256": "be324c142dc5bf89649df3c59aa8a7e218ca99d8afe1222f4028a314a237245c"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/video-text-pivot.md",
+          "size": 3281,
+          "sha256": "6472224469cfb1801989510bec88a997819fa51cd4a5260bc23eee0fd7f086ed"
+        },
+        {
+          "path": "skills/hyperframes-animation/blueprints/zoom-out-workspace-reveal.md",
+          "size": 14714,
+          "sha256": "30a6a396a72bcd37127100f6e4cb5f13f6ca1ea179df7001ce347a3b84c8b7ae"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/brand-reveal-assemble-zoom.html",
+          "size": 12285,
+          "sha256": "6ef0274922bf33c9362c638476d97c475931941263f03934ce06f677c8301e5f"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/comparison-split-cards.html",
+          "size": 21754,
+          "sha256": "6fbf71a6620971f67d984d08346758a088d45297b68f2098d05a516001daa2b8"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/concept-demo-decode-pan.html",
+          "size": 18382,
+          "sha256": "003f8bbde732f9c982493ba3a531c8d861bdb3119fe772dc3bad135924b355ac"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/cta-morph-press.html",
+          "size": 15192,
+          "sha256": "4d423157e55cc7c46d112d3471bac207a2072f5f7d190f506809bc6c7ac68644"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/cta-orbit-collapse.html",
+          "size": 50646,
+          "sha256": "d41514f8bb0a4808a66f719bdc3b2118f16a476d47ac71b7db14a73e723f7aee"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/demo-page-scroll-spotlight.html",
+          "size": 25019,
+          "sha256": "aa1252821669b2f81d7925bac2869ee9a06650abec152c9ab0c978df1f9b2808"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/hook-counter-burst.html",
+          "size": 23004,
+          "sha256": "4766950cad912becd81d293ee23475caf4eac8c02dbde31c4c4f7ed015cb127b"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/messaging-multi-phrase.html",
+          "size": 12223,
+          "sha256": "dbfa5e74f09b0e2b45cb28cd100915143aab7f59ad3a2dffb46f5f88c3cccd77"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/metric-video-text-pivot.html",
+          "size": 25640,
+          "sha256": "5d0ede336552e9ac402bd7bf7dc84d95c9f76699d0e8ebb78f2dfeac3c7ebc36"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/problem-mockup-overwhelm.html",
+          "size": 44482,
+          "sha256": "127d94b53a48d36bf1a5eb5a9fd4e44b0c4cb3a5478c19783aff940f6683106d"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/proof-logo-chain.html",
+          "size": 28911,
+          "sha256": "b607d15d84d7666cb519626f1292fa42902f1c58e38766c2c8b5dc75825e7cc2"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/takeover-ticker-displace.html",
+          "size": 10947,
+          "sha256": "8d39a9028d8302ccd185d6fa2c5a6da1f097b4e9af083d18a1f0063a96989d22"
+        },
+        {
+          "path": "skills/hyperframes-animation/examples/workflow-approve-press.html",
+          "size": 20656,
+          "sha256": "45329aaa6a1b229c61d946ebad50874dcbec97bb7692944d0df7c6ebaff986fe"
+        },
+        {
+          "path": "skills/hyperframes-animation/references/motion-blur.md",
+          "size": 14579,
+          "sha256": "d6da945fab23384e6ba0e748185a213d7ad7524731d782cf0d3118d7301f53bb"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules-index.md",
+          "size": 21970,
+          "sha256": "b482263a825cab0dca7abb4abfe739ab436e6ec3d872db5db941d5ff8e782c30"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/3d-camera-flight.md",
+          "size": 18323,
+          "sha256": "abc474a14f8ae019a80da215d7c1b8642cb20dbc95d0cae3c8cbc26e6039b0b8"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/3d-page-scroll.md",
+          "size": 7592,
+          "sha256": "9e769a184735d1c32def2116b77268c2ee037bae69bdd549e5a6e45742379e39"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/3d-text-depth-layers.md",
+          "size": 6894,
+          "sha256": "cd4e7fbd8b322acbeccaf2b7e94d6681f1d56500fadb98512fb32dce11f14c2a"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/ai-tracking-box.md",
+          "size": 6748,
+          "sha256": "b410fecb3d1ab3d7fa87ac70b3bc15b8b9ae9cd045b81c56ad525e3c66942fae"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/ambient-glow-bloom.md",
+          "size": 10026,
+          "sha256": "36d495e37f1d0737575e1349580dea47cdd14f4991a4d4bbb8776ce495ee8fc8"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/anchored-layout-expand.md",
+          "size": 10499,
+          "sha256": "80217d7f4fbca7e4c32246e1212bde636446293f64ea8a6e38b4c518e47f03fd"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/asr-keyword-glow.md",
+          "size": 6948,
+          "sha256": "591601677c9aa46636693ef9641d5a1e6df220c0068f3a36e943bb722219aced"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/avatar-cloud-network.md",
+          "size": 6764,
+          "sha256": "384043abc679cb7f30a2614f9722515cbbc78521b8c7098ecb5ce2f132385663"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/camera-cursor-tracking.md",
+          "size": 8097,
+          "sha256": "f0d79ead78bb2483fea1b16a4b52c39f5403bca10917b2cd3e07d4eccdad871d"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/card-morph-anchor.md",
+          "size": 7633,
+          "sha256": "deda6316789a592922f17de0bc1ada74ef697e5eed1407bcc2b3cedb6c1fad0d"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/center-outward-expansion.md",
+          "size": 4263,
+          "sha256": "e8f95caa0060d015abce3c3dc422b9e05756bde5c2d5ce6a341360a14ec75217"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/chart-scrub-readout.md",
+          "size": 10534,
+          "sha256": "0d18fe2e46f09b2f175bca8b3a5ea05a7fdc8b0ff17eb68e21846014a919ee0f"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/chromatic-glitch.md",
+          "size": 10525,
+          "sha256": "ee7977b055b737966ff91899db151ed888db46f77ecdc8df5ba35dab05c4b3c7"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/context-sensitive-cursor.md",
+          "size": 7124,
+          "sha256": "a81fff1ae1c8022c99ca11a767b6827045380822e17125b3b85a7fdd393af344"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/control-target-sync.md",
+          "size": 10462,
+          "sha256": "7db378a445f95695c6ac5c5cf01d3fb47c5b870864339f25f85141c28cd1f2b6"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/coordinate-target-zoom.md",
+          "size": 7837,
+          "sha256": "f5b1a435950068aebacd924eee262b0e4b46d55b43114541beab999d56eb7a02"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/counting-dynamic-scale.md",
+          "size": 6163,
+          "sha256": "900c4daa3a4841008256beb6811b6063f4c91b31f3e694086907ce6557cdb142"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/css-marker-patterns.md",
+          "size": 5967,
+          "sha256": "c5e9ac99677dc7812aaf561708f738652a0d4c9a223879e5f18f358764fb63f5"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/cursor-click-ripple.md",
+          "size": 6551,
+          "sha256": "c27e1468ec4d5e37f33964d8ee79e07baac7f1d73929431bca1acfdcab9f3a84"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/cursor-drag.md",
+          "size": 10401,
+          "sha256": "d745e0c7c8ed397fbcaa82cc24314fbaf8469d96a8f38922ded7bfcf505f5a5f"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/depth-of-field-blur.md",
+          "size": 9062,
+          "sha256": "99c005a4813294ab35796cdfd561614dc308e190d044c5fe317f80852155f5c4"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/depth-scatter-assemble.md",
+          "size": 7240,
+          "sha256": "f91f195360e2786860b25bd9a771f32dddcaacceb437c0eb4bd9c4a6377ac92e"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/discrete-text-sequence.md",
+          "size": 6640,
+          "sha256": "28759cfb7ed9d1875a3fbcc81e20294e26229ff90992c116eae7767d86879682"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/dynamic-content-sequencing.md",
+          "size": 8744,
+          "sha256": "7663d291856ea1a50317a7f582084df9c303b17895af0fa6ec8ed7f3b49ce0fb"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/gradient-text-sweep.md",
+          "size": 8937,
+          "sha256": "313889e9b7320dcb4aeb36e7b0c4219f1b8a68f66e5c404d616737404ff15ae1"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/gsap-effects.md",
+          "size": 6912,
+          "sha256": "63ee2ee5d9dcef1ecbd88b69526e1621f0ff7ce682ec7f2dbe553b5647656bbd"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/hacker-flip-3d.md",
+          "size": 5772,
+          "sha256": "5d7a01244ba6edab5e28663d3118871dd38d9a22988e54a706bab5861133ccc5"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/kinetic-beat-slam.md",
+          "size": 6631,
+          "sha256": "c403a170947f88a9b354dd218ee99dd0d505b4a8086cb672a4b9cd87df873490"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/motion-blur-streak.md",
+          "size": 16516,
+          "sha256": "a5a1363e31815d923e8043a4315b8a964f7b62e31c43aa2bc2484c4696843229"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/multi-cursor-choreography.md",
+          "size": 10706,
+          "sha256": "8856cd16d7005bcc4062f64e8d3742d290264a9f74a769fdd7af1aae397ece62"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/multi-phase-camera.md",
+          "size": 7995,
+          "sha256": "f76854df580e073d086dfa24125b588b57ecf8a41a526784141efe21a4a0d24d"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/nudge-curve.md",
+          "size": 2689,
+          "sha256": "91084469a672c8c979e8f2e2f76f78526fdff8e1d647650a5f4a54e21df1b3ad"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/orbit-3d-entry.md",
+          "size": 6814,
+          "sha256": "a783c804b99a53d2c2cf9ce0d9743a5d9b73210a027af1f839307b3ef83b3a0b"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/particle-burst.md",
+          "size": 10142,
+          "sha256": "47a73a00fce15761cfd45269ef3e2902568b2d8eb13781a011ae55300117e52f"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/physics-press-reaction.md",
+          "size": 6841,
+          "sha256": "a57e7b987e073b362bf84263ebb2dc4a7957fb6124af3d7546ef1e1cdfbb96e9"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/press-release-spring.md",
+          "size": 7195,
+          "sha256": "cce4096a827f5f7e8f643d95791865428df2de973289019243923de8789f0467"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/reactive-displacement.md",
+          "size": 6539,
+          "sha256": "7913e02dd6a303017993315045e0c3cd30aa2df9f09093b697e0396ecb7cfe51"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/scale-swap-transition.md",
+          "size": 5517,
+          "sha256": "e527ce5e2614f5ef8dc0a4da8b97d2a015a85866f1d52d22d22c8411efdaa854"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/sine-wave-loop.md",
+          "size": 6163,
+          "sha256": "54f283f4a8915de5c3f6d7c668b97f416efad3df6b5baf4941254cea8831944b"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/split-tilt-cards.md",
+          "size": 5855,
+          "sha256": "6af71e3145795f956c4036ea7b397ac55f0c00a727793868f1d090c91bf01993"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/spring-pop-entrance.md",
+          "size": 6719,
+          "sha256": "141736a98d6cac1e6762d5021ea49b97a4d1b3a360df22eaaed359bd8e3d7e78"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/stat-bars-and-fills.md",
+          "size": 5612,
+          "sha256": "bdd359c6563b406303b35c0a7173157199b28db25b032816114d893276c73c75"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/svg-icon-enrichment.md",
+          "size": 7842,
+          "sha256": "a074ba0cf6ede2e87e1ba392dde1291161faa71d3374dd3f9dbed4d4a6e485d1"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/svg-path-draw.md",
+          "size": 5800,
+          "sha256": "92eb6b9f1b5c22b1c64c7a649c35d1db0b7a3b65805dbe0acb1e79d3e5768839"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/theme-crossfade-morph.md",
+          "size": 9590,
+          "sha256": "949f7a81cd0ac8442c17073fa7e966c29ddeae212288c040480ffd692c2de9c8"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/vertical-spring-ticker.md",
+          "size": 5681,
+          "sha256": "e98265fa1a0e8e6987df846e92a3d81f72483207e5315662eeef8e9c9ff235e4"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/viewport-change.md",
+          "size": 9202,
+          "sha256": "38656a79bc95714ccd669ec36d3681e88e6fad534efc0fd589d134b058fa0df1"
+        },
+        {
+          "path": "skills/hyperframes-animation/rules/waterfall-entry.md",
+          "size": 4582,
+          "sha256": "d9b8a3df6c59e0af6eef1f3f3d7ffb8058c8983976e4ce150566215770ff7c50"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/animation-map-sampling.mjs",
+          "size": 1400,
+          "sha256": "1d9275d8764fab0c185291d498b6eedd87622437226a4f7a48c44607e25debe7"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/animation-map-sampling.test.mjs",
+          "size": 1689,
+          "sha256": "470d2e9a7aa9c530d13298a604e01b1b031255b3b99546f446d62091b33217ac"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/animation-map.mjs",
+          "size": 23340,
+          "sha256": "136a3d473f4cae48538b62da8025968393397d462508c091752d7b0302c7f1a4"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/animation-map.test.mjs",
+          "size": 19354,
+          "sha256": "5d3b9ff36d82f3a0c53c2d7e3947e82a27cbcc9af177362abcc2cb96c611a930"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/package-loader.mjs",
+          "size": 14451,
+          "sha256": "f96e0e6058b8c79b9d89de9aa078d2b25a1755d569c1008c8c3ab9e17b519ccf"
+        },
+        {
+          "path": "skills/hyperframes-animation/scripts/package-loader.test.mjs",
+          "size": 4279,
+          "sha256": "504125ede3efaf687dba15de699c0100bf1fd47855fc83c98aec5c6fb9a4168f"
+        },
+        {
+          "path": "skills/hyperframes-animation/techniques.md",
+          "size": 17428,
+          "sha256": "0227f5c4451807d4d425c626cf11ebddffecc228eccbcb63b9c206e0a4f7bd1b"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/TRANSITION-REGISTRY.md",
+          "size": 8709,
+          "sha256": "bc461a10df6788429a825618cbb55f78ab94c9da95da128f50d94d0187f3294f"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/catalog.md",
+          "size": 6679,
+          "sha256": "3914ec091c1f16bfee5c53d38ed6af1dfab74caedf561788dc39e67c6d7ca239"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-3d.md",
+          "size": 421,
+          "sha256": "e1c3888dd0a2d4b36d25200c1e5ef9038649ae63953865e4b2c4c40fb028d7dd"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-blur.md",
+          "size": 1787,
+          "sha256": "fd3eef889a517e1dd985ca816f36f1abfb43420a4b664d4fcc453554cdf561f9"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-cover.md",
+          "size": 1448,
+          "sha256": "ba4e5926791c9e6a0a069e20afc91324acb018903f43b4b3f2866d9654f5b7eb"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-destruction.md",
+          "size": 4484,
+          "sha256": "3f2fbbd561aacc8276f70cbee09ff420fc6e9c65b1e060c14e8399960d3bfbbc"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-dissolve.md",
+          "size": 2462,
+          "sha256": "47c11ca0a715675c2788aa4a162a652b5dc5f1773b058ea93e9907af56a4eb7c"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-distortion.md",
+          "size": 1803,
+          "sha256": "7140650692926959bd5459ca5c478a9b4f137cc76fb92b9138e3b0d353677c06"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-grid.md",
+          "size": 370,
+          "sha256": "c62b17058aa7ba42d34df29436b6b4233e47ff2b72f2c7ce0963c75bdec45144"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-light.md",
+          "size": 2376,
+          "sha256": "53f0422d3f6dd2584a30501f84e4f09c9b515f605d51ed264a2061567dda15db"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-mechanical.md",
+          "size": 1613,
+          "sha256": "4fed48fa659a4b215a996beeea619d244e6c893700178b1f969c17f2ee0a8612"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-other.md",
+          "size": 838,
+          "sha256": "2156e4fcc3b42cba9e0d9e268944269057fb48ff15fc1983e3ff9386fa2a8cf8"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-push.md",
+          "size": 1243,
+          "sha256": "d55f18fd88c71ca694a7709ac613967cf81ead4f325900be3b8ace1888818eff"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-radial.md",
+          "size": 1060,
+          "sha256": "5d8f20de439e3f2c8d45df11c8acbe31dc1b9342e2d54bbe66b451cf81ca0a1b"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/css-scale.md",
+          "size": 715,
+          "sha256": "3c0cb33d6c844a7265379225f3241d8964afcc908ee757a1ebfb1700a5320ea7"
+        },
+        {
+          "path": "skills/hyperframes-animation/transitions/overview.md",
+          "size": 13857,
+          "sha256": "ec878d479d16addcd88c770b39fc88fa5219086478aee39e9f96a1096a58b084"
+        },
+        {
+          "path": "skills/hyperframes-audio/SKILL.md",
+          "size": 26560,
+          "sha256": "daf3250390426ef096a7d2f71082919418099decbd1f31288640a43b43c7e293"
+        },
+        {
+          "path": "skills/hyperframes-audio/references/attributes.md",
+          "size": 6697,
+          "sha256": "a04f8852d6e0f8cbfcf6afdc196d878c7194de01608ab02bc3d2bf680014d519"
+        },
+        {
+          "path": "skills/hyperframes-audio/references/diagnosis.md",
+          "size": 12080,
+          "sha256": "6496d8ba77e74adc48a81defe3c9c13310f6fca41ec17ca171dc851bc6e2b2e9"
+        },
+        {
+          "path": "skills/hyperframes-audio/references/fx-registry.md",
+          "size": 7981,
+          "sha256": "9475c9fb8c71ebaf330a1448a82f1c06e33680345960e3f87109842a182313fb"
+        },
+        {
+          "path": "skills/hyperframes-audio/references/presets.md",
+          "size": 13155,
+          "sha256": "6878ef09982cb9cefb2d0148a22d8ed431806b3cef9f62e2d1d8cdbabec37917"
+        },
+        {
+          "path": "skills/hyperframes-audio/scripts/carve.mjs",
+          "size": 23848,
+          "sha256": "7ddef413955ca81b66eba4630e3296220613150d428795f636577f2d8626c160"
+        },
+        {
+          "path": "skills/hyperframes-audio/scripts/carve.test.mjs",
+          "size": 11818,
+          "sha256": "6f72d9e0a349d9deaee62f1835b9c5639dc71389643f5d37accc0844958b43f6"
+        },
+        {
+          "path": "skills/hyperframes-audio/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/hyperframes-cli/SKILL.md",
+          "size": 25989,
+          "sha256": "be481984f8d3c871c353a4ba82bb295a416634e11938de2081b950e9e488a3ff"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/beats.md",
+          "size": 916,
+          "sha256": "79b6c936b33d2cd0f26349820cb05adb6fa00ccde6ee61bb223a8fcb9be2191f"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/cloud.md",
+          "size": 11119,
+          "sha256": "dd52a492394da92608d476fc77bc120377e48e74ab7f565e7fd7f0cfa145cbf1"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/cloudrun.md",
+          "size": 3583,
+          "sha256": "87ba98cc0db3721fb09776d44a5c8ef75fd95b6a74cea1376dc028907b98aeba"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/compare-and-batch.md",
+          "size": 4378,
+          "sha256": "d17fa5a16707d981fa6473b99a28aa45abf41bca0fd96c5157c632abd0bfc222"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/doctor-browser.md",
+          "size": 4357,
+          "sha256": "9747dd5a545d2528914c58d55d0c54281ace686fc5c782072334c6ba0ff65c55"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/init-and-scaffold.md",
+          "size": 5798,
+          "sha256": "78bd5c49352a986bd136f7c5d43f96ec5e0a5199f1d0de3b5c437cabe337cb23"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/lambda.md",
+          "size": 16703,
+          "sha256": "73e681f3e5c6c3608b8d4f66b4b75628eed708803b4d2fd5532366659a0667c9"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/lint-validate-inspect.md",
+          "size": 15277,
+          "sha256": "e42ae93086cc6b152fb58883ccabfeaab9629eb4eadb09668cddab40703b4a9f"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/preview-render.md",
+          "size": 31668,
+          "sha256": "a60d74da477b56623211055239e6f6e8a5fed4b851a0dab0c06020ca0cf30fa5"
+        },
+        {
+          "path": "skills/hyperframes-cli/references/upgrade-info-misc.md",
+          "size": 11709,
+          "sha256": "a46662ad866669d1cf70bfa6404e9a01f68d2db4eb667fe6dc8a8442f6a069d8"
+        },
+        {
+          "path": "skills/hyperframes-core/SKILL.md",
+          "size": 12933,
+          "sha256": "a8d6fe52471be6bcf1816ba0b9eb16c6d1efc830c668de533d6bee8d41d86e11"
+        },
+        {
+          "path": "skills/hyperframes-core/references/composition-patterns.md",
+          "size": 10853,
+          "sha256": "bcdf548ba1fec8decce5ea22c7bed99c73ba268986b1bfefc837f2d7f70f55b0"
+        },
+        {
+          "path": "skills/hyperframes-core/references/creator-editing-recipes.md",
+          "size": 18420,
+          "sha256": "8db8ed156e9e3d1a01bb6b25b92fe6597152e6c8f18128d40a03d52fe46a2af9"
+        },
+        {
+          "path": "skills/hyperframes-core/references/data-attributes.md",
+          "size": 17370,
+          "sha256": "9da0123bbd9508c32b3ea11bf6ab8edbf4fd725ab35d51cce735a6b03f3b4a96"
+        },
+        {
+          "path": "skills/hyperframes-core/references/determinism-rules.md",
+          "size": 7033,
+          "sha256": "415a3f08cf3be801e6ca381fd47959e787947da325a7ee30b8104b8b80198fd5"
+        },
+        {
+          "path": "skills/hyperframes-core/references/full-screen-motion.md",
+          "size": 2906,
+          "sha256": "4534cc717e94f9b7a83d5b86990d6af16594d18c4b9ddcb97950d919288f3994"
+        },
+        {
+          "path": "skills/hyperframes-core/references/minimal-composition.md",
+          "size": 2507,
+          "sha256": "0884abd9feeeea48d0de3d517c3d074859b9c322318401a928b9d1f9ee2cf851"
+        },
+        {
+          "path": "skills/hyperframes-core/references/sub-compositions.md",
+          "size": 8074,
+          "sha256": "7caf63046ea0d1915b51e4eb49897101e36dc716ea1195f9a34cef4ba9c18f64"
+        },
+        {
+          "path": "skills/hyperframes-core/references/tailwind.md",
+          "size": 4078,
+          "sha256": "bce2e8ae118f91df3a9790e99273f50942f12d1c345a149d6762c9411e3dfd2c"
+        },
+        {
+          "path": "skills/hyperframes-core/references/tracks-and-clips.md",
+          "size": 8171,
+          "sha256": "c0fbb3242406e0a1f2de507427330fb998d411587b8790eec17128ee6b4f8204"
+        },
+        {
+          "path": "skills/hyperframes-core/references/variables-and-media.md",
+          "size": 8420,
+          "sha256": "d905b18425dfbbcf232aa9557708425bdf4b52c13f999093e04c9f7f1428d6a1"
+        },
+        {
+          "path": "skills/hyperframes-creative/SKILL.md",
+          "size": 6563,
+          "sha256": "9da7b7ac84c8d884b54125887ecca1a645a38337013082b96af2fdc0259c945a"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/biennale-yellow/FRAME.md",
+          "size": 17789,
+          "sha256": "76d22cced9c152b0edb520543cf34c4ce772a312caa7211c40d4315b53c053cf"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/biennale-yellow/caption-skin.html",
+          "size": 8258,
+          "sha256": "e6e24155d587ab0fe1beca7c62e6fbfcce9d069cfb9cf02dfcecffe95194554b"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/biennale-yellow/frame-showcase.html",
+          "size": 34908,
+          "sha256": "5ba04e47cf9897e023dcfa49e1ec26fe26bac0c5061097dc6e7cb1d9ed46d7d0"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blockframe/FRAME.md",
+          "size": 16292,
+          "sha256": "ef8d9d47a209bed4ccc2d928c14a81cdaecb5129f5dc0cdc0dc40afc7ef92931"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blockframe/caption-skin.html",
+          "size": 8472,
+          "sha256": "85ef2bf1579587b97e26b617ea0c957329879e8413c2875605a278ad947c7d26"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blockframe/frame-showcase.html",
+          "size": 38856,
+          "sha256": "8d2e4963713928b353d0aa28c2c83fce415df81b66a500c192b602c0aaf4ddf2"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blue-professional/FRAME.md",
+          "size": 17202,
+          "sha256": "62e9a445885f6057084493de385a8ce20c3b4a299ae36a553ef54884f06bad68"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blue-professional/caption-skin.html",
+          "size": 8384,
+          "sha256": "a4cec56e723db7fc6b6f0c71a52314f80fc3f3f6c43747ae46af8a0761aa0c8b"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/blue-professional/frame-showcase.html",
+          "size": 39108,
+          "sha256": "715b130d086977a48925a3c79bb079fbc7270274c9c9a7761bf275df3020b0ba"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/bold-poster/FRAME.md",
+          "size": 15984,
+          "sha256": "af756ef993099f9ac78328f676eb79a6572ff0e9c2aacf12787471cd4525b171"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/bold-poster/caption-skin.html",
+          "size": 8847,
+          "sha256": "c5408b8d2b36028d85455003a5f0bbcde863f33474799477bab6afa261ec0214"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/bold-poster/frame-showcase.html",
+          "size": 32385,
+          "sha256": "57bbc3374b6a8b37ce59e36ed784c22bbb88fd44d039955221913b3e1bacf159"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/broadside/FRAME.md",
+          "size": 16303,
+          "sha256": "3af0a1e5e61bece19841671672d7732082f03d5699b713475e90323a21dbcc89"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/broadside/caption-skin.html",
+          "size": 8558,
+          "sha256": "d09b3e09bf497c0f2ed8db9dee181f376f75c65a25246181dc9d8f82cc938d6a"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/broadside/frame-showcase.html",
+          "size": 33899,
+          "sha256": "8d23a2cbeb898568a5626b38ffc864236fb4a09930d59b17c34c45f34c8e4161"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/capsule/FRAME.md",
+          "size": 17214,
+          "sha256": "f06dba67a3859f7c732b5177f7bcc58c94592caa5d6bbbcc6730a7876f5baa7a"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/capsule/caption-skin.html",
+          "size": 8501,
+          "sha256": "a66a37a0b2060ebe635f4d2309b3cf0f78c31203de19c12fc477a23009ec0e89"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/capsule/frame-showcase.html",
+          "size": 43052,
+          "sha256": "b3a642b5df3bbfb1ff227f1b82ee3ea02b51f20a0d7c5c46c97d72b180cddb4f"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cartesian/FRAME.md",
+          "size": 17294,
+          "sha256": "3dc6a31813a333b2a7a1509ddbd3b4dabbbd7e12e6479b6cff10d69c185fec95"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cartesian/caption-skin.html",
+          "size": 8442,
+          "sha256": "48f7b844d2936e0e0fc142605ec627adadc12120691bacb50dba7390d8706137"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cartesian/frame-showcase.html",
+          "size": 35340,
+          "sha256": "d7867cee5e07c4f22345c566071f2ce0261b3fccca111a94dfbec5fde64f3e55"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cobalt-grid/FRAME.md",
+          "size": 17286,
+          "sha256": "62a6c9e6e5188cc29b9c0098e9bb8e72c23f152d9a99dd92c58139d26b69b19f"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cobalt-grid/caption-skin.html",
+          "size": 8952,
+          "sha256": "506c0abc064ee4450afc7d34ff71a6fd04fa0dda69d57608ab310569d7651c03"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/cobalt-grid/frame-showcase.html",
+          "size": 47020,
+          "sha256": "b135214cd2e310273a01e3f72b2828149f022803954a22a13cbf27aa1c2f518a"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/FRAME.md",
+          "size": 20600,
+          "sha256": "b1c123526634e31a3e36cff9856e3b4322f2f778d2c7f573aa35a9ee1e90deb7"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/caption-skin.html",
+          "size": 8469,
+          "sha256": "fe96654fb76433caf5b3c81e4b9c52c07c1d03b267411c12ed94f054ccb92028"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/EBGaramond-400.woff2",
+          "size": 21704,
+          "sha256": "b63448e2680a0dbde70ebb2f3de78f6c515122835491f938e8a8595b46f29210"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/EBGaramond-700.woff2",
+          "size": 23076,
+          "sha256": "5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/Inter-400.woff2",
+          "size": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/Inter-700.woff2",
+          "size": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/JetBrainsMono-400.woff2",
+          "size": 21168,
+          "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/JetBrainsMono-700.woff2",
+          "size": 21908,
+          "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/OFL-eb-garamond.txt",
+          "size": 4519,
+          "sha256": "f03c8eda63076cd52317dcd40aa04db8472d4cb592dfaafa385129dfdafc7f9c"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/OFL-inter.txt",
+          "size": 4477,
+          "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/fonts/OFL-jetbrains-mono.txt",
+          "size": 4524,
+          "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/code-editorial/frame-showcase.html",
+          "size": 43711,
+          "sha256": "08d711f5409a6af3fb6de05febe47fee77e4c8e85517bf2d087e2277b524e4ab"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/coral/FRAME.md",
+          "size": 18950,
+          "sha256": "8530ecb36d1bb2d53392d88d972df35beeba19a5bcb3260fc9b18a58de7cdfe8"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/coral/caption-skin.html",
+          "size": 8457,
+          "sha256": "9af79dabd44f5d6ac934a5c371aad5316a4e2db76542a1ec3c969245b33892fa"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/coral/frame-showcase.html",
+          "size": 36472,
+          "sha256": "8ddf31ae13a4e57fe9730892fbbcb171cae67a204b5cb00b00374984f49b8f76"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/creative-mode/FRAME.md",
+          "size": 19605,
+          "sha256": "c1a1359502d9fc79ef267305291fe0f651219c72d88088cee32327dd933dead8"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/creative-mode/caption-skin.html",
+          "size": 8516,
+          "sha256": "ef4a13de5757453294db153607891e60ab3f408603ed222e53b908359dcbd296"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/creative-mode/frame-showcase.html",
+          "size": 38750,
+          "sha256": "32c1371fcd526c56edb515e5b255ad736a3e330ba3ff2631c61576064b384ef0"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/daisy-days/FRAME.md",
+          "size": 17445,
+          "sha256": "42d827dbd279990052e171d04380b5e6bbc111ae391dc283deb7a452e70b9b97"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/daisy-days/caption-skin.html",
+          "size": 8643,
+          "sha256": "6090e702f09c1df11e7289269a5b1ebc126981107c3ed5d9f951f69d471d1494"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/daisy-days/frame-showcase.html",
+          "size": 42293,
+          "sha256": "4fb93e5fa3ba12367f303996b6ca8b62f8e18c721d02e8032274df12d49d96f3"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/editorial-forest/FRAME.md",
+          "size": 17019,
+          "sha256": "ceeb2ab768367da1e1f3e1eca36ab9feeb3de3e4d15493319b0044c3d869329c"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/editorial-forest/caption-skin.html",
+          "size": 8483,
+          "sha256": "31999378b8fed9a4511432e38017f287127ce25a534ee57bfe4cc0f3b74c7d48"
+        },
+        {
+          "path": "skills/hyperframes-creative/frame-presets/editorial-forest/frame-showcase.html",
+          "size": 36847,
+          "sha256": "bb87b88b91184f4fee7f02eea63ed35d9d378fa89fad8988326e31e82a43dbb1"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/bold-energetic.md",
+          "size": 417,
+          "sha256": "17bc6b7889302151b4e5c84c0c6a33df676647078011d9decb2b68810e3baa7f"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/clean-corporate.md",
+          "size": 410,
+          "sha256": "d0c8c86838abb77985609629afe600d0ca365eccd835820f309959e8a85cba9d"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/dark-premium.md",
+          "size": 389,
+          "sha256": "abfecbf7e8dca3b674376590a0467aac3e13b2135022ae4ec519c4b27c2303b1"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/jewel-rich.md",
+          "size": 394,
+          "sha256": "17c8f7506469f66bca4e27ef78c19f0bcbf250f88fe840e3043816b7041c4fc5"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/monochrome.md",
+          "size": 454,
+          "sha256": "fe8586f6d70707098859063bdef34d68084f02cf7d5aaa436d4c9915a7ae3748"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/nature-earth.md",
+          "size": 399,
+          "sha256": "9710549b17487787fef3c7cb459cfd6e4ac28c1593bf471fcf55a3b4e546beed"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/neon-electric.md",
+          "size": 380,
+          "sha256": "35225bf8d2cd37223e88e0bc59b0a96bc8adeda7225389b3df97b675cfd33dfb"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/pastel-soft.md",
+          "size": 392,
+          "sha256": "ed4e25bb5f4953c002e55a53320249621437e03b5a11d43e3c1bd32c869b6d95"
+        },
+        {
+          "path": "skills/hyperframes-creative/palettes/warm-editorial.md",
+          "size": 411,
+          "sha256": "c467ee3cc0bbf4b2bedccc8106e18293b8a06dbac8f092b10300492da0e0559a"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/audio-reactive.md",
+          "size": 3062,
+          "sha256": "ad93a0c588a702203a08ed909842570f010f041500aa33512d2b06f66d450c1c"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/beat-direction.md",
+          "size": 13640,
+          "sha256": "312560b513e689aeda44956c9a883cf465a982b8efce9730722bfb8d147f94f9"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/composition-patterns.md",
+          "size": 5717,
+          "sha256": "954c1d6a7eefa63991a4a34615f8eb94263f4c4b64c0e97c18b59dd006771fbd"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/data-in-motion.md",
+          "size": 1274,
+          "sha256": "6066c79717156c4a41ef86f28e07c6bd35f18d6830b12893c58523063c788d7d"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/design-adherence.md",
+          "size": 1423,
+          "sha256": "ff21deb80143c8e09092958a6f40bc712173a43d23c5ea88742566573a2a7241"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/design-picker.md",
+          "size": 12221,
+          "sha256": "3b37cd0e9366b8f9c30b5e31a909193b23b58ada7f73675eab0fe7d2a74bbdf8"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/design-spec.md",
+          "size": 10498,
+          "sha256": "a583fe293facc2e6d242fa69f64c8cdc110c5cfe25f8ddb2429bfb445fcf8ad5"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/house-style.md",
+          "size": 5025,
+          "sha256": "3adc51745bfce9719b63ba74251fcf9e5b9eed56b1e0d8c3928f47c3703eba92"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/motion-principles.md",
+          "size": 9335,
+          "sha256": "43cb4193d2716bffde5a44f3740021f0b2eede83fe5c75d30e3f5398e2bf6d2e"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/narration.md",
+          "size": 3482,
+          "sha256": "6002bb2a2270149a8955068d5952fc57cd22594649f576b3e8c38057846610b6"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/prompt-expansion.md",
+          "size": 5707,
+          "sha256": "3c428274da00f7809e93a2036454b2b9cba9a20b3ae3811d43f33a50501a36f6"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/story-spine.md",
+          "size": 4164,
+          "sha256": "5978b2ad02cc971925d9c0894b5f0a649c28b1848852f844e49dbd2aa584e148"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/storyboard-recipe.md",
+          "size": 3528,
+          "sha256": "ebf2ed23ea86099256166f96cfb47b1a843eb430d80aa0cc8f929c6ebf7a262c"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/typography.md",
+          "size": 14481,
+          "sha256": "2213319b8055285dbe5b6aeb923f27660355a04a1b27da1edda8fd0c91888ab2"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/video-composition.md",
+          "size": 4298,
+          "sha256": "037a966583e4b5fc4c3385ef6217560d36237ec638d2b68b5808950c873e424b"
+        },
+        {
+          "path": "skills/hyperframes-creative/references/visual-styles.md",
+          "size": 11967,
+          "sha256": "c22d2c3f0732398ff52cbb469cf17567706b4d6555ad4149cae950a7cb3867c6"
+        },
+        {
+          "path": "skills/hyperframes-creative/scripts/contrast-report.mjs",
+          "size": 21349,
+          "sha256": "c53d140011adfd1c5b9a0a2444ca80a4ed1b027163c48811d92524477374f104"
+        },
+        {
+          "path": "skills/hyperframes-creative/scripts/extract-audio-data.py",
+          "size": 7214,
+          "sha256": "2b72d7aaa8688a4c524042274364f9696fb26fa9dd7125c58798cbdf021950e8"
+        },
+        {
+          "path": "skills/hyperframes-creative/scripts/package-loader.mjs",
+          "size": 14451,
+          "sha256": "f96e0e6058b8c79b9d89de9aa078d2b25a1755d569c1008c8c3ab9e17b519ccf"
+        },
+        {
+          "path": "skills/hyperframes-creative/scripts/package-loader.test.mjs",
+          "size": 4279,
+          "sha256": "504125ede3efaf687dba15de699c0100bf1fd47855fc83c98aec5c6fb9a4168f"
+        },
+        {
+          "path": "skills/hyperframes-creative/templates/design-picker.html",
+          "size": 44098,
+          "sha256": "c417139fef8e21b34d56a85cedda8b9597c9574e0727ce603a4743c4ee592c1a"
+        },
+        {
+          "path": "skills/hyperframes-keyframes/SKILL.md",
+          "size": 16263,
+          "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791"
+        },
+        {
+          "path": "skills/hyperframes-keyframes/agents/openai.yaml",
+          "size": 220,
+          "sha256": "1fbce5f9defa4c5f2d9e8cd7fad67566e21aba09e93a25e5836ebca62bd68f4b"
+        },
+        {
+          "path": "skills/hyperframes-keyframes/references/keyframe-patterns.md",
+          "size": 6692,
+          "sha256": "727cbc8db92968e9a8c9e77434e6aa45ad4e938df577c86ba75d118aa7e6e88d"
+        },
+        {
+          "path": "skills/hyperframes-registry/SKILL.md",
+          "size": 9933,
+          "sha256": "f1925b202cabd125b509658b11db593b55340b1926ecb056fc31aa4233a2b4f6"
+        },
+        {
+          "path": "skills/hyperframes-registry/examples/add-block.md",
+          "size": 1232,
+          "sha256": "0e3353755c4ef55e53570d1266a4a43b2c5aef9bbe41276430e38cfa6580b83a"
+        },
+        {
+          "path": "skills/hyperframes-registry/examples/add-component.md",
+          "size": 1473,
+          "sha256": "d06992d31eec617a91f5c34630c9274c52dd07898bd24f10a869d0d1cab5af29"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/component-quality-bar.md",
+          "size": 16390,
+          "sha256": "f0d4c3c44131bc0791f8a8cc3d2d7478d38045451775af7d20b2dd47cf5f91ac"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/contributing.md",
+          "size": 7258,
+          "sha256": "7e9e6fd894e54251fad9aa30a08730960ceb776da590a175eadfc1d9014106b1"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/demo-html-pattern.md",
+          "size": 1884,
+          "sha256": "dfc50cd33eff2c2be75437786fc3e851ab0085f7d453fb35b3380ecf9a6e9f04"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/discovery.md",
+          "size": 16643,
+          "sha256": "0b79462927c834b1f57af31fd514bbb81152d411c7386f1317572ea07168ea6b"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/install-locations.md",
+          "size": 1519,
+          "sha256": "83793e7d6aeea9a751755e4bd23ea48182ff9af082287b98a1192343d2571dd1"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/placeholder-material.md",
+          "size": 9006,
+          "sha256": "15adf4a40b26166f64df784aed065adb58051d9ccd5c0c52ad9b71e3b8367a09"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/templates.md",
+          "size": 11451,
+          "sha256": "98e1ef62d3c1264b28139d85a1c9b5a8b7438209914aebef6d9890e3f4275805"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/wiring-blocks.md",
+          "size": 2641,
+          "sha256": "397f9ad5a9244d173b97bb5a5dfe76ea3cbccfb8dde16cba8b3dabc6044b011a"
+        },
+        {
+          "path": "skills/hyperframes-registry/references/wiring-components.md",
+          "size": 1723,
+          "sha256": "6c8341c29fdae6de4f9fd1560a668d11cf34731b81fe5a06c9aeb4a000047b2a"
+        },
+        {
+          "path": "skills/hyperframes/SKILL.md",
+          "size": 24990,
+          "sha256": "f9e4e952b6f6352e38d29dfa46849f86c4e1f134a7cd99d8b44bb9da6939e29f"
+        },
+        {
+          "path": "skills/hyperframes/references/brief-contract.md",
+          "size": 11906,
+          "sha256": "0b934224161ef3321d635ad62ede6a7d9d62696cbca66d4b56b9e235248702cc"
+        },
+        {
+          "path": "skills/hyperframes/references/brief-format.md",
+          "size": 7090,
+          "sha256": "1e4f2f67989052fedd56fd1211e7a8c27f70aa5dba14ccd18e23cbd44d825adb"
+        },
+        {
+          "path": "skills/hyperframes/references/capability-menu.md",
+          "size": 15611,
+          "sha256": "71d0f7ac7348317169fdafdc354b45198231a9e8746361481ccfa3aefe8e1a43"
+        },
+        {
+          "path": "skills/hyperframes/references/frame-worker-core.md",
+          "size": 17596,
+          "sha256": "75a1aafaf2e656ba075cfcf13c1f79bc825005f90aa78f0cafe6778df2493226"
+        },
+        {
+          "path": "skills/hyperframes/references/intent-interview.md",
+          "size": 14269,
+          "sha256": "546cdfec8906583f3bd2e7836bcafae5c587917a9e3cbe0ad5df3819d601ad27"
+        },
+        {
+          "path": "skills/hyperframes/references/pitch-round.md",
+          "size": 5550,
+          "sha256": "2d9ceb09ff7be704ebe47b64152b8f6d5dd611925d405e9f87f47f24dd65775c"
+        },
+        {
+          "path": "skills/hyperframes/references/plugin-installation.md",
+          "size": 2715,
+          "sha256": "8f5759c30a7cca889c2d950d8cec587de558fe193b62f20e2d399f3931d291ff"
+        },
+        {
+          "path": "skills/hyperframes/references/production-loop.md",
+          "size": 9057,
+          "sha256": "95b09c92c768de0736a77f5e3f8f88260ee38e80e96bfcbf804694a9fac624c5"
+        },
+        {
+          "path": "skills/hyperframes/references/review-loop.md",
+          "size": 6590,
+          "sha256": "3be4751dc704851e61729e4f45ca8a9cdadc6ea5a877792f85ddfffbf18ac925"
+        },
+        {
+          "path": "skills/hyperframes/references/route-briefs.md",
+          "size": 579,
+          "sha256": "67f38ec0c8b4e009464657cfd87d886f46b24629fca91571d9efaa1dbe5280d0"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/embedded-captions.md",
+          "size": 739,
+          "sha256": "4e2f83a54caad625ae0dc4150b619f8b5afd65410965f53f6a40c430253207d1"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/faceless-explainer.md",
+          "size": 1020,
+          "sha256": "cd76f75e109e11c1bbda483b46791acd98103184a7102eb0365f966abec6b037"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/general-video.md",
+          "size": 1374,
+          "sha256": "dda0e1559cb57e5ba8e589f0fa6eedadbef78030bd2dccb4172b3b496da9fef1"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/motion-graphics.md",
+          "size": 864,
+          "sha256": "b0388400c4da484ea383c6938df47db7d67d9194aa0ccb3e03c4e53d8691fb7c"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/music-to-video.md",
+          "size": 1114,
+          "sha256": "f0b8c86130ea1167f9c3116cae5b3440f86d184c6264cad1cb2dad0675e09dc2"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/pr-to-video.md",
+          "size": 2057,
+          "sha256": "179d31b24940f6ee80d833d03e7b9b4c012cede7cbc07f88b460637239d66a57"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/product-launch-video.md",
+          "size": 2006,
+          "sha256": "ed2cba0be42a1e34361f65f7c633110935ef53c47933584e7b9ffc2ff07c366f"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/remotion-to-hyperframes.md",
+          "size": 545,
+          "sha256": "86cffe564eb4e92b12375f558aeb5d30e271f97416d3c5f32ee77bcf6b14e35c"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/slideshow.md",
+          "size": 1081,
+          "sha256": "8f81d2f8102dd257fd3b7730edbda618c2ec8e0c180e4494e89592aa7cc5cc5b"
+        },
+        {
+          "path": "skills/hyperframes/references/routes/talking-head-recut.md",
+          "size": 765,
+          "sha256": "d027e04e427c358ca0182e55b0449c0256ad7828b13b6e760d64a60de01eb0cc"
+        },
+        {
+          "path": "skills/hyperframes/references/script-format.md",
+          "size": 2778,
+          "sha256": "7637028d866d3d4a21d0b7934d6db4f73585a28c28da060d00cecc39c47e2e3d"
+        },
+        {
+          "path": "skills/hyperframes/references/skill-lifecycle.md",
+          "size": 2278,
+          "sha256": "9a50727490647cc8f24389b51bf53c7fc736112c1327dadd0bc4ed71ab39fcfe"
+        },
+        {
+          "path": "skills/hyperframes/references/storyboard-format.md",
+          "size": 5866,
+          "sha256": "f3fda31a65c89f0a6e10a9739b004568a9a0d7e2c8c56609b766b4ff36eedec6"
+        },
+        {
+          "path": "skills/hyperframes/references/subagent-dispatch.md",
+          "size": 3737,
+          "sha256": "92082776fe6618eda8aa5eb0cba40312f55210f4e542a40ae2f85afd1459f3e7"
+        },
+        {
+          "path": "skills/hyperframes/references/workflow-catalog.md",
+          "size": 458,
+          "sha256": "5f3e684ca26bc811c3c124e39633fbb685a410de1563f989b8a8cadab2680d8a"
+        },
+        {
+          "path": "skills/hyperframes/scripts/lib/frame-packets-core.mjs",
+          "size": 6933,
+          "sha256": "fd9062f3c955f89e5520fec3f88d25f92f44e91cf42988e387ae993175999c87"
+        },
+        {
+          "path": "skills/hyperframes/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/hyperframes/scripts/lib/main-module.test.mjs",
+          "size": 2098,
+          "sha256": "350b7432eb76a1384bfc5cc7bfa1262b5e04465cd6f72ced2b0eb57214fdff82"
+        },
+        {
+          "path": "skills/hyperframes/scripts/plugin-cli.mjs",
+          "size": 2899,
+          "sha256": "1ec46cdb9d819ecc9367aba719fea9253089617ead8c5454e59ab18b206711fb"
+        },
+        {
+          "path": "skills/hyperframes/scripts/plugin-cli.test.mjs",
+          "size": 4398,
+          "sha256": "abfdf2498b57509438077803bee3a626c6fc13e1014ae066e5281edbfc4ca23d"
+        },
+        {
+          "path": "skills/media-use/.gitignore",
+          "size": 17,
+          "sha256": "a299ec0fcdb6bc6670cf9fb22eefe3fcc37730e2e554b7f54e25de88be1ede02"
+        },
+        {
+          "path": "skills/media-use/SKILL.md",
+          "size": 9865,
+          "sha256": "c10e80df15020ffa0788d086c717d57e0f0fd983de7e8310bf11b38c90e25528"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/CREDITS.md",
+          "size": 1183,
+          "sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/chime.mp3",
+          "size": 27309,
+          "sha256": "74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/click-soft.mp3",
+          "size": 11702,
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/click.mp3",
+          "size": 11702,
+          "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/error.mp3",
+          "size": 51827,
+          "sha256": "b4882e3941ca496b5038e7c7d64318419da9f69d3da9540a1c693adc639cf121"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/glitch-1.mp3",
+          "size": 84427,
+          "sha256": "760b72bdaad71f83350e2ef3a9d037daf58f44855a05a6cce25d990f1ffb888a"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/glitch-2.mp3",
+          "size": 112128,
+          "sha256": "b326efdf687f18f68f0df7443a65b0ea7a4a1287dfe3143ea23707cc645257f1"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/glitch-3.mp3",
+          "size": 99072,
+          "sha256": "7ebe61cfd0d69a2d35d9ee3a88c26025101e999d5cc6bfb2df410f820b433042"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/impact-bass-1.mp3",
+          "size": 67709,
+          "sha256": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/impact-bass-2.mp3",
+          "size": 82944,
+          "sha256": "fb832995477784f44ba8533359d20caf706195b52117ecc2a33b3e63e3c1307b"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/key-press.mp3",
+          "size": 3909,
+          "sha256": "bcc892df0898bf466162f14233c3e92a8c1ea351f6affd8a3a7e56c9a760bb72"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/manifest.json",
+          "size": 3721,
+          "sha256": "1b1aae06c6e25412e1d217ebf1e646a0ed36410c0fcad11acdb8f5d5e5b7dc10"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/notification.mp3",
+          "size": 78576,
+          "sha256": "b1559967dedb7994a82371f10cec9f7f3992e6b147b4cd88d62112bcdc3f9ba3"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/ping.mp3",
+          "size": 26400,
+          "sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/pop.mp3",
+          "size": 23040,
+          "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/riser.mp3",
+          "size": 321024,
+          "sha256": "d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/sparkle.mp3",
+          "size": 57678,
+          "sha256": "a66b2829a307bcb5b1f6551d7cdc72fe45bbe9a91abfb994d28db8d5e4e42ea8"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/typing.mp3",
+          "size": 26852,
+          "sha256": "944160652faeb7b32acc9341ede4d735a5c9a4ce3fe8509ef7eab91efb430487"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/whoosh-cinematic.mp3",
+          "size": 177408,
+          "sha256": "0a0f3505856fdfa84ac6b86b3c55ccd0ef1eb4ff0907d7b6934002218a73404e"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/whoosh-short.mp3",
+          "size": 18390,
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+        },
+        {
+          "path": "skills/media-use/audio/assets/sfx/whoosh.mp3",
+          "size": 18390,
+          "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+        },
+        {
+          "path": "skills/media-use/audio/references/bgm.md",
+          "size": 8141,
+          "sha256": "921118ba932a63f8fc350a64c905676cdc2feaa5fffdd4af8dd7f9e92dd87a92"
+        },
+        {
+          "path": "skills/media-use/audio/references/captions/authoring.md",
+          "size": 9545,
+          "sha256": "5efe83e8371721d52f29463fd87632a9a81f52bebda5fa40baedc341adb825ee"
+        },
+        {
+          "path": "skills/media-use/audio/references/captions/motion.md",
+          "size": 5656,
+          "sha256": "20646595c341902877f31804d4ac6be54e1a261f7d34600660b0e9fcae964019"
+        },
+        {
+          "path": "skills/media-use/audio/references/captions/transcript-handling.md",
+          "size": 5439,
+          "sha256": "84c4d5181749022c00b6de62ffe95fe257598fb5f9111d9e8541d25a13836287"
+        },
+        {
+          "path": "skills/media-use/audio/references/remove-background.md",
+          "size": 8472,
+          "sha256": "fb6b38a25c6535c57a461bbe2ca681b38f18e5f09b1e904e4a0b5f6eca7a5b98"
+        },
+        {
+          "path": "skills/media-use/audio/references/requirements.md",
+          "size": 4319,
+          "sha256": "3a9092a3ad9e3133dc2d4888c73c9373e988cbcc5dd46997cd800e075127d09c"
+        },
+        {
+          "path": "skills/media-use/audio/references/sfx.md",
+          "size": 4137,
+          "sha256": "b89b14e4d819594d07cf2899e3ca59ceafe743e77e7df46dafdbebe4effebe75"
+        },
+        {
+          "path": "skills/media-use/audio/references/transcribe.md",
+          "size": 2783,
+          "sha256": "e688fcb18ff58a4170f867c7c35bf5dfcfc5fd335d92bdb1a90e9fddcf26854c"
+        },
+        {
+          "path": "skills/media-use/audio/references/tts-to-captions.md",
+          "size": 1755,
+          "sha256": "bc74fa83c096d64997dde33c9873c01b23c3b575b80689793440cd91466c8bd1"
+        },
+        {
+          "path": "skills/media-use/audio/references/tts.md",
+          "size": 14011,
+          "sha256": "5e25b51529a28e5dc2c1fe52ebe53aa012247357eabaa87e709c186199148fa7"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/audio.mjs",
+          "size": 13504,
+          "sha256": "9db44729829e24a3db6645725f64da7f35f1ba8a7018a42c9c320dc764a8f086"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/audio.test.mjs",
+          "size": 6046,
+          "sha256": "07df6c38f1d98305fce9f37848334d6c84e26bceb52eca1e0ee3f9fa2fd2ae12"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/gemini-pipeline.test.mjs",
+          "size": 4932,
+          "sha256": "1caced7d5d088cc1281d7ba4346bf3bb540870482a56515f5a6a35352fbbc0f9"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/heygen-tts.mjs",
+          "size": 4388,
+          "sha256": "7cf5e907807e0df919fdff2c762733c9d6dbdad5b605d05236ea788d8aecf5ff"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/heygen-tts.test.mjs",
+          "size": 1408,
+          "sha256": "55f54468f0ba01f24c7a587f1b58d7d128a9c03919dfadd92dc2929aa1e8ed69"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/heygen-voice.mjs",
+          "size": 3859,
+          "sha256": "1ab6d29860c106b49ca0c3dec408d99a8d3297a5bbc953d21f1148c3d8568064"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/heygen-voice.test.mjs",
+          "size": 8536,
+          "sha256": "d0920895246ee7679a424ffa36ed13d3f1bb7c03b8641c8bbb4a4efd4ede320b"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/audio-meta.mjs",
+          "size": 1166,
+          "sha256": "94e1b4cf242362eeb52bb8a5665b5b50fe4ffdc7854f4366b82e290c33d03890"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/audio-meta.test.mjs",
+          "size": 4586,
+          "sha256": "dcb64fed2a256b0f9305f1434024e588adf312d787e8a8dfdc9349193d37f2ad"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/bgm-volume.mjs",
+          "size": 236,
+          "sha256": "bb9debebdbd09724f6d07cd10b3982a076639664420ff8caf5f5a36ae7429a8c"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/bgm.mjs",
+          "size": 11558,
+          "sha256": "2e7e7590bef554c4aa8fa0250ca4fd0dc96da5e388644c90128cf7767c6a7532"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/bgm.test.mjs",
+          "size": 2639,
+          "sha256": "59b6b3d23a7de4b8dcaef846290ec14c6f74530a4e9a8fd5fa354501c35c73ad"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/concurrency.mjs",
+          "size": 527,
+          "sha256": "36a28dc1a0528b5605cba29a593dd54a786ad6283611b09a634946b12a5ed32e"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/concurrency.test.mjs",
+          "size": 1654,
+          "sha256": "daf0b162a9c3fc1a20cc22dff19566530e198459a10afcdf42ad39bec2426f55"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-auth.mjs",
+          "size": 1610,
+          "sha256": "72fa1b984693279656ef5398bbdc48c074040ac4feafaedd1b7c45f12545bf10"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-auth.py",
+          "size": 1981,
+          "sha256": "5ba85af3b5b46bfa04013f5d24b2c5b72dc7677b6cc5ef5ef926de82be4f8542"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-auth.test.mjs",
+          "size": 3097,
+          "sha256": "4a74c9e910914d57c715b0ed487e6e8ce2af265e32edfe04e8432780a6ffe0b0"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-auth_test.py",
+          "size": 4430,
+          "sha256": "5f524492aa5d4fa77c45bfed0002a33045677bd1c28027ff80554c9911f32b66"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-tts.mjs",
+          "size": 4711,
+          "sha256": "cf34c6781e809d39b7d36a8f0caf32afd23a21860db45ccdc4cd70c6a08e9597"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/gemini-tts.test.mjs",
+          "size": 9018,
+          "sha256": "c36d0a99d85dd377ba4f1314e8dc15a6f8e55284fc0176a6bcd529017767eff8"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/heygen.mjs",
+          "size": 10925,
+          "sha256": "65c996c8f494248aba28030888b43b32e1da659a48842ad2ba259c64b4a2967e"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/heygen.test.mjs",
+          "size": 10191,
+          "sha256": "eedb0c96ebb8a1e04fad51d0f400a450d9f304e4961684f0d98b138aa48f9463"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/host-audio.mjs",
+          "size": 1470,
+          "sha256": "7eb08bd009ce08e92161349609db062203c061a3df2bf17d16c4e4a33e4481ef"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/host-audio.test.mjs",
+          "size": 4036,
+          "sha256": "bbfabb9faba97bcc7d31e7e0844409c1beb35f65af6a528e9039189aa071d80f"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/media-record.mjs",
+          "size": 4233,
+          "sha256": "bf904e88b0038b6fbae8b562ff1fc99ff8794383c5b3470773c7692162c948e9"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/media-record.test.mjs",
+          "size": 7835,
+          "sha256": "922738b67e8baa5bbf958ac02e92e3192e51f5b6c66d8bbd3f544151c5a22523"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/openverse.mjs",
+          "size": 4999,
+          "sha256": "e2b176ed6e0b91231debab84ef6633a1a4885e400b9511a39f11e97acef261bd"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/python.mjs",
+          "size": 3290,
+          "sha256": "cfcee5d30291edc45f0bf3779ee346adb5bb91ae3b6e9e504d4b4f63259fdd4f"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/python.test.mjs",
+          "size": 5282,
+          "sha256": "f8e1e5df3977691772605867ebe8ae2d02a8132c1745dfd3cbf6453f351bcc79"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/sfx.mjs",
+          "size": 7354,
+          "sha256": "ddd7da6f359011f2aaa9e3b78e62246766be4dedb4825b5c40f2c287c0c2c62c"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/sfx.test.mjs",
+          "size": 11893,
+          "sha256": "87bc81631a1dae1e251e13bb219521815f1cc14f7ec30b8d29b38885138f360d"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/tts.cleanup.test.mjs",
+          "size": 6752,
+          "sha256": "bacb2ac60b7d755237aad3535b90c0093d0ff1b3cd71c9c8dc80cfc37f4efdf8"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/tts.mjs",
+          "size": 17468,
+          "sha256": "0a706b9f83ba1b8723d5f8247b5d35c6f85b28b6849bbf47a7bef2f413eb2ffd"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/tts.spawn.test.mjs",
+          "size": 5249,
+          "sha256": "62ec9589648477e8c7242567e9daa67d1cf07a0fbe2cf9968acef8df8e982ef2"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lib/tts.test.mjs",
+          "size": 8282,
+          "sha256": "47185cb0d6ac4ca9350d65640a93e9f477d022a8a48d614f51e2ca57f3ca4a39"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/lyria-recipe.py",
+          "size": 5023,
+          "sha256": "07bcba4a128430545a03e7ced49b9a6750a77d72a3659d67e4e9886fe9731436"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/wait-bgm.mjs",
+          "size": 5813,
+          "sha256": "bb9cf35cae4342ca1b03c1c129df199d6e389b67a8d5be9d4973a3bc20d585e3"
+        },
+        {
+          "path": "skills/media-use/audio/scripts/wait-bgm.test.mjs",
+          "size": 3336,
+          "sha256": "8f3c50a19e14c6d0b6c2d871892be8fa1022d6ee5653f3f5224c955f4afdf862"
+        },
+        {
+          "path": "skills/media-use/luts/README.md",
+          "size": 1087,
+          "sha256": "c06cbbf2aab80cbf8aa25c83497202a63107a61e083b6c199a89d513e8096a3b"
+        },
+        {
+          "path": "skills/media-use/luts/index.json",
+          "size": 1997,
+          "sha256": "988ac83c14bc3a9ef09aa6ab64459a0aa9e766e96361738136970ec89df1675a"
+        },
+        {
+          "path": "skills/media-use/references/audio.md",
+          "size": 2299,
+          "sha256": "2368cce9ffd5091fcc7e06966e42e4dd039bff818b866ed9afd1af601466312e"
+        },
+        {
+          "path": "skills/media-use/references/grading.md",
+          "size": 6997,
+          "sha256": "00455ee9d1eecec76d846c9bc5d0eac35017ca08f514f2efc7f3fc5f6ffb6e87"
+        },
+        {
+          "path": "skills/media-use/references/media-treatment-recipes.md",
+          "size": 35868,
+          "sha256": "852e7e978af56c9e99ba14f19009da974cd78f99b399ca194dc416c31c49bda5"
+        },
+        {
+          "path": "skills/media-use/references/media-treatments.md",
+          "size": 14168,
+          "sha256": "2125e106e7f891e14716efabda40f5d6a46284592c6f37d5a14b2b86bda96c1a"
+        },
+        {
+          "path": "skills/media-use/references/memory.md",
+          "size": 3498,
+          "sha256": "41d85dcfae213e4c2ae82f3870890675239142a117933eeebab4398ebbaaa204"
+        },
+        {
+          "path": "skills/media-use/references/meta.md",
+          "size": 6442,
+          "sha256": "0397b11301e10de6b126f6f39e5ad8bac68f8b22a5ab32236fb6a8f0e5c279dd"
+        },
+        {
+          "path": "skills/media-use/references/operations.md",
+          "size": 14832,
+          "sha256": "13c8317b19e4b81fc08b311a8b9ad2b404ee8c6274588853a7d1f5b0819c8930"
+        },
+        {
+          "path": "skills/media-use/references/resolve.md",
+          "size": 9605,
+          "sha256": "c90a833f6c3dcc8f33b289f5ad90e9f835f59581873bdc774035f25b6eb72314"
+        },
+        {
+          "path": "skills/media-use/references/setup-providers.md",
+          "size": 8636,
+          "sha256": "76f133bb9c4b1e0323b58544e2e7235f5ac09408adad1502e69e64c92eeeb085"
+        },
+        {
+          "path": "skills/media-use/references/telemetry-dashboard.md",
+          "size": 4200,
+          "sha256": "bdc30ad1ff84ebe7f5ca835acb9f47b33717e041ea79b41c6f0db489b86094a7"
+        },
+        {
+          "path": "skills/media-use/scripts/audio-duck.mjs",
+          "size": 4069,
+          "sha256": "6beac3c1c6c0e0375e67a04c184406ced3740cc832bb3ba9a09c796bbe16d40e"
+        },
+        {
+          "path": "skills/media-use/scripts/compatibility.test.mjs",
+          "size": 3804,
+          "sha256": "f45979fb53e6a12e03c0ef54d07469d7754fae5ce0fa7e749baffd1285b49e9f"
+        },
+        {
+          "path": "skills/media-use/scripts/dither.mjs",
+          "size": 9969,
+          "sha256": "8e9f437526f39f417f6793912ddeef71094ddb5a5b8d4893c5339086bc39547f"
+        },
+        {
+          "path": "skills/media-use/scripts/dither.test.mjs",
+          "size": 4723,
+          "sha256": "c22c3a0ae41647ac3f733b489a6bc6043fd294155d00954be5d901b3cff7d216"
+        },
+        {
+          "path": "skills/media-use/scripts/eval.mjs",
+          "size": 14891,
+          "sha256": "fadf274111a682acbfdff91eca75b977e3821c53026cd058551c538027f21f51"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/config-lock.mjs",
+          "size": 1520,
+          "sha256": "a9d1679e2039be38cd1756a1011f813ae4be0577c2ff77b9ed411b99b1c94275"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/cutlist.mjs",
+          "size": 6381,
+          "sha256": "c395f49bdb602b29dfc1ea98b7f6d0d5d8781f00eca1c16d009d10e7ef0205be"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/duck.mjs",
+          "size": 3345,
+          "sha256": "2124a2d7aaf7147bc6f9573e68a8a38aea5f49e5df40070bcd3c3473fd021fa8"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/error-diffusion.mjs",
+          "size": 6631,
+          "sha256": "aa718fe95f98087979bab5ea31d68b8e45fbde0c5b874c6888ad21923fb45936"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/index-gen.mjs",
+          "size": 1924,
+          "sha256": "fde84f36ebfb4fa819935956b2b6dc43a70b749a5c846d5470295d7c439e40e6"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/manifest.mjs",
+          "size": 9424,
+          "sha256": "67f827f7591241c170fd92eb7fa789df2f1756b2cd4889907141936179f5d00f"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/media-fetch.mjs",
+          "size": 2838,
+          "sha256": "6a90740eee3e4765b83b4c9726676b2935a7fbc9990f61ad5b166f9263188366"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/media-home.mjs",
+          "size": 730,
+          "sha256": "7f69890d7b822f202b44ddec0d8176c767cd8b1da4dfc4d918599c6a05cfecb1"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/npx-sync.mjs",
+          "size": 2328,
+          "sha256": "1dc7f6372da36242f8c373defcba80fe9e006ce824e0f459e6d56226b3bf919a"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/parakeet-words.mjs",
+          "size": 1149,
+          "sha256": "d5b66efe6cb8975beab2f523503113c3be3117e687ebc20695e7ab08c2ba1b4d"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/prefs-store.mjs",
+          "size": 6617,
+          "sha256": "c781efa1485b0eba4120e766fa2555f7639bcf4d432f174c3f8ee796b57ced01"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/recipe-store.mjs",
+          "size": 13205,
+          "sha256": "c0538d784c93e000eeb14850d6a7f9d49f9aeebc55b78bc09a80347fe9b76dd4"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/telemetry.mjs",
+          "size": 7332,
+          "sha256": "292ca36e91189e69d36b197311a345664a3a407b4e3fdb91f8044190649961cd"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/telemetry.test.mjs",
+          "size": 2233,
+          "sha256": "b7f6513eede2eb33f6fde626162b2fd4ef74b0034a3e81b9eebdede89f766373"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/transcriptCutFade.mjs",
+          "size": 911,
+          "sha256": "ee9c7ec28650cf0f6a0f1f21f1c6a1faa5e152337163cccc0cc9a109b3c99805"
+        },
+        {
+          "path": "skills/media-use/scripts/lib/words.mjs",
+          "size": 728,
+          "sha256": "bfc1f93523d2fc8ce55580b262efcca537c7feabaf029c1c6f33433591377adb"
+        },
+        {
+          "path": "skills/media-use/scripts/prefs.mjs",
+          "size": 2407,
+          "sha256": "149836b527e1243f5ab714694393f742e23328890bcef21cf28eed52f888273e"
+        },
+        {
+          "path": "skills/media-use/scripts/recipe.mjs",
+          "size": 4040,
+          "sha256": "c9936537405dc8d066ed7aff519d28bc43fe683c42fc50a336945e33ac43f938"
+        },
+        {
+          "path": "skills/media-use/scripts/resolve-plugin.test.mjs",
+          "size": 2512,
+          "sha256": "fe8f4dce139b3a88e9ba817da335ae7667a644a715f250613901f7cc1e75f0ed"
+        },
+        {
+          "path": "skills/media-use/scripts/resolve.mjs",
+          "size": 1305,
+          "sha256": "85aec401d22b65639fa6a91056e515563135962a127516aaae1e2644d48fa0b9"
+        },
+        {
+          "path": "skills/media-use/scripts/transcribe.mjs",
+          "size": 7510,
+          "sha256": "9e0f2fd2775e3a76267fc219d4b5aa52373a95478812884f8f40f6292e09dac7"
+        },
+        {
+          "path": "skills/media-use/scripts/transcribe.test.mjs",
+          "size": 4074,
+          "sha256": "39a456ac37a0eca282417b09d7e556c0f2ac11ab3726bc361ff077e75a963ae1"
+        },
+        {
+          "path": "skills/media-use/scripts/transcript-cut.mjs",
+          "size": 10266,
+          "sha256": "17e148571738ad8cf30b0ccb3f28d0837df5072114b9dfb63bc8d9f5d25e5a5d"
+        },
+        {
+          "path": "skills/media-use/scripts/transcript-cut.test.mjs",
+          "size": 9849,
+          "sha256": "af546cd7d473eb5f4258148a8dd8ec637a67a242cd50948abe1e0dcd6f64c527"
+        },
+        {
+          "path": "skills/motion-graphics/SKILL.md",
+          "size": 16031,
+          "sha256": "f6e25500b3c953f94f76f97c29e0d8167951966a2dc75214c8d5910dec58aa9c"
+        },
+        {
+          "path": "skills/motion-graphics/agents/builder.md",
+          "size": 4071,
+          "sha256": "49d48122d976b6314e191609f960fcac45052d416997b08d05aaba06d65ba079"
+        },
+        {
+          "path": "skills/motion-graphics/agents/director.md",
+          "size": 6078,
+          "sha256": "dd761ec5164cd6e71f41fa9858478fcab8f96b0177137d68f61cdff089bd4de0"
+        },
+        {
+          "path": "skills/motion-graphics/agents/finalize.md",
+          "size": 1071,
+          "sha256": "3263eb51cff1c652bffc376fdbe819fe93fb65f5721c4452bd1e658efdddb276"
+        },
+        {
+          "path": "skills/motion-graphics/catalog-map.md",
+          "size": 10641,
+          "sha256": "3c3ddb7918f2e160323da1459d3ab16fef0ab7802218e96638db5cf50bd4d043"
+        },
+        {
+          "path": "skills/motion-graphics/categories/asset-fusion/module.md",
+          "size": 3968,
+          "sha256": "f482521fd24fc6091df8be86044344d64b126c528216fdf4de8f6971c68eeb9c"
+        },
+        {
+          "path": "skills/motion-graphics/categories/charts/module.md",
+          "size": 1982,
+          "sha256": "91300c08867db9a0ea55fab6d8cf010010997c147c20dbc720f6334037cea9ca"
+        },
+        {
+          "path": "skills/motion-graphics/categories/kinetic-type/module.md",
+          "size": 1607,
+          "sha256": "06e81c37a929ff056309018486dfc96a2a7e18549c10db938fbc533ff075b80c"
+        },
+        {
+          "path": "skills/motion-graphics/categories/logo-reveal/module.md",
+          "size": 1131,
+          "sha256": "05dfca69987c12802e7db5b9f848f5c28cc9649f34338a0c39170a06bb3d2a9c"
+        },
+        {
+          "path": "skills/motion-graphics/categories/lower-thirds/module.md",
+          "size": 1493,
+          "sha256": "9c8e9e14b9e7144650a989952af15ad9e0a66b5b2de78e23cb77f9ed217253c0"
+        },
+        {
+          "path": "skills/motion-graphics/categories/maps/bake-basemap.mjs",
+          "size": 14726,
+          "sha256": "1f59814e759cdf662f2de7fa752ff85dadbaddfe6d96189542968b0bf62a8931"
+        },
+        {
+          "path": "skills/motion-graphics/categories/maps/module.md",
+          "size": 9587,
+          "sha256": "570b14a76d46c75e219e51220187c29a35c9889c5b68e0ebe7ee38f60756237f"
+        },
+        {
+          "path": "skills/motion-graphics/categories/news/module.md",
+          "size": 5425,
+          "sha256": "f6cb6be152b859b7a273d60abc3b2ee5376afb25cb25ffd89eca52fd2074a60c"
+        },
+        {
+          "path": "skills/motion-graphics/categories/stat/module.md",
+          "size": 1330,
+          "sha256": "4890f6cd7010d8718fab01f8e02525164f6c06242aea24df22944aa85ecba7f0"
+        },
+        {
+          "path": "skills/motion-graphics/categories/tweet/module.md",
+          "size": 1015,
+          "sha256": "e374b6c2eb56eb25dff05cab09872311ffc175d50369f6d02152e893219e4016"
+        },
+        {
+          "path": "skills/motion-graphics/categories/webpage/module.md",
+          "size": 2538,
+          "sha256": "9fc6361185696c12106adc478f07ad9a4061d17ae4d392c3743ea1cb3c8c2807"
+        },
+        {
+          "path": "skills/motion-graphics/grounding/PROTOCOL.md",
+          "size": 3108,
+          "sha256": "01a5bd32b14c13d5b7a396184f633d11e61c24910470461c4351b03d1a3a65a5"
+        },
+        {
+          "path": "skills/motion-graphics/grounding/locate.mjs",
+          "size": 8236,
+          "sha256": "7572b3dadf3561495a1ad4c67b1fd7dd6e871c65aec8ca13574fc52649ce66cd"
+        },
+        {
+          "path": "skills/motion-graphics/phases/source/guide.md",
+          "size": 1962,
+          "sha256": "9a5866cf3e1d29946a2cc3c648e8eed959daccbb6c48a1b2b8aeab469c1e27cd"
+        },
+        {
+          "path": "skills/motion-graphics/references/builder-contract.md",
+          "size": 2818,
+          "sha256": "b0dbb30e6be63df8af9ff086dd401853ddf49a7d975b8e270d6dd7e8886cd1e4"
+        },
+        {
+          "path": "skills/motion-graphics/references/motion-vocabulary.md",
+          "size": 3978,
+          "sha256": "afad1da63f33291e3585fcf65fe3708775cb607aab3e22c695dc20481bd60b4a"
+        },
+        {
+          "path": "skills/motion-graphics/references/shot-plan-ir.md",
+          "size": 2616,
+          "sha256": "ff52b844703121fef7bcac79fd4523fc9bcf6537a18390b7a3031f64270137d3"
+        },
+        {
+          "path": "skills/motion-graphics/samples/asset-fusion/_ref-circle-highlight.html",
+          "size": 10674,
+          "sha256": "1c6d33b1fc191735fe035a9a104be58236f9cb1fde33a0445ae08808204118b5"
+        },
+        {
+          "path": "skills/product-launch-video/SKILL.md",
+          "size": 35942,
+          "sha256": "b7e8071a7d5328195abd4b907e7ba3fca8c016652391b2b5d149aa1dcef7aa77"
+        },
+        {
+          "path": "skills/product-launch-video/references/cut-catalog.md",
+          "size": 13249,
+          "sha256": "456bb2c8dded8e2b67dae8c1fdc58eea2261ff589e13fc0e997ed72d2353e3a0"
+        },
+        {
+          "path": "skills/product-launch-video/references/motion-language.md",
+          "size": 15657,
+          "sha256": "4abad0e66e28e486d963d3e3f97dca53b390fc9f76685c3afe31ddaaace1aa6d"
+        },
+        {
+          "path": "skills/product-launch-video/references/story-design.md",
+          "size": 33047,
+          "sha256": "c6702a7bc8f45ac6a660c2ec770dce880aff67c8b19607a1df56cd1ce4bfe9ad"
+        },
+        {
+          "path": "skills/product-launch-video/references/visual-design.md",
+          "size": 16500,
+          "sha256": "b9d9c1f7a2856a3a0adc32430b96494088cafb1b6af9e9d375b542980c7d5086"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/assemble-index.mjs",
+          "size": 32361,
+          "sha256": "02bb4ada3978f71342b1b283d2632947ad78780c8277a7df7704bd05193bd8f2"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/assemble-index.test.mjs",
+          "size": 5283,
+          "sha256": "abeafe05767e290ff751d23c26c01cae6d949dba20f57bc66f4906743c80a002"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/audio.mjs",
+          "size": 15467,
+          "sha256": "0dd346abe61f453c47d4ee23aff6fe2b03677e4a520b14a38fa994d00cbfa2cd"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/audio.test.mjs",
+          "size": 16521,
+          "sha256": "d30b69126eb67269ff9bc40ccc969b634745e04ec4e75893cc6c375a9e5f9555"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/build-frame-colors.test.mjs",
+          "size": 3312,
+          "sha256": "adc28d1624489361e03fd701dc53e4d88cb157b4527b73dba9ba46f91122a470"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/build-frame-subsets.test.mjs",
+          "size": 6669,
+          "sha256": "48fcd4c9ca00dc4f7d0f9dd9e3f600800ee76a9c6a1723ddff7df6729294663a"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/build-frame.mjs",
+          "size": 27049,
+          "sha256": "820d121723530b600fb25b9cdecdb8c5ab6eef025b316227c463a90dce33a5fe"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/captions.mjs",
+          "size": 25304,
+          "sha256": "b7c2295250b44bdd42f1971b8d88d6525b1a045566f6a0d20f969ac8259d131b"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/captions.test.mjs",
+          "size": 9335,
+          "sha256": "a6852ebf8460c5056321089b18b43022125226b1be28f7869a0395b23a4b77cb"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/capture-skill-guardrails.test.mjs",
+          "size": 1728,
+          "sha256": "98e41b2b055664fd6ea26c04b470622b4c2879f5fc1f4ed771071070eed959e5"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/frame-packets.mjs",
+          "size": 1070,
+          "sha256": "92b2adca4113c480c89fcc5dbd5e9296f55fa925865789ee27305115e095ef7c"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/frame-packets.test.mjs",
+          "size": 7072,
+          "sha256": "eab5356c0ecb4501931f7dd88a92524d2ca32d83d4328088c934a7cfa7fd8866"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/assets.mjs",
+          "size": 2214,
+          "sha256": "fb955aae9b8b5a43e785c08d564cbfb5e20b5709e62858317af4290271076e04"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/bgm-volume.mjs",
+          "size": 236,
+          "sha256": "bb9debebdbd09724f6d07cd10b3982a076639664420ff8caf5f5a36ae7429a8c"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/captured-fonts.mjs",
+          "size": 2628,
+          "sha256": "b08b989519b6c45f0758fd0ab2220477bea63afed975ec88e271edbd922795c8"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/dimensions.mjs",
+          "size": 2288,
+          "sha256": "f7fa9dbb55275644b72e21e3727e36c11c23c7ff550fa1756203918caf37f179"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/frame-packets-core.mjs",
+          "size": 6933,
+          "sha256": "fd9062f3c955f89e5520fec3f88d25f92f44e91cf42988e387ae993175999c87"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/host-audio.mjs",
+          "size": 1470,
+          "sha256": "7eb08bd009ce08e92161349609db062203c061a3df2bf17d16c4e4a33e4481ef"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/main-module.mjs",
+          "size": 479,
+          "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/pad-frame-duration.mjs",
+          "size": 1628,
+          "sha256": "733de1b9109c9db9963c6c083db54b2c045c6aba9dfadeb3188f1c456ee9b2c1"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/pad-frame-duration.test.mjs",
+          "size": 2970,
+          "sha256": "6cf79b1ceb62e266adafbdd26b3280cf9f356ff55e996b3f529b2a644f9a17e2"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/storyboard.mjs",
+          "size": 8244,
+          "sha256": "e422c1faefc814e2d064d08b25fda60ad5b55728bb8a2400bf02494a4710b5da"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/tokens.mjs",
+          "size": 10164,
+          "sha256": "9b33a71a18d10877eb8397e22513df9082004bea9c745470edb7a8fd6d7c4d03"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/tokens.test.mjs",
+          "size": 2289,
+          "sha256": "7f4e0f8fe3d629e7bb2df4a6a99518af395329e41e990c651a5e7ed0a0bd9fa8"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/transition-registry.mjs",
+          "size": 1588,
+          "sha256": "a8baca4d865e20a8a0b713a303ea2228f1f82a7bee4eb581568782fe661add8d"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/lib/transitions.json",
+          "size": 3941,
+          "sha256": "e471afb61bc2b69b37d63f1438bdedcd36d625d03fe30166ad6bfe0aea29a103"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/media-contract.test.mjs",
+          "size": 10663,
+          "sha256": "6969181b24da19a9dfc5cefae2fb2fc82bef4db9512d875954e79ece228ac0ac"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/stage-assets.mjs",
+          "size": 1672,
+          "sha256": "46eb2415c3c95722df16f41c43ac84b41693849682fb4a0e2c20be2d17f16fda"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/stage-assets.test.mjs",
+          "size": 2347,
+          "sha256": "5ae37d0197ec0fbfac2478f91f9005ac1329ac77c4372c6fb51a80d40afba101"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/transitions.mjs",
+          "size": 15826,
+          "sha256": "b444da858e805c5251789a6b8ccd5ab461c935e2984e5efb5e3b6a0a84072a54"
+        },
+        {
+          "path": "skills/product-launch-video/scripts/transitions.test.mjs",
+          "size": 2890,
+          "sha256": "0ede495b9922af9d834da783a31103fab188e1bd8c30e01ad5356a342d082be6"
+        },
+        {
+          "path": "skills/product-launch-video/sub-agents/frame-worker.md",
+          "size": 3544,
+          "sha256": "7092fd6d3810ff6ea232163f5704d064869cdc978fd3262d5c72619695a7b1b1"
+        },
+        {
+          "path": "skills/talking-head-recut/NOTICE.md",
+          "size": 1826,
+          "sha256": "0e0a88d4eb584a1a0805930d30918ceebf0824fbb594731ebaa069eea9849995"
+        },
+        {
+          "path": "skills/talking-head-recut/SKILL.md",
+          "size": 65513,
+          "sha256": "84bb6ba0ac3cb0505f09dd1ded0a07e2298daed6c33c05d7bb9a56d0ade53d2c"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/Caveat-400-latin.woff2",
+          "size": 74932,
+          "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/Caveat-700-latin.woff2",
+          "size": 74932,
+          "sha256": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/Inter-400-latin.woff2",
+          "size": 23692,
+          "sha256": "dd05e326cf8eac3b55acecf29c842ed73e6e6dd06491cf47f7e8800680ab3e33"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/Inter-700-latin.woff2",
+          "size": 24352,
+          "sha256": "aac638f7503cebb084ec494cf00f75f7d8260d50c2f4e7820bccabba09626a3a"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/LXGWWenKaiTC-400-latin.woff2",
+          "size": 19380,
+          "sha256": "c85fea99d8417984df04982d26caa29ac33f3a79e46bf8ef8ff98af1fca2c2ee"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/fonts/Virgil.woff2",
+          "size": 61248,
+          "sha256": "9976295bfe709bdea64839a4d4e9a1d436dd6eb67538399a5a0e8b8fadbcf1cf"
+        },
+        {
+          "path": "skills/talking-head-recut/assets/vendor/gsap.min.js",
+          "size": 72925,
+          "sha256": "c3a03a345e45bc954cd48c43f11572891f5dca7a5d99348d5bc14753a728618c"
+        },
+        {
+          "path": "skills/talking-head-recut/media-contract.test.mjs",
+          "size": 912,
+          "sha256": "19e9d258e8739a967aa3aef8779bb31a965a14fb35a78012366d14280cbeae35"
+        },
+        {
+          "path": "skills/talking-head-recut/references/DESIGN_INDEX.md",
+          "size": 10171,
+          "sha256": "25fa72902a37cafb764f86d909e72dbf1c6b44ff3494d1c3da24c4a4a819ce16"
+        },
+        {
+          "path": "skills/talking-head-recut/references/frames/clean.html",
+          "size": 2626,
+          "sha256": "10c18a856b9b3430075b14eaaa346fd953827c158c6640cc19d94e1ad622bb0f"
+        },
+        {
+          "path": "skills/talking-head-recut/references/frames/hairline.html",
+          "size": 5921,
+          "sha256": "41f083f994fc8e7672f26f02d4afac0b14acf09be2ec816bb86b15c1722e416f"
+        },
+        {
+          "path": "skills/talking-head-recut/references/frames/polaroid.html",
+          "size": 5349,
+          "sha256": "6e031ce943bbc47891ff5bdc7ae5ac22c9b85ba6dc838f9ba06175e979dd54d9"
+        },
+        {
+          "path": "skills/talking-head-recut/references/layouts/overlay.html",
+          "size": 5463,
+          "sha256": "d8a44b6b0075b194b70e4df22b34c07d9bd4a41bd14017ef2c126eda37d91a26"
+        },
+        {
+          "path": "skills/talking-head-recut/references/layouts/pip.html",
+          "size": 4650,
+          "sha256": "3fc7da10775d5ac6caeca78482939d5a6afad6f1637c0190beb023ebfca0a4f0"
+        },
+        {
+          "path": "skills/talking-head-recut/references/layouts/split.html",
+          "size": 3805,
+          "sha256": "6078dba9780e850f1d21cd29fbc27f6dcf69ced3f8559e7db115d16d0ab41b7e"
+        },
+        {
+          "path": "skills/talking-head-recut/references/layouts/stack.html",
+          "size": 3458,
+          "sha256": "054d1ec184f53bc6d8ca2a3effc6f8f19a98d29d6c4ab6d3cbf6f9bd4f5b4cb7"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/academic.html",
+          "size": 6043,
+          "sha256": "aae0f6b167f6a09a02622f1e785aa9b06f0d96382aba9f4cabcb89250747d5a6"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/audit.html",
+          "size": 6182,
+          "sha256": "2edbd5cfdd9bd3bd6789ac2a6bea9555187f65b03485dc58771b4bdf982a7c7d"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/editorial.html",
+          "size": 6586,
+          "sha256": "f59b3ef3edb66c523270179a59b1efd0b0183d8d4e871958142c99c6447f5710"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/geom.html",
+          "size": 5776,
+          "sha256": "4d4e5cdf29ee8082c181f2001c00764355d2a408605ecda87bacc7d1fb48b7c1"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/minimal.html",
+          "size": 4142,
+          "sha256": "cb161810bad03c9f8e2ed68a6bd300dafc52d184ff214a5e7933d0a0676e1a7f"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/spotlight.html",
+          "size": 4941,
+          "sha256": "91f2a516f947eab9f40f112f13185724e2cfbeaffb99786ab14ea13629bc38a5"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/swiss.html",
+          "size": 6053,
+          "sha256": "5c44a617334fb4f7bd4aaad23a2bea2231285ab25e80c952abaf72e9a5f4ac17"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/terminal.html",
+          "size": 6957,
+          "sha256": "a81c69499a4af4df9c8b1b2b81ffbc7eb467e27b3107fa3adf34bb406b17b72d"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/whiteboard.html",
+          "size": 5829,
+          "sha256": "5b01baa63fb41e39e8095da5397589489b2cfe328a3b2748a6f83ccd0f0ebb28"
+        },
+        {
+          "path": "skills/talking-head-recut/references/styles/xhs.html",
+          "size": 7210,
+          "sha256": "47af8ffdcab845deec36d7d39913ef230a54ddc28c6cd95a5f67f4d50899680b"
+        }
+      ],
+      "license": "Apache-2.0"
+    },
+    "ecc": {
+      "repository": "affaan-m/ecc",
+      "revision": "6c557856af89a657f846a8ca15907cbdc1e41530",
+      "skills": [
+        "video-editing",
+        "remotion-video-creation",
+        "manim-video",
+        "brand-discovery",
+        "brand-voice",
+        "motion-foundations",
+        "motion-patterns",
+        "motion-advanced",
+        "fal-ai-media",
+        "tasteforge-video",
+        "videodb",
+        "blender-motion-state-inspection"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1071,
+          "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+        },
+        {
+          "path": "skills/blender-motion-state-inspection/SKILL.md",
+          "size": 8146,
+          "sha256": "97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c"
+        },
+        {
+          "path": "skills/brand-discovery/SKILL.md",
+          "size": 7550,
+          "sha256": "e6b9999ef722a42e0a01cd663072608609f69acc6bfd558fa3d4a14fcc3650b9"
+        },
+        {
+          "path": "skills/brand-discovery/references/10_purpose-why.md",
+          "size": 1179,
+          "sha256": "d70beb1dcf73512e235a377c59ca43f544de084dd555701f99a65574b17939ea"
+        },
+        {
+          "path": "skills/brand-discovery/references/20_positioning.md",
+          "size": 1481,
+          "sha256": "50e2c71b8b4d6a44d59b45609c06aa258f6c16871a4d2a184f68983433e954c4"
+        },
+        {
+          "path": "skills/brand-discovery/references/30_audience-niche.md",
+          "size": 1496,
+          "sha256": "189e8d41d08df421fa5bad5d15e814334dc8fe706255701b277e258100b6007d"
+        },
+        {
+          "path": "skills/brand-discovery/references/40_personality-archetype.md",
+          "size": 1925,
+          "sha256": "58b04b09cf1e206d1240fc01d8c77c22fcc9b9c0d8ef326ad418476589072182"
+        },
+        {
+          "path": "skills/brand-discovery/references/50_voice-tone.md",
+          "size": 1767,
+          "sha256": "cf69dc9573ed00561cfb8e7e489450ae644b90703a2d9315b77d8629af69bde3"
+        },
+        {
+          "path": "skills/brand-discovery/references/60_narrative-story.md",
+          "size": 1560,
+          "sha256": "46a6184f00ffa8d6900d59d58164f5e767012bc12dd67dc2b2ba53976d6811b9"
+        },
+        {
+          "path": "skills/brand-discovery/references/70_founder-tension.md",
+          "size": 1517,
+          "sha256": "88e7149f2ace5d3f726d33e5fb7ca2caddb7e3301574e849517e16277590ab39"
+        },
+        {
+          "path": "skills/brand-discovery/references/90_SYNTHESIS.md",
+          "size": 3063,
+          "sha256": "04d0215bb054685ab8f6956f8369a7eb9d39e16acd1f7ae5ffe46725f2c00c61"
+        },
+        {
+          "path": "skills/brand-voice/SKILL.md",
+          "size": 3648,
+          "sha256": "57c7f8440b7bd4c91c0d325640b5c6fb7a3dc7fc05595946c7bc705761a987a7"
+        },
+        {
+          "path": "skills/brand-voice/references/voice-profile-schema.md",
+          "size": 1063,
+          "sha256": "3c5c2b04fd4b68642d2d3279829541bc56d211fdefc3498e86c1486abee8261b"
+        },
+        {
+          "path": "skills/fal-ai-media/SKILL.md",
+          "size": 7515,
+          "sha256": "723ffbe93063a8927a07a9d2c6d5743045ffb15d292f90472dee89582ed7714f"
+        },
+        {
+          "path": "skills/manim-video/SKILL.md",
+          "size": 2906,
+          "sha256": "bb890b019664a995ca2bf6c08add444a85099caf4c0085de50e9ad6f62d62d5f"
+        },
+        {
+          "path": "skills/manim-video/assets/network_graph_scene.py",
+          "size": 2897,
+          "sha256": "5d8ef9a5c55b244610a910229d195b10a5bb0b7d7e2add584b9915be6aa8a306"
+        },
+        {
+          "path": "skills/motion-advanced/SKILL.md",
+          "size": 18800,
+          "sha256": "1ee09b942bf328ffa97148bed838ecc8789c1891ca441abccdca52b4c47a9742"
+        },
+        {
+          "path": "skills/motion-foundations/SKILL.md",
+          "size": 9797,
+          "sha256": "ac0dd6de088e8cf2bff57230b365469e893c5f3a9578815a7f113689d0401972"
+        },
+        {
+          "path": "skills/motion-patterns/SKILL.md",
+          "size": 13418,
+          "sha256": "9d78bcd2c3b52abdb6fb29162f289b9c709547de264ad064b12e00bedb031907"
+        },
+        {
+          "path": "skills/remotion-video-creation/SKILL.md",
+          "size": 3642,
+          "sha256": "dd727cadc4c1e179932b9736955ff3e537f75eeb759c038345ad9fe7d1bc55a9"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/3d.md",
+          "size": 2279,
+          "sha256": "d5f3f412ba540d10a98f330dea3cd949d4fc4f9a6bf0d9788cf3f2b21a90f3f4"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/animations.md",
+          "size": 784,
+          "sha256": "3b2a9055f720fb5da70af86d4d43ab5722b6229f2c3f7c70100972df0fe4863b"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/assets.md",
+          "size": 1590,
+          "sha256": "664160a48fe6ef76c9b25ea51b3796d39d371cb3632f380b014492412902ad42"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/assets/charts-bar-chart.tsx",
+          "size": 3429,
+          "sha256": "6e5e219c596c8515336570a5bc89c233e32e695d5816dec88eb929e798eeea61"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/assets/text-animations-typewriter.tsx",
+          "size": 2183,
+          "sha256": "92b5f47d6d18387a0aa008ce9dceefd30f673ae5879e16892bd4b4ea97f5dddb"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/assets/text-animations-word-highlight.tsx",
+          "size": 2387,
+          "sha256": "5dbba688b875baaa62555c7a243f54739e81edbf34148c87048594a210c3ec2c"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/audio.md",
+          "size": 3822,
+          "sha256": "06d859b2f463d0e0e823655548e314b59a1d6321377857fca52a09c629170b12"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/calculate-metadata.md",
+          "size": 2920,
+          "sha256": "b258c788fb3337187245c814f2fd4ddf10f7330ec97cb8117202a0145d4d27a6"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/can-decode.md",
+          "size": 1587,
+          "sha256": "fb3f9933e45103d72530915b72a844b3454c6acc03289db5efe8f4541b088fad"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/charts.md",
+          "size": 1748,
+          "sha256": "67b51782c36f656af9c6e87fae77e70e8bb073495987670cb18c18a97add5584"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/compositions.md",
+          "size": 3442,
+          "sha256": "8939e6ce84d00e98f1813d781b554729d637b932b86fbbbbf6a3b3b34943220f"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/display-captions.md",
+          "size": 3698,
+          "sha256": "96abde72e0bcb88cdc5871b80b5d6eb0c6aedf0ea9611e6c5157cb0ee980ba99"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/extract-frames.md",
+          "size": 5496,
+          "sha256": "b7a63f6509a1a33d624f36d3f6772abbc364b0c883520803f3701c26541e7cd7"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/fonts.md",
+          "size": 3484,
+          "sha256": "1749e4cf82e8b157d4b0a26f46721152d3ef9e5e9a1686753b8bb6a1be83ddbc"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/get-audio-duration.md",
+          "size": 1354,
+          "sha256": "d5098e8d20b227464e3519c761cba1e03396c77da636d1893c7be3061a0a8e40"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/get-video-dimensions.md",
+          "size": 1627,
+          "sha256": "839867aa115e09a719096a902a6ad5e304135f2053cce9928776fb4fcb5bf3e1"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/get-video-duration.md",
+          "size": 1341,
+          "sha256": "7b31fab3cbf9b0771bae41e2c41c9abed2b59d495ffac7160e562fdf86848726"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/gifs.md",
+          "size": 3868,
+          "sha256": "53d9d658e3093dba4a798945d5c1b7004688ed96a09521cfb22b4cec418a8ae7"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/images.md",
+          "size": 2783,
+          "sha256": "91d32f6e528b1f1cddc9a0cf70d0faa74491e3a2fe4a32933da0e21010e9aa74"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/import-srt-captions.md",
+          "size": 2113,
+          "sha256": "38d33be5439714a2ddb577d8c8a6b7bf09bd10f66c0540415fb70536d4374e87"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/lottie.md",
+          "size": 1776,
+          "sha256": "327673644c436b9f0b52f03ef2f2a6a9cf75d9e18d3384b88969b86942e2b8a1"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/measuring-dom-nodes.md",
+          "size": 973,
+          "sha256": "4017103b03f14a041ac433be78c521ec2e9961629fae419c8b196d349637585b"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/measuring-text.md",
+          "size": 3000,
+          "sha256": "88905cbd701e247306645c19f18e01aebe27c4eb0178a4e5d0377687f5ac1478"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/sequencing.md",
+          "size": 2385,
+          "sha256": "a6bc2ecf64c43d2c496c4a10f00d78151e23dd73f5ec73a09d950436eb5bcee1"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/tailwind.md",
+          "size": 423,
+          "sha256": "e6025d703b69d9b4f9b240a80bbe4619872013ebd57c4511912d4be1a1c048a7"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/text-animations.md",
+          "size": 700,
+          "sha256": "40ac6b1bccf1c57d9edd46c74e847ec6e86fe775d3ef4fd14e1338f4a2606171"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/timing.md",
+          "size": 3927,
+          "sha256": "25d44384f42a2bbf4806e2e1aa6bd0acd0b1bd52160341f0f16dd1332b2a5d3d"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/transcribe-captions.md",
+          "size": 856,
+          "sha256": "c3324f7dc728cdb8d6a28ff664581b6a7ec2f1bae10727316b2b596d77d3df62"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/transitions.md",
+          "size": 3726,
+          "sha256": "1b105c06bb968f9ea03678178047da59b82a216e7a879b96d8ec821a8b6dea1e"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/trimming.md",
+          "size": 1209,
+          "sha256": "9f71fc28200d18a4e75e727cc81506ee30b4e6bf73ca735686dfd55f4bcaee70"
+        },
+        {
+          "path": "skills/remotion-video-creation/rules/videos.md",
+          "size": 3507,
+          "sha256": "6c663a2325df97483c123cc7f26c4db3eca3fcd38135bf7719d2969ce942c489"
+        },
+        {
+          "path": "skills/tasteforge-video/SKILL.md",
+          "size": 14932,
+          "sha256": "8c7e696fa6e34fa1722d9b8e7b8d8ca819aff68a660d85a35d7eca3f4541272a"
+        },
+        {
+          "path": "skills/video-editing/SKILL.md",
+          "size": 11754,
+          "sha256": "4ab8c9ef5a511e8a0de9ed375b9edbbfa74f23a0881519d2aceea67e7252b197"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/ITO_PROD_HighlightBloom.setting",
+          "size": 344,
+          "sha256": "859f20d4c3e29a91367cc0c1e4472be5f85919d7953957549a0afde5bac74ba1"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/ITO_PROD_LumaHalo.setting",
+          "size": 875,
+          "sha256": "fa767774ef6a20d52422f8dfea7f1577a1308261212d730cdba39a4df2169186"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/ITO_PROD_RGBFringe.setting",
+          "size": 952,
+          "sha256": "81aa1cde3412782d6ec4e0ca815ba52f1eaca1065df96d813a0885f72a9add9b"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/README.md",
+          "size": 3139,
+          "sha256": "fbae2d79d7f0ac1bdf0ac5c8b2ffb969f7737321e3e8f87faa5d7d12b9e3181e"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/install_ito_production_v1.lua",
+          "size": 2150,
+          "sha256": "fcde297435ac97ae7b9f01b65615ed7b0cd6622774a9952b1a041d642808d2b8"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-production-v1/provenance.json",
+          "size": 2323,
+          "sha256": "04f255db2e35f3bf062faf183a0ac1cfadede5c5a8b9fbcb1b813b7f600c06c6"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/ITO_V28_FlashEtherealBloom.setting",
+          "size": 572,
+          "sha256": "6bc178e29cc1a39458f58d53d397357eb8ecb4510780d5993fb25cef30b26d47"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/ITO_V28_RGBDisplacement.setting",
+          "size": 592,
+          "sha256": "66598d0c60e8551e1704932ef014691fc8cd684d50f1bf0646b39e3d2f4ccf36"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/ITO_V28_SubjectHalo.setting",
+          "size": 582,
+          "sha256": "ac70fca7f622da29ad34963a737f668c73b526a7852c2504f66b719d2c14b638"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/README.md",
+          "size": 3141,
+          "sha256": "b24ba1f873aa5f4bb178719995b0f06af6c6d5a46c5e48daaa79e4d562fff2f1"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/install_ito_v28.lua",
+          "size": 2118,
+          "sha256": "b111d9ed0773e29682a8e426fa9f65099022cfac3de4330db187e9303d4a0dd4"
+        },
+        {
+          "path": "skills/video-editing/assets/fusion/ito-v28/provenance.json",
+          "size": 1874,
+          "sha256": "9306a1b61b1c4b1b4c28b2e2a223894558e3dfa8da53b5f884c6e0fcf81c7594"
+        },
+        {
+          "path": "skills/videodb/SKILL.md",
+          "size": 14004,
+          "sha256": "4509fd09f659314f8cec19bf8d9593e4907f244b576b36d83b2259064cae4da4"
+        },
+        {
+          "path": "skills/videodb/reference/api-reference.md",
+          "size": 20455,
+          "sha256": "fa15b0239185cc807ee77f201818c49cdaf74a50142a04ab8acfa0d90eef43b9"
+        },
+        {
+          "path": "skills/videodb/reference/capture-reference.md",
+          "size": 12190,
+          "sha256": "c84989ef482bbb5504d6952ee5733b2a5f1e70c5bc0478dd475041b647351c6b"
+        },
+        {
+          "path": "skills/videodb/reference/capture.md",
+          "size": 4847,
+          "sha256": "e0021243fda7da46f4d080af9a2fc9b3e067a0554cdc64bba5313b269e05f948"
+        },
+        {
+          "path": "skills/videodb/reference/editor.md",
+          "size": 16558,
+          "sha256": "5f0d0ac43c9534f4eed8e1459a17a3879ee5e4e4d36aed5d6b58561f379a668e"
+        },
+        {
+          "path": "skills/videodb/reference/generative.md",
+          "size": 10263,
+          "sha256": "2004debb4e62aa904f7163c1d5252bbd21e7400c5495caaaf91fdb752371ff9f"
+        },
+        {
+          "path": "skills/videodb/reference/rtstream-reference.md",
+          "size": 15286,
+          "sha256": "e73dc675c9a433986cea6a78a36085e0552ee4a74317d7f7e0eb988ea4271dcf"
+        },
+        {
+          "path": "skills/videodb/reference/rtstream.md",
+          "size": 1881,
+          "sha256": "bd929e5583ff6377b7b5d72fb8c3416f97c8548450dc6d570fb75586753fea73"
+        },
+        {
+          "path": "skills/videodb/reference/search.md",
+          "size": 7928,
+          "sha256": "c26a1eab8b4adde439f1bdf252ef4dc1dd17275ebc65c3524ed8c6061b836797"
+        },
+        {
+          "path": "skills/videodb/reference/streaming.md",
+          "size": 11867,
+          "sha256": "8963e4a52985dd2b274a259d815dd2ef23bdc2b75930d7f42cb2b8d6a6e0f935"
+        },
+        {
+          "path": "skills/videodb/reference/use-cases.md",
+          "size": 4451,
+          "sha256": "b64966f872d036191747050c5c8121601f54ce8099716665cf09bc0a66c69905"
+        },
+        {
+          "path": "skills/videodb/scripts/ws_listener.py",
+          "size": 8422,
+          "sha256": "1b8867e19cca1509993a9136554e3330b4a0d7942bf1b01c3b9469bfe5da06cd"
+        }
+      ],
+      "license": "MIT"
+    }
+  },
+  "profiles": {
+    "core": {
+      "hyperframes": [
+        "hyperframes",
+        "hyperframes-core",
+        "hyperframes-keyframes",
+        "hyperframes-animation",
+        "hyperframes-creative",
+        "hyperframes-cli",
+        "hyperframes-audio",
+        "hyperframes-registry",
+        "media-use",
+        "general-video",
+        "motion-graphics"
+      ],
+      "ecc": [
+        "video-editing"
+      ]
+    },
+    "youtube": {
+      "hyperframes": [
+        "embedded-captions",
+        "faceless-explainer",
+        "talking-head-recut"
+      ]
+    },
+    "ads": {
+      "hyperframes": [
+        "product-launch-video"
+      ],
+      "ecc": [
+        "brand-discovery",
+        "brand-voice"
+      ]
+    },
+    "remotion": {
+      "ecc": [
+        "remotion-video-creation"
+      ]
+    },
+    "math": {
+      "ecc": [
+        "manim-video"
+      ]
+    },
+    "react-ui": {
+      "ecc": [
+        "motion-foundations",
+        "motion-patterns",
+        "motion-advanced"
+      ]
+    },
+    "cloud-media": {
+      "ecc": [
+        "fal-ai-media",
+        "tasteforge-video",
+        "videodb"
+      ]
+    },
+    "blender": {
+      "ecc": [
+        "blender-motion-state-inspection"
+      ]
+    }
+  }
+}
