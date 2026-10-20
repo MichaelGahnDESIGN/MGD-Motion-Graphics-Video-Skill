@@ -74,6 +74,7 @@ Weiter: [Installation](Installation.md) · [Projektstart](Projektstart.md) ·
 [Videoarten](Videoarten.md) · [Problemlösung](Probleme-und-FAQ.md)
 '''
     result[ROOT/'docs/wiki/Befehle.md']=guide
+    result[ROOT/'docs/wiki/Charaktere-und-LoRA.md']=(CORE/'references/characters-lora.md').read_text(encoding='utf-8').replace('../assets/character-template.json','../../skills/mgd-motion-graphics-video/assets/character-template.json')
     return result
 
 

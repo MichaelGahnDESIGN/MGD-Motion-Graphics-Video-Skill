@@ -35,3 +35,34 @@ Ein exportiertes Video ist noch kein veröffentlichter Beitrag. Plattformkonto,
 Begleittext, Rechte, Ziel und Zeitpunkt vor einem Upload beachten. Private
 Rohquellen oder sensible Testlogs nicht automatisch zusammen mit einem Skill
 oder einer Release-Datei veröffentlichen.
+
+## Cloud, lokale Bilder und Assistentenkontext unterscheiden
+
+OpenAI-/ChatGPT-Imagegen ist ein Cloud-Bilddienst, auch wenn der Aufruf in einer
+lokalen App erfolgt. Beim Cloud-Assistenten können bereits gelesene Projekttexte
+und betrachtete Referenzbilder Teil der Serververarbeitung sein. Lokales FFmpeg-
+Rendern ist davon getrennt. Ein Speicherort auf dem NAS garantiert keine Offline-
+Verarbeitung. Den Datenfluss vor neuen Generierungs-/Trainingsjobs offenlegen.
+
+Bei Figuren den [Charakter-Workflow](Charaktere-und-LoRA.md) verwenden. Bildanbieter
+und LoRA-Trainer können verschieden sein; die Freigabe für einen Dienst gilt
+nicht automatisch für den anderen. Gewichte, Trainingsbilder und private Sheets
+werden nicht zusammen mit dem öffentlichen Skill veröffentlicht.
+
+## Tokenzahlen und Geldbeträge nicht verwechseln
+
+Wenn ein Benutzer nach Kosten fragt, den konkreten Auftrag zeitlich abgrenzen
+und verfügbare Sitzungszähler davor/danach vergleichen. Eingabetokens, darin
+enthaltene Cache-Tokens und Ausgabetokens getrennt berichten; Cache nicht nochmals
+zum Input addieren, Reasoning nicht doppelt zum Output zählen. Wiederholt
+mitgesendeter Gesprächskontext erklärt große kumulierte Tokenzahlen. Bei
+Kontextkürzungen und Resets die Konsistenz der Zähler prüfen und Grenzen nennen.
+Keine Tokenzahl aus Dateigröße oder sichtbarer Antwortlänge erfinden.
+
+Eine API-Vergleichsrechnung anhand aktueller offizieller Modellpreise ist keine
+Abo-Rechnung. Cachetarife, Kontextlängenstaffeln und gegebenenfalls Dienststufen
+beachten. Bild-/Video-/Sprachgenerierung kann zusätzlich berechnet werden und
+ist ohne gemeldete Nutzungs-/Preisdaten nicht exakt zurechenbar. Abo-Kontingente,
+Zusatzcredits, tatsächlich abgebuchte Beträge, Strom und Renderzeit getrennt
+benennen; unbekannte Werte nicht als null Euro ausgeben. Vorher genehmigte
+Budgets gelten weiter, solange der konkrete Job abgedeckt ist.

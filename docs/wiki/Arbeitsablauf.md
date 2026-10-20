@@ -35,3 +35,11 @@ Ein lokaler Build, eine bestandene technische Prüfung, eine Sichtkontrolle und
 ein tatsächlicher Plattform-Upload sind verschiedene Zustände. Der Arbeitsbericht
 nennt nur das, was wirklich beobachtet wurde. Eine Veröffentlichung erfolgt im
 beauftragten Umfang; private Rohquellen bleiben im Projekt.
+
+## Wenn Figuren vorkommen
+
+Vor neuen Figurenbildern den [Charakter-Sheet-/LoRA-Workflow](Charaktere-und-LoRA.md)
+durchführen: verbindliche Darstellung, bestehende Sheets und LoRA-Pfade, Bildanbieter,
+kompatiblen Trainer sowie Daten- und Kostenfreigabe klären. Sheet und echtes LoRA
+erstellen oder geprüft wiederverwenden. Bestehende passende Antworten übernehmen.
+Ein reiner Schnittfix braucht kein erneutes Training.

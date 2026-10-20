@@ -34,3 +34,11 @@ Ein brauchbarer Auftrag lautet etwa: „Ein 25-sekündiges Fantasy-Reel, das Neu
 auf die Welt weckt. Erst Nacht, danach Tag. Runde magische Lichtpunkte, Regen
 hinter dem Motiv, keine Whooshes. Logo und Autorenzeile am Ende sechs Sekunden
 vollständig lesbar.“ Die konkrete Reihenfolge ist eine Projektentscheidung.
+
+## Wenn Figuren vorkommen
+
+Vor neuen Figurenbildern den [Charakter-Sheet-/LoRA-Workflow](Charaktere-und-LoRA.md)
+durchführen: verbindliche Darstellung, bestehende Sheets und LoRA-Pfade, Bildanbieter,
+kompatiblen Trainer sowie Daten- und Kostenfreigabe klären. Sheet und echtes LoRA
+erstellen oder geprüft wiederverwenden. Bestehende passende Antworten übernehmen.
+Ein reiner Schnittfix braucht kein erneutes Training.

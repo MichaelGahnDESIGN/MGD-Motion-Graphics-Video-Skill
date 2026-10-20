@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "character_id": null,
+  "canonical_version": null,
+  "appearance_source": null,
+  "sheet": {
+    "status": "required",
+    "file": null,
+    "sha256": null,
+    "approved": false
+  },
+  "image_generation": {
+    "provider": null,
+    "model": null,
+    "processing_location": null
+  },
+  "lora": {
+    "status": "required",
+    "origin": null,
+    "file_or_managed_model_id": null,
+    "sha256": null,
+    "base_model": null,
+    "base_revision": null,
+    "trigger_words": [],
+    "strength": null,
+    "trainer": null,
+    "training_record": null,
+    "validation_images": [],
+    "validation_reviewed": false,
+    "blocker_or_user_exception": null
+  },
+  "permissions": {
+    "allowed_references": [],
+    "image_provider_approved": false,
+    "training_provider_approved": false,
+    "cloud_upload_scope": null,
+    "budget": null,
+    "rights_record": null
+  },
+  "data_retention": null
+}

@@ -1,5 +1,13 @@
 # Änderungen
 
+## 0.3.0 – 20.10.2026
+
+- Verbindlicher Charakter-Workflow für alle 14 Videoaufrufe: Charakter-Sheet und echtes LoRA erstellen oder geprüft wiederverwenden.
+- Gebündelte Vorabfrage zu Darstellung, vorhandenen LoRA-Pfaden, Bildanbieter, Trainer, Datenfreigabe und Kosten.
+- Klare Trennung von OpenAI-Cloud, lokalem Rendern, lokaler Generierung und externen Medienanbietern.
+- Referenzmodul, neutrale Projektvorlage und ausführliche Wiki-Seite für konsistente Figuren.
+- Kein automatischer Upload, Trainingsjob, Modell-Download oder Anbieterwechsel.
+
 ## 0.2.0 – 20.10.2026
 
 - 14 spezialisierte Aufrufe und kopierfertige Prompts aus einem gemeinsamen Katalog.

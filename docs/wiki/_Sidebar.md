@@ -14,6 +14,7 @@
 - [Formate und Export](Formate-und-Export.md)
 - [Qualität](Qualitaet.md)
 - [ECC und Plugins](ECC-und-Plugins.md)
+- [Charakter-Sheets und LoRA](Charaktere-und-LoRA.md)
 - [Kosten und Datenschutz](Kosten-und-Datenschutz.md)
 - [NAS-Arbeit](NAS-und-Projektablage.md)
 - [Updates und Wiederherstellung](Updates-und-Wiederherstellung.md)

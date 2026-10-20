@@ -29,3 +29,11 @@ Standbildern oft nicht auf. Ohne geeignete freigegebene Fähigkeiten einen
 brauchbaren lokalen Entwurf anbieten und die Grenze ehrlich benennen.
 
 Weiter: [Prompt-Vorlage](Befehle.md) · [Gestaltung](Gestaltung-und-Bewegung.md) · [Qualität](Qualitaet.md)
+
+## Wenn Figuren vorkommen
+
+Vor neuen Figurenbildern den [Charakter-Sheet-/LoRA-Workflow](Charaktere-und-LoRA.md)
+durchführen: verbindliche Darstellung, bestehende Sheets und LoRA-Pfade, Bildanbieter,
+kompatiblen Trainer sowie Daten- und Kostenfreigabe klären. Sheet und echtes LoRA
+erstellen oder geprüft wiederverwenden. Bestehende passende Antworten übernehmen.
+Ein reiner Schnittfix braucht kein erneutes Training.

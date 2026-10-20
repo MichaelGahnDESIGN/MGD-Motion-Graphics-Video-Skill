@@ -36,15 +36,27 @@ def resolve(value):
     raise ValueError('Unbekannter Aufruf: '+value)
 
 
+CHARACTER_PROMPT = (' Bei Figuren kläre vor neuen Bildern die verbindliche Darstellung und vorhandene Charakter-Sheets oder LoRAs einschließlich Dateipfad. '
+                    'Frage nach ChatGPT/OpenAI (Cloud), lokaler Bildgenerierung, Higgsfield oder anderem Anbieter; kläre LoRA-Training separat. '
+                    'Erstelle beziehungsweise verwende geprüft Charakter-Sheet und echtes kompatibles LoRA. Anbieter, Datenfreigabe und Kostenrahmen vor Generierung festhalten; '
+                    'bestehende passende Entscheidungen übernehmen und fehlende LoRA-Fähigkeiten offen benennen.')
+
+CHARACTER_ROUTING = ('Bei Figuren vor neuen Figurenbildern die [Charakter-Sheet-/LoRA-Anleitung](../mgd-motion-graphics-video/references/characters-lora.md) lesen. '
+                     'Verbindliche Darstellung, vorhandene Sheets/LoRA-Pfade, Bildanbieter und LoRA-Trainer gemeinsam klären. '
+                     'Charakter-Sheet und echtes LoRA gehören zur Standardlieferung; passende freigegebene Ressourcen wiederverwenden. '
+                     'ChatGPT/OpenAI ist Cloud-Verarbeitung. Externe Datenfreigabe und Kostenrahmen beachten; keine erfundene LoRA-Erstellung. '
+                     'Bereits dokumentierte passende Antworten nicht wiederholen; reine Schnittkorrekturen benötigen kein erneutes Training.')
+
+
 def render_prompt(item,values=None):
-    return item['prompt'].format_map({**DEFAULTS,**(values or {})})
+    return item['prompt'].format_map({**DEFAULTS,**(values or {})}) + CHARACTER_PROMPT
 
 
 def render_skill(item):
     return ('---\nname: '+item['skill']+'\ndescription: '+json.dumps(item['description'],ensure_ascii=False)+'\n---\n\n# '+item['title']+'\n\n'
             'Gewünschter Aufruf: `/'+item['command']+'`. In Codex explizit mit `$'+item['skill']+'` starten.\n\n'
             'Lies den [Hauptskill](../mgd-motion-graphics-video/SKILL.md) und nur die für diese Aufgabe nötigen Referenzen. '
-            'Erhalte bestehende Entscheidungen und vorhandene Projektquellen.\n\n'+item['instructions']+'\n\n'
+            'Erhalte bestehende Entscheidungen und vorhandene Projektquellen.\n\n'+item['instructions']+'\n\n'+CHARACTER_ROUTING+'\n\n'
             'Wesentlich fehlende Angaben nur erfragen, wenn sie nicht aus Auftrag, Datei oder bestehendem Projekt ableitbar sind. '
             'Ein Formatvorschlag ist keine Einschränkung einer ausdrücklichen Benutzerwahl.\n')
 
@@ -60,6 +72,6 @@ def render_ui(item):
 def render_command(item):
     return ('---\ndescription: '+json.dumps(item['description'],ensure_ascii=False)+'\n---\n\n'
             'Nutze den [MGD-Hauptskill](../skills/mgd-motion-graphics-video/SKILL.md).\n\n'
-            +item['instructions']+'\n\nBenutzerangaben: $ARGUMENTS\n\n'
+            +item['instructions']+'\n\n'+CHARACTER_ROUTING.replace('../mgd-motion-graphics-video/references/', '../skills/mgd-motion-graphics-video/references/')+'\n\nBenutzerangaben: $ARGUMENTS\n\n'
             'Wesentlich fehlende Angaben nur erfragen, wenn sie nicht aus Auftrag, Datei oder Projekt ableitbar sind. '
             'Originale erhalten und nur beauftragte externe Aktionen ausführen.\n')

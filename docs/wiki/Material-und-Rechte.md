@@ -31,3 +31,11 @@ Personen- oder Charaktervorlagen nicht ungefragt an Generatoren hochladen.
 Eine generative Neuzeichnung kann Identität, Kleidung und Details verändern;
 dafür braucht es einen passenden Auftrag. Private Kanon- oder Manuskriptdateien
 bleiben im Projekt und werden nicht Teil eines öffentlichen Skill-Pakets.
+
+## Wenn Figuren vorkommen
+
+Vor neuen Figurenbildern den [Charakter-Sheet-/LoRA-Workflow](Charaktere-und-LoRA.md)
+durchführen: verbindliche Darstellung, bestehende Sheets und LoRA-Pfade, Bildanbieter,
+kompatiblen Trainer sowie Daten- und Kostenfreigabe klären. Sheet und echtes LoRA
+erstellen oder geprüft wiederverwenden. Bestehende passende Antworten übernehmen.
+Ein reiner Schnittfix braucht kein erneutes Training.

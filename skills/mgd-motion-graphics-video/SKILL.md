@@ -43,6 +43,25 @@ Installationsauftrag allein ist kein Auftrag, bereits einen Film zu erzeugen.
    Konfiguration, Cloud-Upload und Veröffentlichung sind getrennte Handlungen;
    ein Videoauftrag allein autorisiert keine Kontoänderung oder bezahlte API.
 
+## Figuren: Charakter-Sheet und LoRA sind Teil der Produktion
+
+Sobald Figuren, Charaktere oder wiederkehrende Maskottchen vorkommen, lies vor
+neuen Figurenbildern [characters-lora.md](references/characters-lora.md).
+Für jede Figur gehören ein verbindliches **Charakter-Sheet und ein echtes LoRA**
+zur Standardlieferung. Bestehende freigegebene Sheets und kompatible LoRAs werden
+geprüft wiederverwendet, statt unnötig neu erzeugt oder trainiert zu werden.
+
+Frage vorher gebündelt nach der verbindlichen Darstellung, vorhandenen Sheets
+und LoRA-Pfaden sowie nach dem gewünschten Werkzeug: ChatGPT/OpenAI, tatsächlich
+lokale Bildgenerierung, Higgsfield oder anderer Anbieter. Kläre Bildgenerierung
+und LoRA-Training getrennt, einschließlich erlaubter Referenzen, Cloud-Übertragung
+und Kostenrahmen. Bereits dokumentierte passende Antworten nicht erneut abfragen.
+Ein ChatGPT-Bildwerkzeug ist trotz lokaler Bedienung ein Cloud-Dienst; ein Sheet
+oder Referenzprompt ist kein trainiertes LoRA. Kann das gewählte Werkzeug kein
+LoRA trainieren oder laden, benenne die Grenze und kläre einen kompatiblen Weg,
+bevor du davon abhängige Figurenbilder erzeugst. Keine stillen Anbieterwechsel,
+Platzhalter-LoRAs oder automatische kostenpflichtige Trainingsjobs.
+
 ## Umsetzung
 
 - Lies [workflows.md](references/workflows.md) für das gewählte Videoformat.

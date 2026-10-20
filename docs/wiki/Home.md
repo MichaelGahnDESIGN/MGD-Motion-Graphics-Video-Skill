@@ -29,6 +29,7 @@ Bildsprache, keine feste Vorgabe.
 
 - [ECC und Plugins](ECC-und-Plugins.md)
 - [NAS und lokale Arbeitskopien](NAS-und-Projektablage.md)
+- [Charakter-Sheets und LoRA](Charaktere-und-LoRA.md)
 - [Kosten und Datenschutz](Kosten-und-Datenschutz.md)
 - [Update und Wiederherstellung](Updates-und-Wiederherstellung.md)
 - [Problemlösung und FAQ](Probleme-und-FAQ.md)
@@ -36,7 +37,8 @@ Bildsprache, keine feste Vorgabe.
 - [Entwicklung und Prüfung](Entwicklung-und-Tests.md)
 - [Quellen und Begriffe](Quellen-und-Begriffe.md)
 
-Version **0.2.0** ergänzt spezialisierte Aufrufe und dieses Handbuch. Der neutrale
+Version **0.3.0** ergänzt den verbindlichen Charakter-Sheet-/LoRA-Workflow
+mit Anbieterwahl, Datenfreigabe und prüfbaren Charakterressourcen. Der neutrale
 Starter aus 0.1.0 bleibt die Grundlage. Der Hauptskill und die Aufrufe müssen in
 der jeweiligen Agentenumgebung installiert sein; eine GitHub-Seite allein richtet
 keine lokalen Befehle ein.

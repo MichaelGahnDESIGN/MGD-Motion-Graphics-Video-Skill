@@ -39,3 +39,7 @@ nur über geeignete Secret-Verwaltung, nie in Beispielskripten oder Git. Keine
 externen Kosten, Authentifizierung oder Veröffentlichung als stiller Fallback.
 Die aktuelle Remotion-Lizenz hängt vom Einsatz ab; Bedingungen vor dem Einsatz
 prüfen, nicht pauschal kostenlose kommerzielle Nutzung zusagen.
+
+Bei Figuren zuerst den [Charakter- und LoRA-Ablauf](characters-lora.md) durchführen.
+Bildreferenzen, proprietäre Charakterdienste und echte trainierte Adapter nicht
+gleichsetzen. Imagegen-Aufruf aus einer lokalen App ist keine Offline-Bildgenerierung.

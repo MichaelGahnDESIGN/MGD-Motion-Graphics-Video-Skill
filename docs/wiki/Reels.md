@@ -28,3 +28,11 @@ bewusst abnehmen und ihre Namen eindeutig halten. `/reel` und `/MGD-Reel` führe
 zum selben Produktionsmodus.
 
 Weiter: [Prompt-Vorlage](Befehle.md) · [Gestaltung](Gestaltung-und-Bewegung.md) · [Qualität](Qualitaet.md)
+
+## Wenn Figuren vorkommen
+
+Vor neuen Figurenbildern den [Charakter-Sheet-/LoRA-Workflow](Charaktere-und-LoRA.md)
+durchführen: verbindliche Darstellung, bestehende Sheets und LoRA-Pfade, Bildanbieter,
+kompatiblen Trainer sowie Daten- und Kostenfreigabe klären. Sheet und echtes LoRA
+erstellen oder geprüft wiederverwenden. Bestehende passende Antworten übernehmen.
+Ein reiner Schnittfix braucht kein erneutes Training.

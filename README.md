@@ -7,7 +7,7 @@ bewegte Typografie, Compositing, Schnitt, Ton und überprüfbare Videoexporte.
 Lokale Werkzeuge bilden den Kern. Passende ECC-Skills und Medien-Plugins können
 gezielt ergänzt werden. Der Aufbau orientiert sich am
 [Video Composer Skill](https://github.com/MichaelGahnDESIGN/ChatGPT-Video-Composer-Skill)
-und der MGD-Skill-Struktur. Version **0.2.0**.
+und der MGD-Skill-Struktur. Version **0.3.0**.
 
 ## Was enthalten ist
 
@@ -27,6 +27,20 @@ Schlussbilder, fehlende Timeline-Bindungen und NAS-Probleme. Private Medien,
 Projektpfade und Inhalte gehören nicht zum öffentlichen Paket.
 
 ![Neutraler, lokal erzeugter Demo-Baukasten in 9:16](docs/media/demo-reel.jpg)
+
+## Charaktere konsistent gestalten
+
+Bei Figuren gehören ein Charakter-Sheet und ein echtes, zum Zielmodell passendes
+LoRA zur Standardproduktion. Der Assistent fragt vorher nach verbindlichen
+Referenzen, vorhandenen Sheets/LoRA-Pfaden, dem gewünschten Bildanbieter und einem
+kompatiblen LoRA-Trainer. ChatGPT/OpenAI (Cloud), lokale Werkzeuge, Higgsfield und
+andere Anbieter werden bewusst unterschieden; Datenübertragung und Kosten sind
+vorher zu klären. Ein vorhandenes geprüftes LoRA ersetzt erneutes Training.
+
+[Charakter-Sheets und LoRA im Wiki](docs/wiki/Charaktere-und-LoRA.md) erklärt den
+Dialog, Training, Kompatibilität, Datenschutz und die prüfbare Übergabe.
+Es wird kein LoRA-Training in einem Werkzeug versprochen, das diese Funktion
+nicht anbietet. Die Erweiterung startet selbst weder Training noch Uploads.
 
 ## Alle Aufrufe und vollständiges Wiki
 
