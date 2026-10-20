@@ -146,6 +146,17 @@ Oder:
 Der Stil wird pro Projekt gewählt. Fantasy ist ein Beispiel, keine feste Vorgabe.
 Ein vorhandenes Projekt wird gezielt weiterbearbeitet, ohne unnötigen Neustart.
 
+## ElevenLabs für natürliche Sprecherstimmen
+
+Optional lässt sich der offizielle gehostete **ElevenLabs-MCP per OAuth**
+verbinden. Danach können passende Stimmen ausgewählt, Credit-Kosten vorab
+geprüft und Sprecherfassungen erzeugt werden. Die Videomischung bleibt lokal
+mit FFmpeg oder Remotion. Ein kopierter Skill richtet die Verbindung nicht ein;
+Kontoanmeldung, Rechte und Kostenfreigabe werden getrennt geprüft.
+
+[Einrichtung und Praxis im Wiki](docs/wiki/ElevenLabs-MCP.md) ·
+[Arbeitsanleitung für den Skill](skills/mgd-motion-graphics-video/references/elevenlabs-mcp.md)
+
 ## Grenzen, Kosten und Rechte
 
 Der Skill selbst ist MIT-lizenziert. Zusatzskills behalten ihre jeweilige Lizenz.

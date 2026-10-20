@@ -20,6 +20,13 @@ verfügbaren Credits und berechtigt nicht automatisch zu kostenpflichtiger
 Generierung. Lokale Sprachmodelle können beim ersten Einsatz große Downloads
 benötigen, obwohl spätere Berechnung lokal geschieht.
 
+## ElevenLabs über MCP
+
+Für bewusst gewählte ElevenLabs-Stimmen gibt es eine eigene
+[Anleitung zu OAuth-Einrichtung, Stimmenwahl und Credit-Prüfung](ElevenLabs-MCP.md).
+Sprechertext und Zeitplan werden aus dem vorhandenen Auftrag übernommen;
+die Musikmischung und der finale Export bleiben im Videoprojekt.
+
 ## Untertitel
 
 Transkription kontrollieren: Namen, Zahlen und Fachbegriffe stimmen nicht immer.

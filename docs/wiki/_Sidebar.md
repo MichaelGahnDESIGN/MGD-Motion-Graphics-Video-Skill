@@ -11,6 +11,7 @@
 - [Gestaltung und Bewegung](Gestaltung-und-Bewegung.md)
 - [Effekte und Compositing](Effekte-und-Compositing.md)
 - [Audio und Untertitel](Audio-und-Untertitel.md)
+- [ElevenLabs-MCP](ElevenLabs-MCP.md)
 - [Formate und Export](Formate-und-Export.md)
 - [Qualität](Qualitaet.md)
 - [ECC und Plugins](ECC-und-Plugins.md)

@@ -21,6 +21,7 @@ Bildsprache, keine feste Vorgabe.
 - [Bildsprache und Bewegung](Gestaltung-und-Bewegung.md)
 - [Partikel, Regen und Compositing](Effekte-und-Compositing.md)
 - [Sprache, Musik und Ton](Audio-und-Untertitel.md)
+- [ElevenLabs-MCP und natürliche Sprecherstimmen](ElevenLabs-MCP.md)
 - [Formate und Export](Formate-und-Export.md)
 - [Qualität und Abnahme](Qualitaet.md)
 - [Bestehende Videos optimieren](Video-Optimieren.md)

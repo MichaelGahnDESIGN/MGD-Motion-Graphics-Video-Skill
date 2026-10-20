@@ -91,6 +91,9 @@ Platzhalter-LoRAs oder automatische kostenpflichtige Trainingsjobs.
 - Lies [audio-export.md](references/audio-export.md) für Ton und Lieferung.
   Kostenpflichtige Generierung, fremde Musik und künstliche Stimmen brauchen
   passende Rechte und die jeweilige Freigabe. Keine Whooshes als Automatismus.
+- Für ausdrücklich gewählte ElevenLabs-Sprecherfassungen lies
+  [ElevenLabs über MCP](references/elevenlabs-mcp.md): OAuth-Anbindung, tatsächliche
+  Stimmenauswahl, Credit-Schätzung, einmaliger Start und geprüfte Audiomischung.
 
 ## ECC und Plugins gezielt kombinieren
 
