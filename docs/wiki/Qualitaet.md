@@ -8,11 +8,10 @@ Hierarchie von Effekten. Die Auswahl muss das ganze Video abdecken, nicht nur
 besonders schöne Anfangsbilder. In einer suchbaren Timeline auch direkt zu
 späten und früheren Zeiten springen.
 
-HyperFrames `check` führt bereits statische Prüfungen mit aus. Ein erfolgreicher
-Check ist nützlich, aber nicht unfehlbar: Transparente SVG-Flächen können große
-Bounding-Boxes melden. Solche Befunde an echten Bildern beurteilen. Gewollte
-Überlappung höchstens an der betroffenen Stelle markieren, nicht die ganze Szene
-aus der Prüfung nehmen.
+Der Remotion-Check öffnet die Komposition im vorhandenen Browser und meldet
+Metadaten beziehungsweise Konsolenfehler. Er erkennt nicht automatisch jede
+Überlappung oder falsche Gestaltung. Kritische Frames mit `snapshot` erzeugen
+und tatsächlich ansehen. FFmpeg-Filter ebenfalls am gerenderten Ergebnis prüfen.
 
 ## Tatsächlichen Export prüfen
 

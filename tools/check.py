@@ -10,11 +10,20 @@ import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
 
+def source_files(pattern):
+    # Große Arbeitskopien und npm-Bestände nicht einmal betreten.
+    for folder, dirs, files in os.walk(ROOT):
+        dirs[:] = [d for d in dirs if d not in ('.tmp', '.git', 'node_modules', '__pycache__')]
+        for name in files:
+            path = Path(folder)/name
+            if path.match(pattern): yield path
+
+
 def main():
-    for path in ROOT.rglob('*.py'):
+    for path in source_files('*.py'):
         if '.tmp' in path.parts or '.git' in path.parts:continue
         ast.parse(path.read_text(encoding='utf-8'),filename=str(path))
-    for path in ROOT.rglob('*.json'):
+    for path in source_files('*.json'):
         if '.tmp' in path.parts or '.git' in path.parts:continue
         json.loads(path.read_text(encoding='utf-8'))
     for skill in (ROOT/'skills').iterdir():
@@ -23,7 +32,7 @@ def main():
         if not text.startswith('---\nname: '+skill.name+'\n'):raise ValueError('Skill-Name und Verzeichnis stimmen nicht überein')
         if not re.search(r'^description: .+',text,re.M):raise ValueError('Beschreibung fehlt')
     # Lokale Markdown-Verweise prüfen; externe URLs werden nicht angefragt.
-    for path in ROOT.rglob('*.md'):
+    for path in source_files('*.md'):
         if '.tmp' in path.parts or '.git' in path.parts:continue
         for href in re.findall(r'\]\(([^)]+)\)',path.read_text(encoding='utf-8')):
             if '://' in href or href.startswith('#'):continue

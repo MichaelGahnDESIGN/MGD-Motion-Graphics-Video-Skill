@@ -22,7 +22,7 @@ def inspect_environment(skill_root=None):
         except (OSError, subprocess.TimeoutExpired) as error:
             results['tools'][name] = {'available': False, 'error': type(error).__name__}
     if skill_root:
-        for name in ('hyperframes', 'hyperframes-core', 'video-editing', 'remotion-video-creation'):
+        for name in ('video-editing', 'remotion-video-creation'):
             results['skills'][name] = [alias for alias in (name, 'ecc-' + name)
                                       if (skill_root / alias / 'SKILL.md').is_file()]
     return results

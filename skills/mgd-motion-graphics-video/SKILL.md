@@ -31,15 +31,17 @@ Installationsauftrag allein ist kein Auftrag, bereits einen Film zu erzeugen.
 2. Kläre nur fehlende Angaben, die das Ergebnis wesentlich ändern: Zielgruppe,
    Botschaft/Handlung, Format, ungefähre Länge, Sprache, vorhandene Medien und
    gewünschter Stil. Übernimm bereits getroffene Entscheidungen.
-3. Nutze passende vorhandene Werkzeuge. **FFmpeg** eignet sich für Schnitt,
-   Konvertierung und Ton; **HyperFrames + GSAP** für lokale HTML-Motion-Graphics;
-   **Remotion** für gewählte React-Videoprojekte; **Manim** für mathematische
-   Erklärungen; **Blender** für tatsächlich benötigte 3D-Szenen. Bestehende Projekte
-   haben Vorrang vor einem Framework-Wechsel.
-4. Prüfe mit `scripts/doctor.py` die Umgebung. Vor einem Browsercheck vertraulicher
-   Inhalte alle Schriften lokal auflösen: HyperFrames kann selbstständig
-   Webfonts einschließlich Text-Subsets abrufen; siehe Installationsreferenz. Für fehlende Werkzeuge oder Skills
-   lies [installation.md](references/installation.md). Installation, globale
+3. **FFmpeg oder Remotion** sind die vorgesehenen Videowerkzeuge. FFmpeg für
+   Schnitt, Compositing, Konvertierung und Ton; Remotion für komplexe bewegte
+   Typografie, Ebenen und React-Videokompositionen. Für andere lokale Video-Skills
+   **vor Auswahl oder Aufruf ausdrücklich fragen** und Zweck sowie Skill nennen.
+   Installation oder Verfügbarkeit allein gilt nicht als Zustimmung. Bereits
+   erteilte passende Zustimmung übernehmen. Alte Renderer nicht automatisch aus
+   einem bestehenden Projekt übernehmen; Originalprojekt erhalten und gezielt
+   eine Ableitung mit FFmpeg oder Remotion vorbereiten.
+4. Prüfe mit `scripts/doctor.py` die Umgebung. Schriften, Medien und Modelle
+   bewusst lokal einbinden. Für fehlende Werkzeuge oder Skills lies
+   [installation.md](references/installation.md). Installation, globale
    Konfiguration, Cloud-Upload und Veröffentlichung sind getrennte Handlungen;
    ein Videoauftrag allein autorisiert keine Kontoänderung oder bezahlte API.
 
@@ -93,14 +95,14 @@ Platzhalter-LoRAs oder automatische kostenpflichtige Trainingsjobs.
 ## ECC und Plugins gezielt kombinieren
 
 Lies [integrations.md](references/integrations.md), wenn Zusatzfähigkeiten nötig
-sind. Lade nur passende Skills. Bereits installierte `ecc-*`-Varianten können
-verwendet werden. Upstream-Annahmen über Claude, Toolnamen, Pflichtinterviews,
+sind. Auch passende vorhandene `ecc-*`-Varianten erst nach ausdrücklicher
+Zustimmung auswählen oder verwenden; benenne vorher Skill und Zweck. Upstream-Annahmen über Claude, Toolnamen, Pflichtinterviews,
 Uploads oder zusätzliche Bestätigungen ersetzen keine aktuellen Benutzer- und
 Umgebungsregeln. Verfügbare Fähigkeiten prüfen statt Toolaufrufe erfinden.
 
 `motion-foundations`, `motion-patterns` und `motion-advanced` behandeln vorwiegend
 React-Weboberflächen. Sie werden nur für passende Web-/React-Aufgaben geladen;
-ihre SSR- und `motion/react`-Regeln gelten nicht pauschal für GSAP-Videotimelines.
+ihre SSR- und `motion/react`-Regeln gelten nicht pauschal für Videotimelines.
 
 ## Abnahme und Lieferung
 

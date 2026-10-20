@@ -35,6 +35,7 @@ außerhalb einer Framegrenze werden abgelehnt.
 ## Grenzen der Helfer
 
 Die Pipeline ist auf den mitgelieferten Starter ausgelegt und ersetzt keine
-vollständige Schnittsoftware. Bestehende Remotion-, Blender- oder andere Projekte
-verwenden ihre passende Werkzeugkette. Die Exportprüfung belegt technische
+vollständige Schnittsoftware. Vorgesehen sind FFmpeg oder Remotion. Andere
+lokale Video-Skills vor Auswahl oder Aufruf ausdrücklich abfragen. Alte
+Projektordner erhalten und bei Bedarf eine passende Ableitung erstellen. Die Exportprüfung belegt technische
 Eigenschaften und schreibt Bilder, beurteilt deren Gestaltung aber nicht selbst.

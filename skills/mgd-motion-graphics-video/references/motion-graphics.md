@@ -49,14 +49,13 @@ hinzufügen, wenn nur eine visuelle Änderung beauftragt ist.
 
 ## Deterministische Videotimelines
 
-Für HTML/GSAP: pausierte Timeline bei `window.__timelines[compositionId]`
-registrieren. Die Registrierung im HTML für den statischen Compiler sichtbar
-machen. Alle Änderungen aus Videozeit ableiten, Partikel fest seeden. Kein
-`requestAnimationFrame`, unkontrolliertes `Math.random`, `Date.now`, autonome
-CSS-Keyframes oder nur vorwärts funktionierende Callbacks für die Exportanimation.
+In Remotion alle Animationen aus `useCurrentFrame()` und `useVideoConfig()`
+ableiten; Bewegungen über `interpolate()` oder `spring()` ausdrücken. Für Partikel
+feste Seeds oder eine deterministische Formel verwenden. Kein `Date.now()`,
+unkontrolliertes `Math.random()`, `requestAnimationFrame` oder autonome CSS-Keyframes.
+Ein beliebiges späteres Frame muss ohne vorherige Wiedergabe korrekt aussehen.
 
-Bei Unterkompositionen kann HyperFrames die Root-ID durch die Host-ID ersetzen.
-Verwende deshalb stabile innere Selektoren und prüfe, ob alle Glyphen existieren.
-Die Laufzeit besitzt Clip-Sichtbarkeit; animiere innere Wrapper für Ein-/Ausgänge.
-Globale Effekte mit eigener, passend langer Timeline einbinden und im zusammengesetzten
-Video kontrollieren. Ein isoliert korrektes Szenen-HTML belegt nicht den Endexport.
+In FFmpeg hängen Ausdrücke vom Frame `n` oder der Zeit `t` ab. Framerate und
+Zeitbasis der Quellen vor Übergängen angleichen. Endhaltezeit, Effekte und Ton
+müssen denselben Schnittplan verwenden. Zusammengesetztes Ergebnis an echten
+Exportbildern prüfen; eine einzeln korrekte Szene belegt nicht den fertigen Film.

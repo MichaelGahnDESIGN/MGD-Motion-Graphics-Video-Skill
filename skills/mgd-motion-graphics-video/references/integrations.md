@@ -2,13 +2,15 @@
 
 ## Lokale Zusatzskills
 
-Nutze `video-editing` bzw. eine vorhandene `ecc-video-editing`-Variante für Schnitt
-und FFmpeg-Details. Für HyperFrames die Basis und nur den passenden Workflow laden.
-`remotion-video-creation` ist für gewählte Remotion-Projekte; die Motion-Reihe
-`motion-foundations`, `motion-patterns`, `motion-advanced` ist primär Web-/React-UI.
-Keine React-Abhängigkeiten in ein GSAP-Projekt hineininstallieren, nur weil „Motion“
-im Namen steht. Für Mathematik kann `manim-video`, für echte Blender-Arbeit
-`blender-motion-state-inspection` passen.
+FFmpeg und Remotion sind die vorgesehenen Videowerkzeuge. Zusätzliche lokale
+Video-Skills **vor Auswahl oder Aufruf namentlich vorschlagen und ausdrücklich
+nach Zustimmung fragen**. Das gilt auch für bereits installierte ECC-Varianten.
+Installation oder Verfügbarkeit allein ist keine Nutzungsfreigabe.
+
+Nach Zustimmung können `video-editing`/`ecc-video-editing` FFmpeg-Wissen und
+`remotion-video-creation` Remotion-Wissen ergänzen. Die Motion-Reihe behandelt
+vorwiegend Web-/React-UI. Manim oder Blender sind andere lokale Produktionswege
+und benötigen ebenfalls vorherige Zustimmung; sie werden nie automatisch gewählt.
 
 Der Installer belässt Upstream-Dateien unverändert und ergänzt Herkunft/Lizenz.
 Damit wird keine Kompatibilität jedes enthaltenen Befehls versprochen. Prüfe

@@ -6,6 +6,8 @@ Nutze den [MGD-Hauptskill](../skills/mgd-motion-graphics-video/SKILL.md).
 
 Bewegung soll Bedeutung vermitteln: Ebenentiefe, Typografie, Formen und Übergänge bewusst choreografieren. Zeitleiste suchbar und reproduzierbar halten; Effekte dürfen die Aussage nicht verdecken.
 
+Verwende ausschließlich FFmpeg oder Remotion als vorgesehene Videowerkzeuge. Andere lokale Video-Skills nur nach vorheriger ausdrücklicher Zustimmung des Nutzers auswählen oder aufrufen; ihre Installation allein gilt nicht als Zustimmung. Keine automatische Übernahme früherer Renderer aus alten Projekten. Vorhandene Medien und Projekte erhalten; einen notwendigen Werkzeugwechsel gezielt vorbereiten.
+
 Bei Figuren vor neuen Figurenbildern die [Charakter-Sheet-/LoRA-Anleitung](../skills/mgd-motion-graphics-video/references/characters-lora.md) lesen. Verbindliche Darstellung, vorhandene Sheets/LoRA-Pfade, Bildanbieter und LoRA-Trainer gemeinsam klären. Charakter-Sheet und echtes LoRA gehören zur Standardlieferung; passende freigegebene Ressourcen wiederverwenden. ChatGPT/OpenAI ist Cloud-Verarbeitung. Externe Datenfreigabe und Kostenrahmen beachten; keine erfundene LoRA-Erstellung. Bereits dokumentierte passende Antworten nicht wiederholen; reine Schnittkorrekturen benötigen kein erneutes Training.
 
 Benutzerangaben: $ARGUMENTS

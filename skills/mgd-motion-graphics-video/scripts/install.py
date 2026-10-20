@@ -19,7 +19,7 @@ sys.dont_write_bytecode = True
 from command_catalog import load_catalog, render_command, render_skill, render_ui
 
 SKILL = Path(__file__).resolve().parents[1]
-ALLOWLIST = {'heygen-com/hyperframes', 'affaan-m/ecc'}
+ALLOWLIST = {'affaan-m/ecc'}
 MAX_FILE = 4 * 1024 * 1024
 MAX_TOTAL = 64 * 1024 * 1024
 

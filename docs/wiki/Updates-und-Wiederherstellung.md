@@ -3,8 +3,8 @@
 ## Versionen auseinanderhalten
 
 Skill-Version, Zusatzskill-Revisionen, Videolaufzeit und Filmexport sind getrennte
-Stände. Version 0.2.0 des Skills bedeutet nicht, dass HyperFrames oder GSAP
-aktualisiert wurden. Der Starter verwendet weiterhin seine geprüfte Sperrdatei.
+Stände. Ab Version 0.4.0 verwendet der Starter Remotion mit eigener geprüfter
+Paket-Sperrdatei. Alte Projektordner werden nicht durch ein Skill-Update migriert.
 Ein neuer Filmexport bekommt eine eigene Versionsnummer.
 
 ## Skill aktualisieren

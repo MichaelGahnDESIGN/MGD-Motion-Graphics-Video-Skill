@@ -56,8 +56,10 @@ werden; direkte Installation und Plugin-Installation nicht verwechseln.
 
 ## ECC und Werkzeuge ergänzen
 
-`--profile core` ergänzt die fest versionierten HyperFrames-Skills und ECC
-video-editing. Weitere Profile stehen unter [ECC und Plugins](ECC-und-Plugins.md).
+`--profile core` bietet ausschließlich fest versioniertes ECC video-editing an.
+Für FFmpeg und den Remotion-Starter ist kein Zusatzprofil erforderlich. Vor
+Auswahl oder Aufruf anderer lokaler Video-Skills ausdrücklich nach Zustimmung
+fragen und Skill sowie Zweck nennen. Weitere Profile stehen unter [ECC und Plugins](ECC-und-Plugins.md).
 Die Auswahl lädt Fremddateien mit Prüfsummen, führt aber keine Upstream-Installer
 aus. Prüfe vorhandene `ecc-*`-Varianten zuerst.
 

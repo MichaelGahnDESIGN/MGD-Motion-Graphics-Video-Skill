@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mgd-motion-graphics-video-skill",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Projektbezogene Reels, YouTube-Videos, Werbefilme und Motion Graphics mit lokalen Werkzeugen, ECC und optionalen Medien-Plugins.",
   "author": {
     "name": "Michael Gahn DESIGN"
@@ -13,7 +13,7 @@
     "reels",
     "youtube",
     "ffmpeg",
-    "hyperframes",
-    "ecc"
+    "ecc",
+    "remotion"
   ]
 }

@@ -14,8 +14,8 @@ import subprocess
 def setup(project, apply=False):
     project = Path(project).resolve()
     package = json.loads((project/'package.json').read_text(encoding='utf-8'))
-    wanted = {'gsap':'3.15.0', 'hyperframes':'0.8.177'}
-    if package.get('devDependencies') != wanted or package.get('dependencies') or package.get('optionalDependencies'):
+    wanted = {'@remotion/bundler': '4.0.537', '@remotion/renderer': '4.0.537', 'remotion': '4.0.537', 'react': '19.3.1', 'react-dom': '19.3.1'}
+    if package.get('dependencies') != wanted or package.get('devDependencies') or package.get('optionalDependencies'):
         raise ValueError('Dieses Setup ist ausschließlich für den mitgelieferten Starter vorgesehen')
     if not (project/'package-lock.json').is_file():
         raise FileNotFoundError('Geprüfte Paket-Sperrdatei fehlt')

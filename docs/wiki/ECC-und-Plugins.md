@@ -1,39 +1,42 @@
 # ECC, Zusatzskills und Plugins kombinieren
 
-## Nach tatsächlichem Bedarf auswählen
+## Verbindliche Werkzeugwahl
 
-Der Hauptskill koordiniert; Zusatzskills liefern spezifisches Wissen. Die
-Installation unterstützt folgende Profile:
+FFmpeg und Remotion sind die vorgesehenen Videowerkzeuge. Andere lokale
+Video-Skills vor Auswahl oder Aufruf namentlich vorschlagen und ausdrücklich
+nach Zustimmung fragen. Installiert bedeutet nicht freigegeben. Bereits
+getroffene passende Entscheidungen übernehmen. Ein Videoauftrag allein ist
+keine Erlaubnis, beliebige lokale Zusatzskills oder externe Dienste zu starten.
 
-| Profil | Inhalt | Typischer Einsatz |
+Der Hauptskill und seine 14 Aufrufvarianten funktionieren ohne Zusatzprofile.
+Optionale Profile installieren nur die ausdrücklich ausgewählten ECC-Dateien:
+
+| Profil | Ergänzung | Voraussetzung |
 |---|---|---|
-| `core` | HyperFrames-Basis und ECC video-editing | Lokale Schnitt-/Motion-Pipeline |
-| `youtube` | Erklärvideo, Untertitel und Talking-Head-Workflows | Redaktionelle Videos |
-| `ads` | Produktvideo, Markenfindung und Markensprache | Werbe- und Produktfilme |
-| `remotion` | ECC Remotion | Bewusst gewählte React-Videoprojekte |
-| `math` | ECC Manim | Mathematische Erklärungen |
-| `react-ui` | ECC Motion-Reihe | Weboberflächen und passende React-Aufgaben |
-| `cloud-media` | fal.ai, Tasteforge und VideoDB | Gewählte externe Medienverarbeitung |
-| `blender` | Blender-Motion-State-Inspection | Bestehende Blender-Szenen |
+| `core` | ECC video-editing | Vorher Skill und Zweck nennen und Zustimmung einholen |
+| `ads` | ECC Markenfindung und Markensprache | Ausdrücklich gewählte Ergänzung |
+| `remotion` | ECC Remotion | Zusatzskill nur nach Zustimmung verwenden |
+| `math` | ECC Manim | Anderes lokales Videowerkzeug, vorher fragen |
+| `react-ui` | ECC Motion-Reihe | Passende Webaufgabe; Videoeinsatz vorher klären |
+| `cloud-media` | ECC fal.ai, Tasteforge, VideoDB | Anbieter, Upload und Kosten gesondert freigeben |
+| `blender` | ECC Blender Motion State Inspection | Anderes lokales Videowerkzeug, vorher fragen |
 
-Profile lassen sich wiederholen: `--profile core --profile youtube`. Bereits
-vorhandene `ecc-*`-Varianten können verwendet werden. Installiere nicht vorsorglich
-alle Profile, nur weil ein neues Video entsteht. Die Motion-Reihe behandelt
-vorwiegend Web-/React-UI und schreibt einem GSAP-Projekt nicht `motion/react` vor.
+Profile können kombiniert werden, etwa `--profile core --profile remotion`.
+Das frühere `youtube`-Zusatzprofil entfällt; `/MGD-YouTube` bleibt verfügbar.
+Die Motion-Reihe betrifft vorwiegend Web-/React-Oberflächen, nicht jede Videotimeline.
 
 ## Ein Skill ist kein Connector
 
-Ein Plugin muss verfügbar sein, gegebenenfalls ein Konto verbunden werden und
-die konkrete Funktion tatsächlich zugänglich sein. Ein kopierter Skill stellt
-keinen MCP-Server und keine Zugangsdaten bereit. Nutze die in der Umgebung
-vorhandene Plugin-Suche und die jeweiligen Einrichtungsanweisungen. Keine
-kontoabhängigen Plugin-IDs als allgemeingültigen Installationsweg veröffentlichen.
+Ein Plugin muss verfügbar und gegebenenfalls ein Konto verbunden sein; die
+konkrete Funktion muss tatsächlich existieren. Kopierte Skill-Dateien richten
+keinen MCP-Server und keine Zugangsdaten ein. Keine kontoabhängigen Plugin-IDs
+als allgemeingültigen Installationsweg veröffentlichen.
 
-Higgsfield oder fal.ai können gewählte Medienbausteine liefern. Adobe, Canva oder
-Figma können vorhandene Designs erschließen. Ein Voice-Anbieter kann freigegebenen
-Sprechtext vertonen. Vor der Verwendung Datenübertragung, Kosten, Rechte und
-Exportqualität prüfen. Der lokale Schnitt bleibt die gemeinsame Projektgrundlage.
+Higgsfield oder fal.ai können nach gesonderter Wahl Medienbausteine liefern.
+Adobe, Canva oder Figma erschließen Designs, Voice-Anbieter vertonen Texte.
+Vorher Datenübertragung, Kosten, Rechte und Exportqualität klären. Der lokale
+Schnitt bleibt im Projekt; keine stillen Anbieterwechsel.
 
-Upstream-Skills unverändert zu installieren bedeutet nicht, dass jede darin
-beschriebene Claude-Funktion in Codex vorhanden ist. Toolnamen und Befehle prüfen;
-höherrangige Benutzer- und Projektregeln bleiben maßgeblich.
+Upstream-Dateien unverändert zu installieren belegt keine Kompatibilität aller
+Claude-Funktionen mit Codex. Toolnamen, Plattform und aktuelle Dokumentation prüfen;
+Benutzer- und Projektregeln bleiben maßgeblich.

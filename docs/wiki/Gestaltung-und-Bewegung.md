@@ -33,6 +33,6 @@ harter Schnitt können eine Szene verbinden. Übergänge begründen, statt über
 denselben Wisch einzusetzen. Vermeide stroboskopartige Blitze und überladene
 Kombinationen aus Shake, Licht, Zoom und Geräusch.
 
-Bei HTML/GSAP erfolgt alles über reproduzierbare Videozeit. Beliebiges Anspringen
+In Remotion folgt alles dem aktuellen Frame, in FFmpeg den Frame-/Zeitausdrücken. Beliebiges Anspringen
 und Rückwärtssprünge sollen denselben Zustand erzeugen. Unkontrollierter Zufall
 oder autonome Echtzeit-Schleifen passen nicht zu einem zuverlässigen Export.

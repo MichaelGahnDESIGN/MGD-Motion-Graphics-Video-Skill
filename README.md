@@ -4,10 +4,12 @@ Ein deutsch dokumentierter Skill für **Reels, YouTube-Videos, Werbefilme,
 Motion Graphics und Animationen**. Er verbindet Projektmaterial, Dramaturgie,
 bewegte Typografie, Compositing, Schnitt, Ton und überprüfbare Videoexporte.
 
+**FFmpeg und Remotion** sind die vorgesehenen Werkzeuge. Weitere lokale Video-Skills
+werden nur nach vorheriger ausdrücklicher Zustimmung ausgewählt oder verwendet.
 Lokale Werkzeuge bilden den Kern. Passende ECC-Skills und Medien-Plugins können
 gezielt ergänzt werden. Der Aufbau orientiert sich am
 [Video Composer Skill](https://github.com/MichaelGahnDESIGN/ChatGPT-Video-Composer-Skill)
-und der MGD-Skill-Struktur. Version **0.3.0**.
+und der MGD-Skill-Struktur. Version **0.4.0**.
 
 ## Was enthalten ist
 
@@ -23,7 +25,7 @@ und der MGD-Skill-Struktur. Version **0.3.0**.
 
 Erfahrungen aus realen Iterationen sind als allgemeine Fehlerhilfen enthalten:
 sichtbare Nebelkanten, abgeschnittene Gruppen, strichartige Partikel, zu kurze
-Schlussbilder, fehlende Timeline-Bindungen und NAS-Probleme. Private Medien,
+Schlussbilder, nicht reproduzierbare Zeitsteuerung und NAS-Probleme. Private Medien,
 Projektpfade und Inhalte gehören nicht zum öffentlichen Paket.
 
 ![Neutraler, lokal erzeugter Demo-Baukasten in 9:16](docs/media/demo-reel.jpg)
@@ -92,7 +94,8 @@ python3 skills/mgd-motion-graphics-video/scripts/install.py --target /PFAD/PROJE
 ```
 
 Nach Prüfung mit `--apply` ausführen. Ohne Profil werden keine Fremdskills geladen. Ohne `--aliases` wird nur der
-Hauptskill installiert. `core` ergänzt die HyperFrames-Basis und ECC video-editing.
+Hauptskill installiert. `core` bietet ausschließlich ECC video-editing als ausdrücklich zu wählende Ergänzung.
+Auch vorhandene lokale Zusatzskills erst nach Zustimmung verwenden.
 Weitere Profile und die bewusst getrennte globale Installation stehen in der
 [Installationsanleitung](skills/mgd-motion-graphics-video/references/installation.md).
 Keine bestehende abweichende Skill-Installation wird überschrieben.
@@ -168,10 +171,9 @@ python3 tools/check.py
 ```
 
 Die Standardprüfungen laufen ohne Netzwerk und ohne zusätzliche Python-Pakete.
-Version 0.2.0 ist mit 33 Verhaltenstests und 15 validierten Skills geprüft;
-Details stehen im [aktuellen Prüfbericht](docs/arbeitsberichte/0.2.0-pruefung.md).
-Der tatsächliche Browser- und Render-Test ist gesondert im
-[Prüfbericht 0.1.0](docs/arbeitsberichte/0.1.0-pruefung.md) dokumentiert.
+Aktuelle Prüfergebnisse und der Remotion-Testexport stehen im
+[Prüfbericht 0.4.0](docs/arbeitsberichte/0.4.0-pruefung.md). Historische Berichte
+belegen ausschließlich ihre damalige Version.
 Änderungen an Upstream-Versionen erfolgen bewusst über
 `tools/update_dependency_lock.py`, mit anschließender Prüfung und Testexport.
 

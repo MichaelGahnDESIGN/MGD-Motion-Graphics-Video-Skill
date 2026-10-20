@@ -1,5 +1,19 @@
 # Änderungen
 
+## 0.4.0 – FFmpeg und Remotion
+
+- HyperFrames einschließlich GSAP-Laufzeit, Zusatzskill-Quelle und ehemaligem
+  YouTube-Zusatzprofil aus dem aktuellen Paket entfernt.
+- Neutralen Starter und echte Browser-/Renderpipeline auf Remotion umgestellt;
+  alle npm-Pakete bewusst gesperrt, kein automatischer Browserdownload.
+- FFmpeg und Remotion als vorgesehene Wege in Hauptskill, allen Aufrufen,
+  Prompts und Wiki verankert. Andere lokale Video-Skills erst nach ausdrücklicher
+  Zustimmung auswählen oder aufrufen; Installation allein genügt nicht.
+- Bestehende Projektquellen und Charakter-Sheet-/LoRA-Funktionen erhalten.
+
+Die folgenden Einträge beschreiben historische Versionen und frühere Werkzeuge.
+
+
 ## 0.3.0 – 20.10.2026
 
 - Verbindlicher Charakter-Workflow für alle 14 Videoaufrufe: Charakter-Sheet und echtes LoRA erstellen oder geprüft wiederverwenden.

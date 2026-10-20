@@ -18,23 +18,22 @@ Updates sind bewusst vorzubereiten, nicht mit einem erzwungenen Überschreiben.
 Vorhandene lokale ECC-Varianten können stattdessen direkt verwendet werden;
 dann das entsprechende Installationsprofil weglassen.
 
-| Profil | Ergänzung | Wann sinnvoll |
+| Profil | Ergänzung | Voraussetzung |
 |---|---|---|
-| `core` | HyperFrames-Basis, Medien, Audio, Motion Graphics; ECC video-editing | Neue lokale Videopipeline |
-| `youtube` | Erklärvideo, eingebettete Untertitel, Talking Head | Interview/Erklärvideo |
-| `ads` | Produktvideo, Markenfindung und Markensprache | Werbefilm |
-| `remotion` | ECC Remotion | Gewähltes React-Videoprojekt |
-| `math` | ECC Manim | Mathematische Visualisierung |
-| `react-ui` | ECC Motion-Reihe | Weboberfläche, nicht pauschal ein MP4 |
-| `cloud-media` | ECC fal.ai, Tasteforge, VideoDB | Bewusst gewählte externe Medienverarbeitung |
-| `blender` | ECC Blender Motion State Inspection | Passendes Blender-Projekt |
+| `core` | ECC video-editing | Vorher Skill und Zweck nennen und Zustimmung einholen |
+| `ads` | ECC Markenfindung und Markensprache | Ausdrücklich gewählte Ergänzung |
+| `remotion` | ECC Remotion | Zusatzskill nur nach Zustimmung verwenden |
+| `math` | ECC Manim | Anderes lokales Videowerkzeug, vorher fragen |
+| `react-ui` | ECC Motion-Reihe | Passende Webaufgabe; Videoeinsatz vorher klären |
+| `cloud-media` | ECC fal.ai, Tasteforge, VideoDB | Anbieter, Upload und Kosten gesondert freigeben |
+| `blender` | ECC Blender Motion State Inspection | Anderes lokales Videowerkzeug, vorher fragen |
 
-Profile können wiederholt werden, z. B. `--profile core --profile youtube`.
-Jede Fremddatei wird an einer festen Git-Revision und ihrem SHA-256 geprüft.
-Es werden keine Upstream-Installationsskripte ausgeführt. Herkunft und Original-Lizenz (HyperFrames: Apache-2.0; ECC: MIT)
-liegen anschließend in `MGD-SOURCE.json` und `LICENSE.upstream` des Zusatzskills.
-Der Installer lädt nur ausgewählte Dateien, keine großen Repository-Archive.
-Ein manipulationssicherer Transport ersetzt keine Vertrauensprüfung der Inhalte.
+Profile können wiederholt werden, z. B. `--profile core --profile remotion`.
+Kein Zusatzprofil ist für FFmpeg oder den Remotion-Starter erforderlich.
+Das frühere `youtube`-Zusatzprofil wurde entfernt; die MGD-YouTube-Aufrufe bleiben.
+Jede Fremddatei wird an einer festen ECC-Git-Revision und SHA-256 geprüft.
+Der Installer führt keine Upstream-Skripte aus und legt `MGD-SOURCE.json` sowie
+`LICENSE.upstream` (ECC: MIT) bei. Installation allein autorisiert keine Nutzung.
 
 Eine **globale** Installation braucht einen entsprechenden Benutzerauftrag.
 Erst dann beispielsweise `--target "$HOME/.agents/skills" --global --apply`
@@ -43,18 +42,16 @@ Agent-Konfiguration, aktiviert keine Hooks und installiert keine Plugins.
 
 ## Lokale Videowerkzeuge
 
-**Schriftabrufe vor vertraulichen Inhalten prüfen:** Die getestete Engine kann
-Namen wie Georgia oder Arial automatisch Webfonts zuordnen und dafür Anfragen
-mit aus dem Dokument gewonnenen Schriftzeichen an Google Fonts schicken.
-Verwende lokal eingebundene, lizenzierte `@font-face`-Dateien und kontrolliere
-die kompilierten Quellen/Logs auf externe Abrufe. Der neutrale Starter verwendet
-ausschließlich generisches `serif`/`sans-serif`, die im Test keinen solchen Abruf
-auslösten. Telemetrie-Abschaltung allein verhindert Schriftabrufe nicht.
+Vorgesehen sind **FFmpeg und Remotion**. Weitere lokale Video-Skills vor Auswahl
+oder Aufruf namentlich vorschlagen und ausdrücklich nach Zustimmung fragen.
+Bereits erteilte passende Zustimmung übernehmen; installierte Pakete sind keine
+pauschale Freigabe. Bestehende Quellen und Projekte bewahren.
 
-
-Benötigt: Python ≥3.9, Node.js ≥22 mit npm sowie FFmpeg/ffprobe. Das geprüfte
-Demo verwendet HyperFrames 0.8.177 und GSAP 3.15.0 mit einer Paket-Sperrdatei.
-Keine pauschale Aktualisierung auf `latest` bei einer laufenden Produktion.
+Der Remotion-Starter benötigt Python ≥3.9, Node.js ≥22 mit npm und vorhandenes
+Chrome/Chromium. FFmpeg/ffprobe dienen zusätzlichem Schnitt und der Exportprüfung.
+Remotion, Bundler und Renderer sind auf **4.0.537**, React/React DOM auf **19.3.1**
+gesperrt. Die aktuelle Remotion-Lizenz vor kommerziellem Einsatz prüfen.
+Schriften und Medien lokal laden; keine Webfont-/CDN-Imports im Starter.
 
 Fehlt FFmpeg auf macOS, kann es nach bewusst gewählter Toolinstallation mit
 `brew install ffmpeg` installiert werden. Homebrew verwaltet sein eigenes Prefix;
@@ -83,8 +80,10 @@ python3 /PFAD/ZUM/SKILL/scripts/run_pipeline.py . render --output exports/film-v
 python3 /PFAD/ZUM/SKILL/scripts/verify_export.py exports/film-v001.mp4 --expected .tmp/expected-export.json --report docs/arbeitsberichte/export-v001.json --evidence .tmp/qc-v001
 ```
 
-Ersetze `/PFAD/ZUM/SKILL` durch den installierten Skill-Ordner. Für einen
-bestehenden Videobaukasten dessen Werkzeugkette respektieren. Manche Werkzeuge
+Ersetze `/PFAD/ZUM/SKILL` durch den installierten Skill-Ordner. Mit `--browser /PFAD/ZUM/CHROME` oder `MGD_BROWSER` einen vorhandenen Browser
+angeben, falls er nicht erkannt wird. Ein fehlender Browser führt zum Abbruch,
+nicht zu einem automatischen Download. Bei alten Projekten eine Ableitung mit
+FFmpeg oder Remotion vorbereiten; andere lokale Video-Skills vorher abfragen. Manche Werkzeuge
 schreiben betriebliche Caches in ihre Standardablagen; das ist keine Garantie
 vollständiger Prozess- oder Netzwerkisolation.
 

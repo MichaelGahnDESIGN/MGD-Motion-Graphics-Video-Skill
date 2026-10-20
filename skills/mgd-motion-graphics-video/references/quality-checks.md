@@ -7,11 +7,11 @@ Prüfe Schrift auf dem beabsichtigten Mobilformat, vollständige Figuren, weiche
 Nebelränder, Masken, Text-/Motivüberschneidung und ausreichende Lesedauer.
 Prüfe auch beliebiges Anspringen und rückwärts versetzte Zeitpunkte.
 
-Beim HyperFrames-Projekt `check` verwenden; es führt statische Prüfungen bereits
-mit aus. Nicht denselben unveränderten Check redundant wiederholen. Warnungen
-bewerten: Transparente SVG-Flächen können große Bounding-Boxes haben. Ein
-beabsichtigter Versatz erhält höchstens eine eng begrenzte Ausnahme, nie einen
-pauschalen Ausschluss der gesamten Szene.
+Beim Remotion-Starter lädt `run_pipeline.py … check` die Komposition in einem
+echten vorhandenen Browser und prüft deren Metadaten sowie Konsolenfehler.
+Das ist keine automatische Layoutprüfung: Schnappschüsse aller kritischen
+Zeitpunkte mit `snapshot` erzeugen und tatsächlich ansehen. Bei FFmpeg das
+gefilterte Ergebnis rendern und exportierte Frames beurteilen.
 
 ## Export
 

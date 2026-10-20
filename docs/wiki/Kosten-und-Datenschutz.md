@@ -19,15 +19,13 @@ Stimmvorlagen nur entsprechend dem Auftrag verarbeiten. Ein Stilwunsch allein
 berechtigt nicht zu einem Referenzupload. Secrets gehören in geeignete lokale
 Verwaltung und niemals in Git, Beispielkonfigurationen, Clientcode oder Berichte.
 
-## Unerwartete Schriftabrufe
+## Schriften und Laufzeitdaten
 
-Die getestete HyperFrames-Version kann bestimmte benannte Systemschriften durch
-Webfonts ersetzen und dazu aus dem Dokument gewonnene Schriftzeichen übertragen.
-Vor Browserchecks vertraulicher Texte lokale lizenzierte `@font-face`-Dateien
-bereitstellen und kompilierte Quellen beziehungsweise Logs prüfen. Der neutrale
-Starter verwendet generisches `serif`/`sans-serif`, das im dokumentierten Test
-keinen solchen Abruf auslöste. Abgeschaltete Telemetrie allein verhindert nicht
-jeden Netzwerkzugriff eines Werkzeugs.
+Der Remotion-Starter enthält keine Webfonts, CDN-Skripte oder externen Bilder.
+Eigene lizenzierte Schriften und Medien lokal einbinden. Zusätzliche Imports
+und Plugins auf Netzwerkzugriffe prüfen; lokal gestartete Software ist keine
+Garantie vollständiger Netzwerkisolation. Paketinstallation benötigt Netzwerk,
+der Renderaufruf lädt aber weder Pakete noch einen Browser automatisch nach.
 
 ## Veröffentlichung ist ein eigener Auftrag
 

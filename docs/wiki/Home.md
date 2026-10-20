@@ -37,8 +37,9 @@ Bildsprache, keine feste Vorgabe.
 - [Entwicklung und Prüfung](Entwicklung-und-Tests.md)
 - [Quellen und Begriffe](Quellen-und-Begriffe.md)
 
-Version **0.3.0** ergänzt den verbindlichen Charakter-Sheet-/LoRA-Workflow
-mit Anbieterwahl, Datenfreigabe und prüfbaren Charakterressourcen. Der neutrale
-Starter aus 0.1.0 bleibt die Grundlage. Der Hauptskill und die Aufrufe müssen in
+Version **0.4.0** verwendet FFmpeg und Remotion; der neutrale Starter wurde
+auf Remotion umgestellt. Weitere lokale Video-Skills nur nach vorheriger
+Zustimmung auswählen oder aufrufen. Der Charakter-Sheet-/LoRA-Workflow mit
+Anbieterwahl, Datenfreigabe und prüfbaren Charakterressourcen bleibt erhalten. Der Hauptskill und die Aufrufe müssen in
 der jeweiligen Agentenumgebung installiert sein; eine GitHub-Seite allein richtet
 keine lokalen Befehle ein.

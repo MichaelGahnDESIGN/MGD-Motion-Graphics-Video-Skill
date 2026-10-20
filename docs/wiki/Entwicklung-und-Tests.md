@@ -22,8 +22,8 @@ richtige Aufrufauflösung, sichere Zielpfade und passende Export-Sollwerte. Eine
 
 Ändern sich Timeline, Starter oder Laufzeit, ist ein echter Browsercheck und
 Testexport erforderlich. Eine reine Dokumentations- oder Aufrufänderung braucht
-keinen unveränderten Film erneut zu rendern. Der geprüfte 0.1.0-Demo bleibt dafür
-ein nachvollziehbarer Ausgangspunkt. Neue Aussagen über geänderte Anbieter oder
+keinen unveränderten Film erneut zu rendern. Ab 0.4.0 den Remotion-Starter prüfen;
+historische Nachweise gelten ausschließlich für ihre damalige Laufzeit. Neue Aussagen über geänderte Anbieter oder
 Plattformen müssen gesondert geprüft werden.
 
 ## Wiki und Releases

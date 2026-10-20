@@ -14,10 +14,11 @@ und zeitlicher Versatz geben Hierarchie; nicht jedes Element bewegt sich zugleic
 
 ## Technische Umsetzung
 
-Für lokale HTML-Projekte kann HyperFrames mit GSAP passen. Die Timeline ist
-pausiert, registriert und an der Videozeit ausgerichtet. Partikel verwenden feste
-Seeds. Das Ergebnis muss auch beim direkten Anspringen eines späteren Zeitpunkts
-stimmen. Ein gewähltes Remotion-Projekt bleibt bei seiner eigenen Werkzeugkette.
+Komplexe Ebenen und bewegte Typografie mit Remotion umsetzen. Alle Animationen
+folgen dem aktuellen Frame; Partikel verwenden feste Seeds oder deterministische
+Formeln. Das Ergebnis muss auch beim direkten Anspringen späterer und früherer
+Frames stimmen. FFmpeg übernimmt Schnitt, Filter, Compositing und Ton. Weitere
+lokale Video-Skills vor Auswahl oder Aufruf ausdrücklich mit dem Nutzer abstimmen.
 
 ## Stil und Kontrolle
 

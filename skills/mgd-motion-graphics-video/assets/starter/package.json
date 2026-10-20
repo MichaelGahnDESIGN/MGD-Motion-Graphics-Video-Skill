@@ -1,1 +1,16 @@
-{"name":"mgd-motion-starter","private":true,"version":"0.1.0","type":"module","scripts":{"build":"python3 tools/build.py","lint":"node node_modules/hyperframes/dist/cli.js lint .","check":"node node_modules/hyperframes/dist/cli.js check ."},"devDependencies":{"gsap":"3.15.0","hyperframes":"0.8.177"}}
+{
+  "name": "mgd-motion-starter",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {
+    "build": "python3 tools/build.py"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.537",
+    "@remotion/renderer": "4.0.537",
+    "remotion": "4.0.537",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}
