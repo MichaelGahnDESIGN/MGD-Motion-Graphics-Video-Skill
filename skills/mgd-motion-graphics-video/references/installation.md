@@ -27,13 +27,28 @@ dann das entsprechende Installationsprofil weglassen.
 | `react-ui` | ECC Motion-Reihe | Passende Webaufgabe; Videoeinsatz vorher klären |
 | `cloud-media` | ECC fal.ai, Tasteforge, VideoDB | Anbieter, Upload und Kosten gesondert freigeben |
 | `blender` | ECC Blender Motion State Inspection | Anderes lokales Videowerkzeug, vorher fragen |
+| `audio` | earshot-Skill (Audioanalyse) | Skill und Zweck nennen, Zustimmung einholen; Python-Paket separat |
+| `real-sound` | earshot-Skill und real-sound-Skill | Skill und Zweck nennen, Zustimmung einholen; Python-Paket separat |
 
 Profile können wiederholt werden, z. B. `--profile core --profile remotion`.
 Kein Zusatzprofil ist für FFmpeg oder den Remotion-Starter erforderlich.
 Das frühere `youtube`-Zusatzprofil wurde entfernt; die MGD-YouTube-Aufrufe bleiben.
 Jede Fremddatei wird an einer festen ECC-Git-Revision und SHA-256 geprüft.
 Der Installer führt keine Upstream-Skripte aus und legt `MGD-SOURCE.json` sowie
-`LICENSE.upstream` (ECC: MIT) bei. Installation allein autorisiert keine Nutzung.
+`LICENSE.upstream` bei (ECC: MIT, earshot: MIT, © Leon Lin). Installation allein
+autorisiert keine Nutzung.
+
+Die Profile `audio` und `real-sound` legen nur die earshot-Skill-Texte ab. Das
+Python-Paket `earshot` gehört nicht dazu. Es lädt torch, transformers und beim
+ersten Aufruf Modelle von Hugging Face (mehrere hundert MB bis GB). Nur nach
+gesonderter Freigabe, mit festem Commit, nie still:
+
+```bash
+uv tool install "earshot[mcp] @ git+https://github.com/Leonxlnx/earshot@4ac3d2ac2b151e1c23376f9ce7f3047a17050013"
+```
+
+Weitere Hinweise stehen unter „Audio prüfen mit earshot“ in
+[integrations.md](integrations.md).
 
 Eine **globale** Installation braucht einen entsprechenden Benutzerauftrag.
 Erst dann beispielsweise `--target "$HOME/.agents/skills" --global --apply`

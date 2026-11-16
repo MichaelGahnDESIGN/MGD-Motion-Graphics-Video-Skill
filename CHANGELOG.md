@@ -1,5 +1,19 @@
 # Änderungen
 
+## 0.5.0 – earshot als optionale Audioprüfung
+
+- Neue optionale Quelle [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)
+  (MIT) mit fester Revision `4ac3d2ac2b151e1c23376f9ce7f3047a17050013`,
+  Dateigrößen und SHA-256 in `dependencies.lock.json`; Upstream-Lizenz wird beigelegt.
+- Neue Installer-Profile `audio` (Skill `earshot`) und `real-sound` (zusätzlich
+  Skill `real-sound`); Allowlist des Installers um die Quelle erweitert.
+- Neue Tests für Profile, Lizenz, Revision und Dateigrößen der earshot-Pakete.
+- Dokumentation ergänzt: Integrationen, Installation, Quellen, Audio- und
+  Qualitätsprüfung, Drittanbieter-Hinweis und Wiki-Quellen.
+- Das Python-Paket earshot (torch, Modelle) wird nicht gebündelt und nicht vom
+  Installer installiert; die Installation ist nur dokumentiert und braucht Freigabe.
+- ECC-Quelle unverändert.
+
 ## 0.4.0 – FFmpeg und Remotion
 
 - HyperFrames einschließlich GSAP-Laufzeit, Zusatzskill-Quelle und ehemaligem

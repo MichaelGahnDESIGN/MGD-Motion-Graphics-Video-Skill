@@ -9,7 +9,7 @@ werden nur nach vorheriger ausdrücklicher Zustimmung ausgewählt oder verwendet
 Lokale Werkzeuge bilden den Kern. Passende ECC-Skills und Medien-Plugins können
 gezielt ergänzt werden. Der Aufbau orientiert sich am
 [Video Composer Skill](https://github.com/MichaelGahnDESIGN/ChatGPT-Video-Composer-Skill)
-und der MGD-Skill-Struktur. Version **0.4.0**.
+und der MGD-Skill-Struktur. Version **0.5.0**.
 
 ## Was enthalten ist
 
@@ -20,6 +20,9 @@ und der MGD-Skill-Struktur. Version **0.4.0**.
 - Ein neutraler lokaler Demo-Baukasten: **9:16, 16:9 und 1:1**, räumliche
   Vektorwelt, bewegte Schrift, Lichtpartikel und konfigurierbare Schluss-Haltezeit.
 - Umgebungsprüfung, projektlokales Toolsetup, Renderhilfe und Exportprüfung.
+- Optionale Audio-Profile `audio` und `real-sound` (earshot-Skills, fest
+  versioniert, nur nach ausdrücklicher Zustimmung); das Python-Paket von earshot
+  ist nicht enthalten und wird nicht vom Installer installiert.
 - [Versionierte Wiki-Dokumentation](docs/wiki/Home.md), Tests und
   [Prüfnachweise](docs/arbeitsberichte/).
 
@@ -183,7 +186,8 @@ python3 tools/check.py
 
 Die Standardprüfungen laufen ohne Netzwerk und ohne zusätzliche Python-Pakete.
 Aktuelle Prüfergebnisse und der Remotion-Testexport stehen im
-[Prüfbericht 0.4.0](docs/arbeitsberichte/0.4.0-pruefung.md). Historische Berichte
+[Prüfbericht 0.4.0](docs/arbeitsberichte/0.4.0-pruefung.md); die Prüfung der
+earshot-Einbindung steht im [Prüfbericht 0.5.0](docs/arbeitsberichte/0.5.0-pruefung.md). Historische Berichte
 belegen ausschließlich ihre damalige Version.
 Änderungen an Upstream-Versionen erfolgen bewusst über
 `tools/update_dependency_lock.py`, mit anschließender Prüfung und Testexport.

@@ -41,3 +41,7 @@ Gezielt prüfen, was sich geändert hat: Mehr Schlusszeit verlangt aktualisierte
 Gesamtdauer, Musik, Effekte und Framezahl. Ein reiner Textfix verlangt korrekte
 Umbrüche und Lesedauer. Bei unverändertem, bereits bestandenem Stand keine teuren
 Prüfserien ohne neuen Anlass. Ergebnis und Grenzen im Arbeitsbericht festhalten.
+
+Für den Ton kann nach Zustimmung zusätzlich earshot als gemessene Prüfung dienen
+(Lautheit, Sync, Kritik; siehe [integrations.md](integrations.md)). Es ersetzt
+nicht die Hörkontrolle durch Menschen.

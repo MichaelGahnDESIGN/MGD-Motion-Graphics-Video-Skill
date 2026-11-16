@@ -7,6 +7,10 @@ Lokales Rendern verursacht keine automatisch hinzukommende Medien-API-Gebühr,
 verbraucht aber Rechenzeit; Abonnement, Strom, Lizenzen und Cloud-Guthaben sind
 getrennte Kosten. Keine pauschale Zusage „kostenlos“ für jeden Workflow.
 
+Optional kann earshot Ton lokal messen (Lautheit, Sync zu Schnitten, Kritik);
+Auswahl und Grenzen stehen in [integrations.md](integrations.md). Die
+Hörkontrolle durch Menschen bleibt Pflicht.
+
 Schneide Musik musikalisch, verwende saubere Ein-/Ausläufe, vermeide abrupte
 Phasensprünge. Sprache verständlich halten, Musik bei Bedarf absenken. SFX sparsam
 und passend einsetzen; Whooshes sind keine Pflicht. Einen als störend abgelehnten

@@ -176,4 +176,26 @@ class SkillTests(unittest.TestCase):
                     self.assertLessEqual(f['size'],installer.MAX_FILE)
                     self.assertRegex(f['sha256'],r'^[a-f0-9]{64}$')
 
+    def test_earshot_profiles_resolve_to_expected_packages(self):
+        lock=json.loads((SKILL/'dependencies.lock.json').read_text())
+        audio=installer.select_packages(lock,['audio'])
+        self.assertEqual([(p[0],p[1]) for p in audio],[('earshot','earshot')])
+        both=installer.select_packages(lock,['real-sound'])
+        self.assertEqual([(p[0],p[1]) for p in both],[('earshot','earshot'),('real-sound','earshot')])
+
+    def test_earshot_packages_have_entry_license_and_pinned_revision(self):
+        lock=json.loads((SKILL/'dependencies.lock.json').read_text())
+        self.assertRegex(lock['sources']['earshot']['revision'],r'^[0-9a-f]{40}$')
+        self.assertEqual(lock['sources']['earshot']['repository'],'Leonxlnx/earshot')
+        for package in installer.select_packages(lock,['real-sound']):
+            self.assertIn(package[3]+'SKILL.md',{f['path'] for f in package[4]})
+            self.assertEqual(package[5]['path'],'LICENSE')
+
+    def test_real_sound_files_are_within_size_limit(self):
+        lock=json.loads((SKILL/'dependencies.lock.json').read_text())
+        package=[p for p in installer.select_packages(lock,['real-sound']) if p[0]=='real-sound'][0]
+        self.assertTrue(package[4])
+        for f in package[4]:
+            self.assertLessEqual(f['size'],installer.MAX_FILE)
+
 if __name__=='__main__':unittest.main()

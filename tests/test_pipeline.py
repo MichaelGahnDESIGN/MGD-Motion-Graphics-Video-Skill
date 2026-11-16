@@ -74,9 +74,9 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual((self.root/'exports/new.mp4').read_bytes(),b'new video')
 
     def test_retired_dependency_source_cannot_be_selected(self):
-        self.assertEqual(installer.ALLOWLIST, {'affaan-m/ecc'})
+        self.assertEqual(installer.ALLOWLIST, {'affaan-m/ecc','Leonxlnx/earshot'})
         lock=json.loads((CORE/'dependencies.lock.json').read_text())
-        self.assertEqual(set(lock['sources']), {'ecc'})
+        self.assertEqual(set(lock['sources']), {'ecc','earshot'})
         self.assertNotIn('youtube',lock['profiles'])
         package=json.loads((CORE/'assets/starter/package.json').read_text())
         self.assertEqual(set(package['dependencies']), {'remotion','@remotion/renderer','@remotion/bundler','react','react-dom'})

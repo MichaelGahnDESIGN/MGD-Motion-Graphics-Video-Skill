@@ -20,10 +20,25 @@ Optionale Profile installieren nur die ausdrücklich ausgewählten ECC-Dateien:
 | `react-ui` | ECC Motion-Reihe | Passende Webaufgabe; Videoeinsatz vorher klären |
 | `cloud-media` | ECC fal.ai, Tasteforge, VideoDB | Anbieter, Upload und Kosten gesondert freigeben |
 | `blender` | ECC Blender Motion State Inspection | Anderes lokales Videowerkzeug, vorher fragen |
+| `audio` | earshot-Skill (Audioanalyse) | Skill und Zweck nennen, Zustimmung einholen; Python-Paket separat |
+| `real-sound` | earshot-Skill und real-sound-Skill | Skill und Zweck nennen, Zustimmung einholen; Python-Paket separat |
 
 Profile können kombiniert werden, etwa `--profile core --profile remotion`.
 Das frühere `youtube`-Zusatzprofil entfällt; `/MGD-YouTube` bleibt verfügbar.
 Die Motion-Reihe betrifft vorwiegend Web-/React-Oberflächen, nicht jede Videotimeline.
+
+## Audio prüfen mit earshot (optional)
+
+earshot analysiert Ton lokal auf der CPU (beschreiben, vergleichen, Timeline und
+Sync zu Schnitten, Kritik gegen Profi-Launchfilme, Soundbank). Das Audio bleibt
+lokal; nur der optionale Befehl `earshot llm` lädt nach ausdrücklicher Zustimmung
+Audio zu Google Gemini hoch und braucht einen eigenen API-Schlüssel. Das
+Python-Paket (torch, Modelle) wird nur nach gesonderter Freigabe installiert,
+nie still. `claude mcp add --scope user` ist eine globale Konfigurationsänderung
+und braucht einen eigenen Benutzerauftrag. earshot misst, es hört keinen
+Geschmack: Die Hörkontrolle durch Menschen bleibt nötig. `real-sound` ist ein
+eigener, aufwendiger Mehr-Agenten-Ablauf für Tonspuren aus echten lizenzierten
+Aufnahmen; nur bei ausdrücklichem Wunsch, Lizenzen der Tonquellen getrennt prüfen.
 
 ## Ein Skill ist kein Connector
 

@@ -45,3 +45,31 @@ prüfen, nicht pauschal kostenlose kommerzielle Nutzung zusagen.
 Bei Figuren zuerst den [Charakter- und LoRA-Ablauf](characters-lora.md) durchführen.
 Bildreferenzen, proprietäre Charakterdienste und echte trainierte Adapter nicht
 gleichsetzen. Imagegen-Aufruf aus einer lokalen App ist keine Offline-Bildgenerierung.
+
+## Audio prüfen mit earshot (optional)
+
+[earshot](https://github.com/Leonxlnx/earshot) analysiert Ton lokal auf der CPU:
+beschreiben, vergleichen, eine Film-Timeline mit Sync zu den Schnitten erstellen,
+Kritik gegen professionelle Launchfilme üben und eine Soundbank bzw. Kits ordnen.
+Das Audio bleibt auf dem Rechner. Einzige Ausnahme ist der optionale Befehl
+`earshot llm`: Er lädt Audio zu Google Gemini hoch, braucht einen eigenen
+API-Schlüssel und läuft nur nach ausdrücklicher Zustimmung zu diesem Upload.
+
+- **Auswahl:** Die Profile `audio` (Skill `earshot`) und `real-sound` (zusätzlich
+  Skill `real-sound`) nur nach ausdrücklicher Zustimmung wählen; vorher Skill und
+  Zweck nennen, wie bei anderen Zusatzskills. Installation allein ist keine Freigabe.
+- **Was der Installer tut:** Er legt ausschließlich die Skill-Texte an, geprüft
+  gegen feste Revision und SHA-256, samt Upstream-Lizenz und Herkunft. Er führt
+  nichts aus.
+- **Python-Paket:** Das Paket `earshot` (torch, transformers, Modelle von Hugging
+  Face beim ersten Aufruf, mehrere hundert MB bis GB, Netz nötig) wird nicht
+  gebündelt und nur nach gesonderter Freigabe installiert, nie still. Der Befehl
+  steht in [installation.md](installation.md).
+- **Globale Konfiguration:** `claude mcp add --scope user` aus dem earshot-Skill
+  ändert die globale Agent-Konfiguration und braucht einen eigenen Benutzerauftrag.
+- **Grenze:** earshot misst, es hört keinen Geschmack. Es ersetzt keine
+  Hörkontrolle durch Menschen; der earshot-Skill nennt das selbst unter „Limits“.
+- **real-sound:** Ein eigener, aufwendiger Mehr-Agenten-Ablauf für Tonspuren aus
+  echten lizenzierten Aufnahmen (Freesound, Mixkit, Bibliotheken, mit
+  Lizenzprüfung). Nur bei ausdrücklichem Wunsch verwenden. Lizenzen und Herkunft
+  der dabei gesuchten Tonquellen sind getrennt zu prüfen.

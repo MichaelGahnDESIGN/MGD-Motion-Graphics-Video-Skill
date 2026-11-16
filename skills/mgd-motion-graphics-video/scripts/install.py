@@ -19,7 +19,7 @@ sys.dont_write_bytecode = True
 from command_catalog import load_catalog, render_command, render_skill, render_ui
 
 SKILL = Path(__file__).resolve().parents[1]
-ALLOWLIST = {'affaan-m/ecc'}
+ALLOWLIST = {'affaan-m/ecc', 'Leonxlnx/earshot'}
 MAX_FILE = 4 * 1024 * 1024
 MAX_TOTAL = 64 * 1024 * 1024
 
@@ -244,7 +244,7 @@ def install(target, profiles, apply=False, cache=None, allow_global=False, lock=
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--target', required=True, type=Path, help='z. B. PROJEKT/.agents/skills')
-    parser.add_argument('--profile', action='append', default=[], help='core, youtube, ads, remotion, math, react-ui, cloud-media, blender')
+    parser.add_argument('--profile', action='append', default=[], help='core, youtube, ads, remotion, math, react-ui, cloud-media, blender, audio, real-sound')
     parser.add_argument('--apply', action='store_true', help='Plan tatsächlich ausführen')
     parser.add_argument('--aliases', action='store_true', help='Alle 14 spezialisierten Skill-Aufrufe installieren')
     parser.add_argument('--commands-target', type=Path, help='Optional: passende .claude/commands für Slash-Befehle')

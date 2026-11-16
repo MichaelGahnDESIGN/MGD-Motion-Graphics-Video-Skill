@@ -42,3 +42,8 @@ wie -14 LUFS ist kein universelles Plattformgesetz. Prüfe Verständlichkeit,
 Dynamik, Clipping, Synchronität und den Ausklang nach einer verlängerten Schlusskarte.
 Der mitgelieferte Prüfer kann fehlenden erwarteten Ton ablehnen und vorhandene
 Audiospuren messen; die gestalterische Hörkontrolle bleibt nötig.
+
+Optional kann nach ausdrücklicher Zustimmung earshot den Ton lokal messen
+(Lautheit, Sync zu Schnitten, Kritik). Es ersetzt keine Hörkontrolle durch
+Menschen; Auswahl und Grenzen stehen unter
+[ECC und Plugins](ECC-und-Plugins.md).

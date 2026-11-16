@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_on": "2026-10-20",
+  "checked_on": "2026-11-16",
   "sources": {
     "ecc": {
       "repository": "affaan-m/ecc",
@@ -407,6 +407,192 @@
         }
       ],
       "license": "MIT"
+    },
+    "earshot": {
+      "repository": "Leonxlnx/earshot",
+      "revision": "4ac3d2ac2b151e1c23376f9ce7f3047a17050013",
+      "skills": [
+        "earshot",
+        "real-sound"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1065,
+          "sha256": "d9177365c7471d18ecd623ce7b8849e26ab8d7e7fea13e1fcbda62397ecb9db8"
+        },
+        {
+          "path": "skills/earshot/SKILL.md",
+          "size": 22240,
+          "sha256": "57b984a602ae1881cb3cfe58cedf61cc89b5c443c0b315fe5b8767471cb6c1ec"
+        },
+        {
+          "path": "skills/real-sound/SKILL.md",
+          "size": 15521,
+          "sha256": "4810cd9a42676d927ca3cee29933bdbf2ddb92976e869fa439f38531bbc59a0e"
+        },
+        {
+          "path": "skills/real-sound/references/design-format.md",
+          "size": 16712,
+          "sha256": "d02b5163f1add9df79101b15493979b4afb0abd40221a63f78fb606cddbf7c24"
+        },
+        {
+          "path": "skills/real-sound/references/licences.md",
+          "size": 7346,
+          "sha256": "b3148cc87015d54ce30e0e0ac7117e1092cb3b64f034eca31e5ce8101a348374"
+        },
+        {
+          "path": "skills/real-sound/references/process.md",
+          "size": 14064,
+          "sha256": "10bac9eed994ead133699e22f5010f1fcb7a426c3037959abded7b77ee69d49b"
+        },
+        {
+          "path": "skills/real-sound/references/sound-design.md",
+          "size": 11143,
+          "sha256": "199c18ada0ff8a5782479bd41eb90fd2011eafa188a251a837f95b94bb5f5389"
+        },
+        {
+          "path": "skills/real-sound/references/troubleshooting.md",
+          "size": 6281,
+          "sha256": "15459cbac0dfb0b060ba0521f81e21ebc4aea9d3df09606e3ce1f4708daa2963"
+        },
+        {
+          "path": "skills/real-sound/scripts/analyze.py",
+          "size": 13724,
+          "sha256": "b3d450d895d74214656c290e9240848ac49ed03175451598f8e59a7872ced208"
+        },
+        {
+          "path": "skills/real-sound/scripts/arrange.py",
+          "size": 21412,
+          "sha256": "e90d919d0a9d3835e9a822ef5324d41afce74e39af7c2507b8e73fcb079c8552"
+        },
+        {
+          "path": "skills/real-sound/scripts/audit.py",
+          "size": 23878,
+          "sha256": "6c65d730dd98e25a3bea447ac21cd3ce0b5c0d29637a26ecfcfb9f0c43afd01b"
+        },
+        {
+          "path": "skills/real-sound/scripts/credits.py",
+          "size": 11933,
+          "sha256": "35f84bf5890adafb58bc0628f4208f80347468fd82fa805d66a25968ee28f545"
+        },
+        {
+          "path": "skills/real-sound/scripts/licences.py",
+          "size": 6954,
+          "sha256": "f45281439ef379828391cb68332c6555101a6297facd1180c38fbccc20af92b4"
+        },
+        {
+          "path": "skills/real-sound/scripts/master.py",
+          "size": 15202,
+          "sha256": "77a1f133ecc372c5166399ec3849826130c5be82faffd2236708522caaa28798"
+        },
+        {
+          "path": "skills/real-sound/scripts/mix.py",
+          "size": 34125,
+          "sha256": "4c3d5b94e6141a8bd8942ff6e95c28cd791361b0aeb3c08eea46c24c274256d5"
+        },
+        {
+          "path": "skills/real-sound/scripts/mux.mjs",
+          "size": 4488,
+          "sha256": "b387c76f5f940451a3af10c3535d00bd085fad017652e64b1344b719092c15bc"
+        },
+        {
+          "path": "skills/real-sound/scripts/qa.py",
+          "size": 54768,
+          "sha256": "0244b29ac1d3b7c891698889e20aa21ebef107b7a30a084c76f9ae77a90d2aa1"
+        },
+        {
+          "path": "skills/real-sound/scripts/variant.py",
+          "size": 16103,
+          "sha256": "39c5c35548c853c8b45da4436b4b6a11a1cdfe4b4dbedf490b9846f5c511772b"
+        },
+        {
+          "path": "skills/real-sound/templates/SOUND_BRIEF.md",
+          "size": 6387,
+          "sha256": "4f4f7fb073a93764b5f2dd1c26b3ef5f86992d60c9b532cd3b2c58db8279e808"
+        },
+        {
+          "path": "skills/real-sound/templates/arc.json",
+          "size": 736,
+          "sha256": "25f36746c18468f38fe9dade8b4cfbdd9eacef6dd43b3bce8e61fa97d32ee902"
+        },
+        {
+          "path": "skills/real-sound/templates/audit_entry.json",
+          "size": 1587,
+          "sha256": "cc4dc8fa1fff459d60223a71f82f6c249c1cca97f6542ea2b906ff8c1b0ae4fe"
+        },
+        {
+          "path": "skills/real-sound/templates/cues.json",
+          "size": 2784,
+          "sha256": "8b4b60bef715948a3400a765937c5209ee98c3258fa35132f7b97b3d8a6ee303"
+        },
+        {
+          "path": "skills/real-sound/templates/design_fragment.json",
+          "size": 8087,
+          "sha256": "1388f4ebe4c08930f8b6db454497a5f7c873797e0821b697200a3d9288b601de"
+        },
+        {
+          "path": "skills/real-sound/templates/manifest_entry.json",
+          "size": 2727,
+          "sha256": "124447d4f563f8541518dc2bd10561e9d4b87a4137b74991197d191883edd93b"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/critic_director.md",
+          "size": 2494,
+          "sha256": "52840ae7b9cbbe8d6587a6a4f8a985ccf7537270abc1cdd4727983dc9597b6dd"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/critic_edges.md",
+          "size": 2249,
+          "sha256": "b23957fcb7b1e375fe319cb7ab49a26b5bf9d6f00f68eb4ebbc6bb054586c342"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/critic_masking.md",
+          "size": 2388,
+          "sha256": "96cedc89296263fa6cb3318328217ef29f0220655ff5975f19afe1d10809ac59"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/critic_sync.md",
+          "size": 2678,
+          "sha256": "607072d2858080a102a4d28c8b95160c8aa2c6f34590c03de52ea7ac4b648f17"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/critic_tonal.md",
+          "size": 2454,
+          "sha256": "32f52f61b31e67b4f16bb8bff37a64c55fd30b873f8ccb6839224c03edd002df"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/designer.md",
+          "size": 3627,
+          "sha256": "e077b95dc39d4e2feae6007cdc877529b3f66c018cc06717ccbe25e7435fd1c8"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/fixer.md",
+          "size": 3507,
+          "sha256": "619141714e4648cb3c90032ede95fa2438931e753a657a9c11481e70627a1a65"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/licence_audit.md",
+          "size": 2914,
+          "sha256": "a7c8aee51fe30bd06c4aef53ab83f6587310359db5418a7c374a3cbe1a3d8f96"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/music_supervisor.md",
+          "size": 3862,
+          "sha256": "a9fed9c3075ae1769717932e456b0b379940c264a951d6ccc563a6a41d1471ca"
+        },
+        {
+          "path": "skills/real-sound/templates/prompts/sourcing.md",
+          "size": 4620,
+          "sha256": "a05c61567e707187b6eb81a667931a4344b9374734ce3f8988e8d4f0ba76eac9"
+        },
+        {
+          "path": "skills/real-sound/templates/sounddesign.json",
+          "size": 1585,
+          "sha256": "cda74dd778db5ca0ebf6f51d62efef8545c1f39688a10b264a73d73391c26da5"
+        }
+      ],
+      "license": "MIT"
     }
   },
   "profiles": {
@@ -448,6 +634,17 @@
     "blender": {
       "ecc": [
         "blender-motion-state-inspection"
+      ]
+    },
+    "audio": {
+      "earshot": [
+        "earshot"
+      ]
+    },
+    "real-sound": {
+      "earshot": [
+        "earshot",
+        "real-sound"
       ]
     }
   }

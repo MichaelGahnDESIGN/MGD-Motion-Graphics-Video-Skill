@@ -102,6 +102,8 @@ sind. Auch passende vorhandene `ecc-*`-Varianten erst nach ausdrücklicher
 Zustimmung auswählen oder verwenden; benenne vorher Skill und Zweck. Upstream-Annahmen über Claude, Toolnamen, Pflichtinterviews,
 Uploads oder zusätzliche Bestätigungen ersetzen keine aktuellen Benutzer- und
 Umgebungsregeln. Verfügbare Fähigkeiten prüfen statt Toolaufrufe erfinden.
+Für eine gemessene Tonprüfung gibt es optional die earshot-Skills, nur nach
+ausdrücklicher Zustimmung (Details in [integrations.md](references/integrations.md)).
 
 `motion-foundations`, `motion-patterns` und `motion-advanced` behandeln vorwiegend
 React-Weboberflächen. Sie werden nur für passende Web-/React-Aufgaben geladen;

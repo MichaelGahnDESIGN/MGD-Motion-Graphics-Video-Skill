@@ -1,10 +1,13 @@
 # Quellen und gepflegte Versionsstände
 
-Stand: 20.10.2026. Vorgesehen sind FFmpeg und Remotion. Weitere lokale Video-Skills
+Stand: 16.11.2026. Vorgesehen sind FFmpeg und Remotion. Weitere lokale Video-Skills
 nur nach vorheriger Zustimmung auswählen oder aufrufen.
 
 - [Everything Claude Code / ECC](https://github.com/affaan-m/ecc): Revision
   `6c557856af89a657f846a8ca15907cbdc1e41530` für optionale Zusatzskills.
+- [earshot](https://github.com/Leonxlnx/earshot) (MIT): Revision
+  `4ac3d2ac2b151e1c23376f9ce7f3047a17050013` (Stand 16.11.2026) für die optionalen
+  Audio-Skills `earshot` und `real-sound`; das Python-Paket wird nicht gebündelt.
 - [FFmpeg-Dokumentation](https://ffmpeg.org/documentation.html) und
   [Homebrew-Formel](https://formulae.brew.sh/formula/ffmpeg).
 - [Remotion-Dokumentation](https://www.remotion.dev/docs/) und
@@ -17,7 +20,7 @@ Starter: Remotion, Bundler und Renderer **4.0.537**, React/React DOM **19.3.1**.
 Die Sperrdatei hält auch transitive Paketversionen und Integritätswerte fest.
 Keine automatische Aktualisierung während einer laufenden Produktion.
 
-`dependencies.lock.json` enthält ECC-Quellen, Profile, Dateigrößen und SHA-256.
+`dependencies.lock.json` enthält ECC- und earshot-Quellen, Profile, Dateigrößen und SHA-256.
 `tools/update_dependency_lock.py` ist ein bewusst auszuführendes Maintainer-Tool:
 Änderungen prüfen, Tests und Beispielrender ausführen. Es wird nicht bei jeder
 Installation gestartet. Normale Nutzer brauchen weder `gh` noch GitHub-Token.

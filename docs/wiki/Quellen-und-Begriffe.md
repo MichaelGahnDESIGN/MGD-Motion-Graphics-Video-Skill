@@ -10,6 +10,8 @@ Upstream-Beispiele passen nicht zwangsläufig zur gesperrten Laufzeit.
 - [Veraltete Codex-Custom-Prompts](https://learn.chatgpt.com/docs/custom-prompts)
 - [Claude-Code-Skills und Befehle](https://code.claude.com/docs/en/skills)
 - [Everything Claude Code / ECC](https://github.com/affaan-m/ecc)
+- [earshot](https://github.com/Leonxlnx/earshot) (optionale Audioprüfung, MIT,
+  Revision `4ac3d2ac2b151e1c23376f9ce7f3047a17050013`)
 - [FFmpeg](https://ffmpeg.org/documentation.html)
 - [Homebrew-FFmpeg](https://formulae.brew.sh/formula/ffmpeg)
 - [Remotion](https://www.remotion.dev/docs/) und [Lizenz](https://www.remotion.dev/docs/license)

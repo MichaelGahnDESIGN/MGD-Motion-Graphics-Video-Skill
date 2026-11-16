@@ -63,6 +63,18 @@ fragen und Skill sowie Zweck nennen. Weitere Profile stehen unter [ECC und Plugi
 Die Auswahl lädt Fremddateien mit Prüfsummen, führt aber keine Upstream-Installer
 aus. Prüfe vorhandene `ecc-*`-Varianten zuerst.
 
+Zusätzlich gibt es die optionalen Audio-Profile `audio` (earshot-Skill) und
+`real-sound` (earshot- und real-sound-Skill) aus der Quelle
+[Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) (MIT, feste Revision,
+Prüfsummen, Lizenz wird beigelegt). Vorher Skill und Zweck nennen und Zustimmung
+einholen. Der Installer legt nur die Skill-Texte ab. Das Python-Paket `earshot`
+(torch, Modelle von Hugging Face, mehrere hundert MB bis GB) wird nicht gebündelt
+und nur nach gesonderter Freigabe installiert:
+
+```bash
+uv tool install "earshot[mcp] @ git+https://github.com/Leonxlnx/earshot@4ac3d2ac2b151e1c23376f9ce7f3047a17050013"
+```
+
 FFmpeg auf macOS lässt sich über `brew install ffmpeg` installieren, wenn eine
 Systeminstallation beauftragt ist. Homebrew verwaltet seinen eigenen Installationsort.
 Den lokalen Starter erzeugt `new_project.py`; dessen `setup_tools.py --apply`

@@ -17,7 +17,9 @@ WORK = ROOT / '.tmp' / 'mgd-skill'
 SKILL = ROOT / 'skills' / 'mgd-motion-graphics-video'
 SOURCES = {
  'ecc': {'repository':'affaan-m/ecc','revision':'6c557856af89a657f846a8ca15907cbdc1e41530',
- 'skills':['video-editing','remotion-video-creation','manim-video','brand-discovery','brand-voice','motion-foundations','motion-patterns','motion-advanced','fal-ai-media','tasteforge-video','videodb','blender-motion-state-inspection']}
+ 'skills':['video-editing','remotion-video-creation','manim-video','brand-discovery','brand-voice','motion-foundations','motion-patterns','motion-advanced','fal-ai-media','tasteforge-video','videodb','blender-motion-state-inspection']},
+ 'earshot': {'repository':'Leonxlnx/earshot','revision':'4ac3d2ac2b151e1c23376f9ce7f3047a17050013',
+ 'skills':['earshot','real-sound']}
 }
 
 def fetch(url):
@@ -30,14 +32,16 @@ def fetch(url):
 
 def main():
     WORK.mkdir(parents=True,exist_ok=True)
-    lock={'schema':1,'checked_on':'2026-10-20','sources':{},'profiles':{
+    lock={'schema':1,'checked_on':'2026-11-16','sources':{},'profiles':{
       'core':{'ecc':['video-editing']},
       'ads':{'ecc':['brand-discovery','brand-voice']},
       'remotion':{'ecc':['remotion-video-creation']},
       'math':{'ecc':['manim-video']},
       'react-ui':{'ecc':['motion-foundations','motion-patterns','motion-advanced']},
       'cloud-media':{'ecc':['fal-ai-media','tasteforge-video','videodb']},
-      'blender':{'ecc':['blender-motion-state-inspection']}}}
+      'blender':{'ecc':['blender-motion-state-inspection']},
+      'audio':{'earshot':['earshot']},
+      'real-sound':{'earshot':['earshot','real-sound']}}}
     for key,source in SOURCES.items():
         raw=subprocess.run(['gh','api',f"repos/{source['repository']}/git/trees/{source['revision']}?recursive=1"],capture_output=True,text=True,check=True)
         tree=json.loads(raw.stdout)
